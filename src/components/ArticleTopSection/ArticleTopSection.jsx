@@ -39,7 +39,7 @@ export default withRouter(({ location, data, match }) => {
   return (
     <>
       <div style={{ backgroundColor: color, height: "84vh" }}>
-        <div className="container-xl container-lg mb-5 p-5 flex-column-reverse">
+        <div className="large-container mb-5 p-5 flex-column-reverse">
           <div className="my-container">
             {/* row1 */}
             <div className="header-row row flex-row-reverse">

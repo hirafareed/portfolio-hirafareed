@@ -3,15 +3,15 @@ import "../sass/style.scss";
 
 const ContactPage = () => (
   <>
-    <div className="App layout-contact large-container">
-      <div className="subheading">
+    <div className="App layout-contact ">
+      <div className="subheading large-container">
         <hr className="line-contact" />
         <h6 className="contact-sub ">Contact</h6>
       </div>
       <br></br>
 
       {/* about-info */}
-      <div className="contact-info">
+      <div className="contact-info large-container">
         <h1>Let's connect</h1>
 
         <a href="mailto:hirafareedkapadia@gmail.com">

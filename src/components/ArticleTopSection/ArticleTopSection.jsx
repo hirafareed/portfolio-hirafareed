@@ -40,52 +40,39 @@ export default withRouter(({ location, data, match }) => {
     <>
       <div style={{ backgroundColor: color, height: "84vh" }}>
         <div className="large-container mb-5 p-5 flex-column-reverse">
-          <div className="my-container">
-            {/* row1 */}
-            <div className="header-row row flex-row-reverse">
-              {/* column1  */}
+          {/* row1 */}
+          <div className="header-row row flex-row-reverse">
+            {/* column1  */}
 
-              <div className="col-lg-4 col-sm-6 col-centered">
-                <img
-                  className="mainimage img-fluid"
-                  src={data.headerImage}
-                  alt={data.name}
-                />
-              </div>
-
-              <div className="col-lg-6">
-                <h3 className="header-text ">{data.headerText}</h3>
-              </div>
-              {/* column2 */}
+            <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-centered d-flex justify-content-center">
+              <img
+                className="mainimage "
+                src={data.headerImage}
+                alt={data.name}
+              />
             </div>
 
-            <div
-              className="scroll-down is-active is-inview"
-              scroll-down="home"
-              data-controller="opinview"
-              op-inview="0, 0.7"
-              op-inview-deactivate=""
-            >
-              <div className="scroll-down__line"></div>
+            <div className="col-xl-6 col-lg-6 col-md-6 header-text-bg  d-flex justify-content-center">
+              <h3 className="header-text  align-items-center">
+                {data.headerText}
+              </h3>
             </div>
-            <div className="scroll-down__text">
-              <span>scroll for more</span>
-            </div>
-
-            {/* end dof row */}
+            {/* column2 */}
           </div>
+
+          {/* end dof row */}
         </div>
 
         {/* end of container */}
       </div>
       {/* end of color header */}
 
-      <div className="container-xl container-lg">
+      <div className="large-container">
         <div className="my-container">
           <h1 className="project-name text-left">{data.name}</h1>
 
           <div className="row project-about mt-5">
-            <div className="col-lg-6 col-sm-12 text-left">
+            <div className="col-xl-5  col-lg-5 col-sm-12 text-left">
               <h6 className="project-subhead">Tools</h6>
               <p className="project-info new-line"> {data.tools}</p>
               <h6 className="project-subhead">Timeline</h6>
@@ -94,17 +81,17 @@ export default withRouter(({ location, data, match }) => {
               <p className="project-info new-line">{data.myRole}</p>
             </div>
 
-            <div className="col-lg-6 col-sm-12 text-left">
+            <div className="col-xl-6 col-lg-6 col-sm-12 text-left">
               <h6 className="project-subhead ">Overview</h6>
               <p className="project-info new-line"> {data.overview}</p>
             </div>
           </div>
 
           <div className="row approach">
-            <div className="col-lg-10 approach-image">
+            <div className="col-lg-9 approach-image">
               {" "}
               <img
-                className="mainimage img-fluid"
+                className="img-fluid"
                 src={data.approachImage}
                 alt={data.name}
               />

@@ -41,7 +41,7 @@ export default ({ match }) => {
   return (
     <>
       <TopSection data={item1}></TopSection>
-      <div className="large-container mb-5 mt-5">
+      <div className=" mb-5 mt-5">
         \{/* typography */}
         <div className="one-background-typography">
           <div className="container-xl container-lg">

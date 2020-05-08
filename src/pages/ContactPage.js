@@ -3,7 +3,7 @@ import "../sass/style.scss";
 
 const ContactPage = () => (
   <>
-    <div className="container App layout-contact">
+    <div className="App layout-contact large-container">
       <div className="subheading">
         <hr className="line-contact" />
         <h6 className="contact-sub ">Contact</h6>

@@ -78,15 +78,13 @@ hr.line-about {
 
 hr.line-experience {
   float: left;
-  // margin-left: 24%;
-  // background-color: red;
-  border-top: 2px solid #c7c7c7;
-  width: 5%;
+  border-top: 1px solid #c7c7c7;
+  width: 50px;
 }
 
 .experience-sub {
-  margin-top: 0.5%;
-  font-size: 16pt;
+  margin-top: 8px;
+  font-size: 12pt;
   margin-left: 2%;
   color: #c7c7c7;
   float: left;
@@ -97,20 +95,28 @@ hr.line-experience {
 }
 
 .more-image {
-  width: 12%;
-  @media (max-width: $lg) {
-    width: 8%;
-    margin: auto;
-  }
+  // background-color: red;
+
+  width: 10%;
+
+  // @media (max-width: $lg) {
+  //   width: 8%;
+  //   // margin: auto;
+  // }
   // z-index: 9000;
 }
 
 .experienceContent {
+  // background-color: yellow;
   margin-top: 60px;
   font-family: "Graphik Light";
   font-style: normal;
   font-weight: normal;
   src: url(../font/Graphik-Light.ttf);
+}
+
+.firstexp {
+  // background-color: pink;
 }
 
 .eachExperience {
@@ -154,7 +160,7 @@ hr.line-experience {
 }
 
 .position {
-  font-size: 16pt;
+  font-size: 12pt;
   font-family: "Graphik Medium";
   src: url(../font/Graphik-Medium.ttf);
   color: #404040;
@@ -164,7 +170,7 @@ hr.line-experience {
 }
 
 .company {
-  font-size: 16pt;
+  font-size: 12pt;
   font-family: "Graphik Light";
   src: url(../font/Graphik-Light.ttf);
   color: #404040;
@@ -174,7 +180,7 @@ hr.line-experience {
 }
 
 .year {
-  font-size: 16pt;
+  font-size: 12pt;
   font-family: "Graphik Light";
   src: url(../font/Graphik-Light.ttf);
   color: #404040;

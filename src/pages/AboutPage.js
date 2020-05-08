@@ -75,15 +75,30 @@ const AboutPage = () => (
             <div className="experienceContent">
               {/* experience 1 */}
               <Accordion>
-                <Row>
-                  <Col xl={{ span: 3, order: 1 }} lg={{ span: 6, order: 1 }}>
-                    <p className="position"> Freelance Designer </p>
+                <Row className="firstexp mx-0 ">
+                  <Col
+                    xl={{ span: 3, order: 1 }}
+                    lg={{ span: 3, order: 1 }}
+                    md={{ span: 3, order: 1 }}
+                    sm={{ span: 6, order: 1 }}
+                  >
+                    <p className="position "> Freelance Designer </p>
                   </Col>
-                  <Col xl={{ span: 3, order: 2 }} lg={{ span: 6, order: 3 }}>
-                    <p className="company ">Freelance</p>
+                  <Col
+                    xl={{ span: 3, order: 2 }}
+                    lg={{ span: 3, order: 2 }}
+                    md={{ span: 3, order: 2 }}
+                    sm={{ span: 6, order: 3 }}
+                  >
+                    <p className="company align-middle ">Freelance</p>
                   </Col>
-                  <Col xl={{ span: 3, order: 3 }} lg={{ span: 6, order: 2 }}>
-                    <p className="year d-xl-flex justify-content-xl-start d-lg-flex justify-content-lg-center ">
+                  <Col
+                    xl={{ span: 3, order: 3 }}
+                    lg={{ span: 3, order: 3 }}
+                    md={{ span: 3, order: 3 }}
+                    sm={{ span: 6, order: 2 }}
+                  >
+                    <p className="year d-xl-flex justify-content-xl-start d-sm-flex justify-content-sm-center ">
                       {" "}
                       Jan 2018 - Present{" "}
                     </p>
@@ -92,10 +107,16 @@ const AboutPage = () => (
                   <Col
                     className="d-flex justify-content-center "
                     xl={{ span: 3, order: 4 }}
-                    lg={{ span: 6, order: 4 }}
+                    lg={{ span: 3, order: 4 }}
+                    md={{ span: 3, order: 4 }}
+                    sm={{ span: 6, order: 4 }}
                   >
                     <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                      <img className="more-image" src={Arrow} alt="more" />
+                      <img
+                        className="more-image align-top"
+                        src={Arrow}
+                        alt="more"
+                      />
                     </Accordion.Toggle>
                   </Col>
                 </Row>
@@ -140,19 +161,47 @@ const AboutPage = () => (
 
               {/* experience 2 */}
               <Accordion>
-                <Row>
-                  <Col>
+                <Row className="firstexp mx-0 ">
+                  <Col
+                    xl={{ span: 3, order: 1 }}
+                    lg={{ span: 3, order: 1 }}
+                    md={{ span: 3, order: 1 }}
+                    sm={{ span: 6, order: 1 }}
+                  >
                     <p className="position"> Creative Designer </p>
                   </Col>
-                  <Col>
+                  <Col
+                    xl={{ span: 3, order: 2 }}
+                    lg={{ span: 3, order: 2 }}
+                    md={{ span: 3, order: 2 }}
+                    sm={{ span: 6, order: 3 }}
+                  >
                     <p className="company"> EDGE, Sheridan</p>
                   </Col>
-                  <Col>
-                    <p className="year"> Sept 2019 - Present </p>
+                  <Col
+                    xl={{ span: 3, order: 3 }}
+                    lg={{ span: 3, order: 3 }}
+                    md={{ span: 3, order: 3 }}
+                    sm={{ span: 6, order: 2 }}
+                  >
+                    <p className="year d-xl-flex justify-content-xl-start d-sm-flex justify-content-sm-center ">
+                      {" "}
+                      Sept 2019 - Present{" "}
+                    </p>
                   </Col>
-                  <Col className="d-flex justify-content-center">
+                  <Col
+                    className="d-flex justify-content-center"
+                    xl={{ span: 3, order: 4 }}
+                    lg={{ span: 3, order: 4 }}
+                    md={{ span: 3, order: 4 }}
+                    sm={{ span: 6, order: 4 }}
+                  >
                     <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                      <img className="more-image" src={Arrow} alt="more" />
+                      <img
+                        className="more-image align-top"
+                        src={Arrow}
+                        alt="more"
+                      />
                     </Accordion.Toggle>
                   </Col>
                 </Row>
@@ -173,7 +222,7 @@ const AboutPage = () => (
 
               {/* experience 3 */}
               <Accordion>
-                <Row>
+                <Row className="firstexp mx-0 ">
                   <Col>
                     <p className="position"> Creative Associate </p>
                   </Col>
@@ -185,7 +234,11 @@ const AboutPage = () => (
                   </Col>
                   <Col className="d-flex justify-content-center">
                     <Accordion.Toggle as={Button} variant="link" eventKey="2">
-                      <img className="more-image" src={Arrow} alt="more" />
+                      <img
+                        className="more-image align-top"
+                        src={Arrow}
+                        alt="more"
+                      />
                     </Accordion.Toggle>
                   </Col>
                 </Row>
@@ -206,7 +259,7 @@ const AboutPage = () => (
 
               <Accordion>
                 {/* experience 3 */}
-                <Row>
+                <Row className="firstexp mx-0 ">
                   <Col>
                     <p className="position"> Graphic Designer </p>
                   </Col>
@@ -218,7 +271,11 @@ const AboutPage = () => (
                   </Col>
                   <Col className="d-flex justify-content-center">
                     <Accordion.Toggle as={Button} variant="link" eventKey="3">
-                      <img className="more-image" src={Arrow} alt="more" />
+                      <img
+                        className="more-image align-top"
+                        src={Arrow}
+                        alt="more"
+                      />
                     </Accordion.Toggle>
                   </Col>
                 </Row>

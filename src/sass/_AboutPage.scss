@@ -49,17 +49,18 @@ hr.line-about {
     src: url(../font/Graphik-Regular.ttf);
     color: #aaaaaa;
     // margin-left: 24%;
-    margin-top: 30px;
+    margin-top: 50px;
     text-align: left;
     font-size: 14pt;
     line-height: 25pt;
-    padding-bottom: 180px;
+    padding-bottom: 130px;
     @media (max-width: $lg) {
       font-size: 14pt;
       line-height: 25pt;
     }
     @media (max-width: $md) {
-      // margin-left: 0;
+      font-size: 12pt;
+      line-height: 24pt;
     }
     @media (max-width: $sm) {
       font-size: 1.5em;
@@ -97,8 +98,11 @@ hr.line-experience {
 .more-image {
   // background-color: red;
 
-  width: 10%;
+  width: 15px;
 
+  @media (max-width: $md) {
+    width: 12px;
+  }
   // @media (max-width: $lg) {
   //   width: 8%;
   //   // margin: auto;
@@ -107,7 +111,6 @@ hr.line-experience {
 }
 
 .experienceContent {
-  // background-color: yellow;
   margin-top: 60px;
   font-family: "Graphik Light";
   font-style: normal;
@@ -120,7 +123,7 @@ hr.line-experience {
 }
 
 .eachExperience {
-  margin-bottom: 80px;
+  margin-bottom: 50px;
   // background-color: red;
 }
 .experienceOneBullets {
@@ -135,7 +138,7 @@ hr.line-experience {
 
 .eachExperience p {
   margin: auto;
-  font-size: 16pt;
+  font-size: 12pt;
   font-family: "Graphik Light";
   src: url(../font/Graphik-Light.ttf);
   color: #404040;
@@ -143,7 +146,7 @@ hr.line-experience {
 
 .eachExperience li {
   margin: auto;
-  font-size: 16pt;
+  font-size: 12pt;
   font-family: "Graphik Light";
   src: url(../font/Graphik-Light.ttf);
   color: #404040;
@@ -151,7 +154,7 @@ hr.line-experience {
 
 .eachExperience h6 {
   display: inline-block;
-  font-size: 16pt;
+  font-size: 12pt;
 
   font-family: "Graphik Regular Italic";
   src: url(../font/Graphik-RegularItalic.ttf);
@@ -165,7 +168,7 @@ hr.line-experience {
   src: url(../font/Graphik-Medium.ttf);
   color: #404040;
   @media (max-width: $md) {
-    font-size: 14pt;
+    font-size: 12pt;
   }
 }
 
@@ -175,7 +178,7 @@ hr.line-experience {
   src: url(../font/Graphik-Light.ttf);
   color: #404040;
   @media (max-width: $md) {
-    font-size: 14pt;
+    font-size: 12pt;
   }
 }
 
@@ -185,25 +188,23 @@ hr.line-experience {
   src: url(../font/Graphik-Light.ttf);
   color: #404040;
   @media (max-width: $md) {
-    font-size: 14pt;
+    font-size: 12pt;
   }
 }
 
 .fulleducation {
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 hr.line-education {
   float: left;
-  // margin-left: 24%;
-  // background-color: red;
-  border-top: 2px solid #c7c7c7;
-  width: 5%;
+  border-top: 1px solid #c7c7c7;
+  width: 50px;
 }
 
 .education-sub {
-  margin-top: 0.5%;
-  font-size: 16pt;
+  margin-top: 8px;
+  font-size: 12pt;
   margin-left: 2%;
   color: #c7c7c7;
   float: left;
@@ -221,14 +222,14 @@ hr.line-education {
   margin-bottom: 30%;
 }
 .school {
-  font-size: 16pt;
+  font-size: 12pt;
   font-family: "Graphik Medium";
   src: url(../font/Graphik-Medium.ttf);
   color: #404040;
 }
 
 .degree {
-  font-size: 16pt;
+  font-size: 12pt;
   font-family: "Graphik Light";
   src: url(../font/Graphik-Light.ttf);
 }

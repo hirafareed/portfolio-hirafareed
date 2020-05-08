@@ -223,16 +223,39 @@ const AboutPage = () => (
               {/* experience 3 */}
               <Accordion>
                 <Row className="firstexp mx-0 ">
-                  <Col>
+                  <Col
+                    xl={{ span: 3, order: 1 }}
+                    lg={{ span: 3, order: 1 }}
+                    md={{ span: 3, order: 1 }}
+                    sm={{ span: 6, order: 1 }}
+                  >
                     <p className="position"> Creative Associate </p>
                   </Col>
-                  <Col>
+                  <Col
+                    xl={{ span: 3, order: 2 }}
+                    lg={{ span: 3, order: 2 }}
+                    md={{ span: 3, order: 2 }}
+                    sm={{ span: 6, order: 3 }}
+                  >
                     <p className="company"> The Nest I/O </p>
                   </Col>
-                  <Col>
-                    <p className="year">Sept 2016 - Nov 2017 </p>
+                  <Col
+                    xl={{ span: 3, order: 3 }}
+                    lg={{ span: 3, order: 3 }}
+                    md={{ span: 3, order: 3 }}
+                    sm={{ span: 6, order: 2 }}
+                  >
+                    <p className="year d-xl-flex justify-content-xl-start d-sm-flex justify-content-sm-center ">
+                      Sept 2016 - Nov 2017{" "}
+                    </p>
                   </Col>
-                  <Col className="d-flex justify-content-center">
+                  <Col
+                    className="d-flex justify-content-center"
+                    xl={{ span: 3, order: 4 }}
+                    lg={{ span: 3, order: 4 }}
+                    md={{ span: 3, order: 4 }}
+                    sm={{ span: 6, order: 4 }}
+                  >
                     <Accordion.Toggle as={Button} variant="link" eventKey="2">
                       <img
                         className="more-image align-top"
@@ -260,16 +283,40 @@ const AboutPage = () => (
               <Accordion>
                 {/* experience 3 */}
                 <Row className="firstexp mx-0 ">
-                  <Col>
+                  <Col
+                    xl={{ span: 3, order: 1 }}
+                    lg={{ span: 3, order: 1 }}
+                    md={{ span: 3, order: 1 }}
+                    sm={{ span: 6, order: 1 }}
+                  >
                     <p className="position"> Graphic Designer </p>
                   </Col>
-                  <Col>
+                  <Col
+                    xl={{ span: 3, order: 2 }}
+                    lg={{ span: 3, order: 2 }}
+                    md={{ span: 3, order: 2 }}
+                    sm={{ span: 6, order: 3 }}
+                  >
                     <p className="company"> Express Tribune</p>
                   </Col>
-                  <Col>
-                    <p className="year"> Feb 2015 - Aug 2016 </p>
+                  <Col
+                    xl={{ span: 3, order: 3 }}
+                    lg={{ span: 3, order: 3 }}
+                    md={{ span: 3, order: 3 }}
+                    sm={{ span: 6, order: 2 }}
+                  >
+                    <p className="year d-xl-flex justify-content-xl-start d-sm-flex justify-content-sm-center ">
+                      {" "}
+                      Feb 2015 - Aug 2016{" "}
+                    </p>
                   </Col>
-                  <Col className="d-flex justify-content-center">
+                  <Col
+                    className="d-flex justify-content-center"
+                    xl={{ span: 3, order: 4 }}
+                    lg={{ span: 3, order: 4 }}
+                    md={{ span: 3, order: 4 }}
+                    sm={{ span: 6, order: 4 }}
+                  >
                     <Accordion.Toggle as={Button} variant="link" eventKey="3">
                       <img
                         className="more-image align-top"

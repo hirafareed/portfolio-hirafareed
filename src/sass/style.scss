@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;400;600&display=swap");
+
+/*partials*/
+
+@import "./custom";
+@import "./global";
+@import "./NavBar";
+@import "./Footer";
+@import "./Contact";
+
+@import "./HomePage";
+@import "./AboutPage";
+@import "./ArticlesListPage";
+@import "./ArticleOne";
+
+@import "../components/ArticlesList/ArticlesList";
+@import "../components/ArticleTopSection/ArticleTopSection";
+
+/*third parties*/
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/functions";
+
+@import "../../node_modules/bootstrap/scss/reboot";

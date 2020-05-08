@@ -1,0 +1,98 @@
+.large-container {
+  width: 69%;
+  float: none;
+  margin: auto;
+  @media (max-width: $xl) {
+    width: 80%;
+    float: none;
+    margin: auto;
+  }
+  @media (max-width: $lg) {
+    width: 80%;
+    float: none;
+    margin: auto;
+  }
+
+  @media (max-width: $md) {
+    width: 85%;
+    float: none;
+    margin: auto;
+  }
+
+  // @media (max-width: $sm) {
+  //   width: 80%;
+  //   float: none;
+  //   margin: auto;
+  // }
+  // @media (max-width: $xs) {
+  //   width: 80%;
+  //   float: none;
+  //   margin: auto;
+  // }
+}
+
+.col-centered {
+  float: none;
+  text-align: center;
+}
+
+// upvotes
+
+.upvote-line {
+  color: #c1c1c1;
+  border: 0.5px solid;
+}
+
+.upvote-image {
+  width: 10%;
+  margin-top: 5%;
+}
+
+.upvote-text {
+  font-family: "Graphik Light";
+  src: url(../font/Graphik-Light.ttf);
+  margin-top: 3%;
+}
+
+// comment
+
+.comment-button {
+  float: right;
+  font-family: "Graphik Light";
+  src: url(../font/Graphik-Light.ttf);
+  border: 1px solid #2369f6;
+  padding-right: 4%;
+  padding-top: 0.75%;
+  padding-bottom: 0.75%;
+  padding-left: 4%;
+  border-radius: 3px;
+  //   margin-right: 0;
+
+  //   background-color: red;
+}
+
+.articles-container {
+  width: 80%;
+  align-items: center;
+}
+
+.next-project {
+  margin-top: 200px;
+}
+
+.next-project h3 {
+  font-family: "BerlingskeSerif ExtraBold";
+  src: url(../font/BerlingskeSerif-ExtraBold.ttf);
+  color: #aaaaaa;
+}
+
+.next-project h1 {
+  font-family: "Graphik SemiBold";
+  src: url(../font/Graphik-Semibold.ttf);
+  color: #404040;
+  font-size: 50pt;
+  padding-right: 30px;
+  &:hover {
+    color: #aaaaaa;
+  }
+}

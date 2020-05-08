@@ -1,0 +1,28 @@
+.subheading-work {
+  @media (max-width: $lg) {
+    margin-top: 10%;
+  }
+}
+
+hr.line-work {
+  //   display: block;
+  margin-top: 59px;
+  border-top: 2px solid #c7c7c7;
+  width: 10%;
+}
+
+.work-sub {
+  margin-left: 2%;
+  font-size: 1.3em;
+  color: #c7c7c7;
+  float: left;
+  // background-color: red;
+  font-family: "BerlingskeSerif Bold";
+  src: url(../font/BerlingskeSerif-Bold.ttf);
+  letter-spacing: 0.5px;
+  //   background-color: red;
+}
+
+.all-articles {
+  padding-bottom: 50%;
+}

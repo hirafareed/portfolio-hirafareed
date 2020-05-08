@@ -1,0 +1,63 @@
+.layout-contact {
+  padding-top: 8%;
+}
+hr.line-contact {
+  float: left;
+  margin-top: 10px;
+  border-top: 2px solid #c7c7c7;
+  width: 5%;
+}
+
+.contact-sub {
+  font-size: 1.3em;
+  margin-left: 20px;
+  color: #c7c7c7;
+  float: left;
+  //   background-color: red;
+  font-family: "BerlingskeSerif Bold";
+  src: url(../font/BerlingskeSerif-Bold.ttf);
+  letter-spacing: 0.5px;
+}
+
+.contact-info {
+  h1 {
+    font-family: "Graphik SemiBold";
+    src: url(../font/Graphik-Semibold.ttf);
+    // position: absolute;
+    display: block;
+    margin-top: 70px;
+    text-align: left;
+    font-size: 4em;
+    margin-bottom: 7%;
+    // background-color: red;
+  }
+  a {
+    font-family: "Graphik Medium";
+    font-style: normal;
+    font-weight: normal;
+    src: url(../font/Graphik-Medium.ttf);
+    margin-left: 280px;
+    color: black;
+    // margin-top: 90px;
+    text-align: left;
+    font-size: 1.4em;
+  }
+  a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  p {
+    font-family: "Graphik ExtraLight";
+    src: url(../font/Graphik-Extralight.ttf);
+    margin-left: 280px;
+    margin-top: 3%;
+    text-align: left;
+    font-size: 1.8em;
+
+    // background-color: red;
+  }
+}
+
+.contact-cheers {
+  margin-bottom: 30%;
+}

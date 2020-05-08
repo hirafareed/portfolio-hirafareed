@@ -1,0 +1,140 @@
+.one-background-typography {
+  background-color: rgb(254, 148, 145);
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
+
+.one-project-subhead {
+  margin-top: 10%;
+  font-size: 1.5em;
+  color: white;
+  font-family: "BerlingskeSerif SemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../font/BerlingskeSerif-SemiBold.ttf);
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.one-font {
+  font-family: "Graphik Medium";
+  src: url(../font/Graphik-Medium.ttf);
+  color: white;
+  font-size: 4em;
+  margin-bottom: 70px;
+}
+
+.one-barlow-regular {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 1.5em;
+}
+
+.barlow-regular-text {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 1.5em;
+}
+
+.one-barlow-semibold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 1.5em;
+}
+
+.barlow-semibold-text {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 1.5em;
+}
+
+.col-centered {
+  float: none;
+  text-align: center;
+}
+
+.one-color-image {
+  margin-top: 20%;
+  margin-bottom: 20%;
+  width: 50%;
+}
+
+.one-color-code {
+  font-family: "Graphik Light";
+  src: url(../font/Graphik-Light.ttf);
+  font-size: 1.1em;
+}
+
+.sketch2 {
+  margin-top: 10%;
+}
+
+.one-signin {
+  margin-top: 5%;
+  font-family: "BerlingskeSerif ExtraBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../font/BerlingskeSerif-ExtraBold.ttf);
+  font-size: 4em;
+  color: rgb(116, 127, 255);
+  @media (max-width: $md) {
+    font-size: 2.3em;
+  }
+}
+
+.one-signin-info {
+  font-family: "Graphik Light";
+  src: url(../font/Graphik-Light.ttf);
+  font-size: 1.4em;
+  margin-bottom: 7%;
+  @media (max-width: $md) {
+    font-size: 1.2em;
+  }
+}
+
+.one-mainfeed {
+  margin-top: 15%;
+  font-family: "BerlingskeSerif ExtraBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../font/BerlingskeSerif-ExtraBold.ttf);
+  font-size: 4em;
+  color: rgb(105, 201, 214);
+  @media (max-width: $md) {
+    font-size: 2.3em;
+  }
+}
+
+.one-events {
+  margin-top: 30%;
+  font-family: "BerlingskeSerif ExtraBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../font/BerlingskeSerif-ExtraBold.ttf);
+  font-size: 4em;
+  color: rgb(247, 170, 112);
+  @media (max-width: $md) {
+    margin-top: 5%;
+    font-size: 2.3em;
+  }
+}
+
+.one-screen-image {
+  // margin-left: 30px;
+}
+
+br {
+  @media (max-width: $md) {
+    display: none;
+  }
+  @media (max-width: $sm) {
+    display: none;
+  }
+  @media (max-width: $xs) {
+    display: none;
+  }
+}

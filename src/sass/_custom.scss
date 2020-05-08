@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "Graphik Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../font/Graphik-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Graphik SemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../font/Graphik-Semibold.ttf);
+}
+
+@font-face {
+  font-family: "Graphik Regular Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../font/Graphik-RegularItalic.ttf);
+}
+
+@font-face {
+  font-family: "Graphik Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../font/Graphik-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Graphik Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../font/Graphik-Light.ttf);
+}
+
+@font-face {
+  font-family: "Graphik ExtraLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../font/Graphik-Extralight.ttf);
+}
+
+@font-face {
+  font-family: "Graphik Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../font/Graphik-Medium.ttf);
+}
+
+@font-face {
+  font-family: "BerlingskeSerif Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../font/BerlingskeSerif-Bold.ttf);
+}
+
+@font-face {
+  font-family: "BerlingskeSerif SemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../font/BerlingskeSerif-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "BerlingskeSerif ExtraBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../font/BerlingskeSerif-ExtraBold.ttf);
+}
+
+$spacer: 1rem;
+
+$spacers: (
+  6: (
+    $spacer * 4,
+  ),
+  7: (
+    $spacer * 6,
+  ),
+  8: (
+    $spacer * 8,
+  ),
+  9: (
+    $spacer * 16,
+  ),
+);
+
+$theme-colors: (
+  "primary": #404040,
+  "danger": #aaaaaa,
+);
+$primary: #404040;
+$danger: #aaaaaa;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 768px,
+  mdlg: 900px,
+  lg: 1024px,
+  xl: 1200px,
+);
+
+$xs: 0;
+$sm: 480px;
+$md: 768px;
+$mdlg: 900px;
+$lg: 1024px;
+$xl: 1200px;
+
+$container-max-widths: (
+  // lg: 960px,
+    xl: 1140px
+);

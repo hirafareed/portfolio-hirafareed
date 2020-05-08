@@ -348,7 +348,7 @@ const AboutPage = () => (
 
         <div class="fulleducation"></div>
         <Row>
-          <Col lg={{ offset: 4 }} xl={{ offset: 3 }} md={{ offset: 3 }}>
+          <Col lg={{ offset: 3 }} xl={{ offset: 3 }} md={{ offset: 3 }}>
             <hr className="line-education" />
             <h6 className="education-sub"> Education </h6>
           </Col>
@@ -356,7 +356,7 @@ const AboutPage = () => (
 
         {/* education info */}
         <Row className="fulleducation-info">
-          <Col lg={{ offset: 3 }} xl={{ offset: 3 }}>
+          <Col lg={{ offset: 3 }} xl={{ offset: 3 }} md={{ offset: 3 }}>
             <Row>
               <Col xl={9} lg={9} md={9} sm={9} xs={9}>
                 <p className="degree">

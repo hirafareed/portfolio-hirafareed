@@ -6,7 +6,7 @@
 
 hr.line-work {
   //   display: block;
-  margin-top: 56px;
+  margin-top: 55px;
   border-top: 1px solid #c7c7c7;
   width: 50px;
 }
@@ -19,10 +19,14 @@ hr.line-work {
   // background-color: red;
   font-family: "BerlingskeSerif Bold";
   src: url(../font/BerlingskeSerif-Bold.ttf);
-  letter-spacing: 2px;
+  letter-spacing: 0.5px;
   //   background-color: red;
 }
 
 .all-articles {
-  padding-bottom: 50%;
+  // padding-bottom: 50%;
+}
+
+.last-part {
+  margin-top: 100px;
 }

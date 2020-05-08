@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, withRouter } from "react-router-dom";
 import Lottie from "react-lottie";
-import animationlogo from "../../../lottie/logo.json";
+import animationlogo from "../../../lottie/logoblack.json";
 import { Navbar, Nav } from "react-bootstrap";
 // import "./NormalMenu.scss";
 

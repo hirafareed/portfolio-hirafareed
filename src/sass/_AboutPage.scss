@@ -1,16 +1,16 @@
 .layout-about {
-  padding-top: 150px;
+  padding-top: 70px;
 }
 hr.line-about {
   float: left;
-  margin-top: 10px;
-  border-top: 2px solid #c7c7c7;
-  width: 5%;
+  margin-top: 7px;
+  border-top: 1px solid #c7c7c7;
+  width: 50px;
 }
 
 .about-sub {
-  font-size: 16pt;
-  margin-left: 20px;
+  font-size: 12pt;
+  margin-left: 10px;
   color: #c7c7c7;
   float: left;
   //   background-color: red;
@@ -26,9 +26,9 @@ hr.line-about {
     color: #404040;
     // position: absolute;
     display: block;
-    margin-top: 80px;
+    margin-top: 50px;
     text-align: left;
-    font-size: 45pt;
+    font-size: 30pt;
     @media (max-width: $lg) {
       font-size: 40pt;
     }
@@ -49,10 +49,10 @@ hr.line-about {
     src: url(../font/Graphik-Regular.ttf);
     color: #aaaaaa;
     // margin-left: 24%;
-    margin-top: 80px;
+    margin-top: 30px;
     text-align: left;
-    font-size: 20pt;
-    line-height: 40pt;
+    font-size: 14pt;
+    line-height: 25pt;
     padding-bottom: 180px;
     @media (max-width: $lg) {
       font-size: 20pt;

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, withRouter } from "react-router-dom";
 import Lottie from "react-lottie";
-// import animationlogo from "../../../lottie/logo.json";
+import animationlogo from "../../../lottie/logo.json";
 import { Navbar, Nav } from "react-bootstrap";
 // import "./NormalMenu.scss";
 
@@ -34,8 +34,8 @@ export default withRouter(({ location }) => {
       <Navbar expand="md" className="navbar">
         <Navbar.Brand>
           <Link className="navbar-brand text-primary" to="/">
-            <h1 style={{ color: style.color }}>Hira.</h1>
-            {/* <Lottie
+            {/* <h1 style={{ color: style.color }}>Hira.</h1>s */}
+            <Lottie
               className="lottielogo"
               style={{ color: style.color }}
               options={{
@@ -43,7 +43,7 @@ export default withRouter(({ location }) => {
                 autoplay: true,
                 animationData: animationlogo,
               }}
-            ></Lottie> */}
+            ></Lottie>
           </Link>
         </Navbar.Brand>
 

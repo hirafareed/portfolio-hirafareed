@@ -9,6 +9,11 @@ export default withRouter(({ location, open, ...props }) => {
   });
 
   const [pathname, setPathname] = useState("/");
+  if (open) {
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "auto";
+  }
 
   useEffect(() => {
     const { pathname } = location;

@@ -9,7 +9,7 @@
   z-index: 9000;
   // overflow: hidden;
   // padding-bottom: 20%;
-  margin-top: 10%;
+  margin-top: 12%;
   // @media (max-width: $md) {
   //   padding-bottom: 90%;
   // }
@@ -27,7 +27,7 @@
 
   position: relative;
   margin-top: -100px; /* negative value of footer height */
-  height: 150px;
+  height: 100px;
   clear: both;
   // padding-top: 290px;
   @media (max-width: $xl) {
@@ -43,17 +43,17 @@
 }
 
 .footer-margin {
-  margin-top: 10%;
-  @media (max-width: $md) {
-    margin-top: 20%;
-  }
-  @media (max-width: $sm) {
-    margin-top: 20%;
-  }
+  // margin-top: 10%;
+  // @media (max-width: $md) {
+  //   margin-top: 20%;
+  // }
+  // @media (max-width: $sm) {
+  //   margin-top: 20%;
+  // }
 
-  @media (max-width: $xs) {
-    margin-top: 20%;
-  }
+  // @media (max-width: $xs) {
+  //   margin-top: 20%;
+  // }
 }
 
 .footer-copyrights {

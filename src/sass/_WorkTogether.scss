@@ -1,18 +1,33 @@
 .layout-worktogether h1 {
   font-family: "Graphik SemiBold";
-  font-style: normal;
-  font-weight: normal;
   src: url(../font/Graphik-Semibold.ttf);
   color: $primary;
   // background-color: yellow;
   padding-left: 0;
   margin: 0;
-  padding-bottom: 30px;
+  padding-bottom: 3%;
+  font-size: 30pt;
+  @media (max-width: $lg) {
+    font-size: 22pt;
+    // padding-top: 5%;
+  }
+  @media (max-width: $lg) {
+    font-size: 20pt;
+    // padding-top: 5%;
+  }
 }
 
 .layout-worktogether a {
   font-family: "Graphik Light";
   src: url(../font/Graphik-Light.ttf);
-  margin-top: 30%;
+  // margin-top: 30%;
+  font-size: 16pt;
+  @media (max-width: $lg) {
+    font-size: 12pt;
+  }
+  @media (max-width: $md) {
+    font-size: 12pt;
+  }
+
   // background-color: red;
 }

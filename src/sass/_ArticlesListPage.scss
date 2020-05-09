@@ -26,5 +26,11 @@ hr.line-work {
 }
 
 .last-part {
-  margin-top: 100px;
+  margin-top: 10%;
+  @media (max-width: $lg) {
+    margin-top: 5%;
+  }
+  @media (max-width: $md) {
+    margin-top: 0;
+  }
 }

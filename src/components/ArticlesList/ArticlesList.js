@@ -13,7 +13,7 @@ const ArticlesList = ({ articles }) => (
         style={{ flexDirection: !!((key + 1) % 2) ? "row" : "row-reverse" }}
       >
         <div className="col-xl-8 col-lg-8 col-md-8 work-image">
-          <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+          <ScrollAnimation animateIn="fadeIn">
             <Link
               to={`/article/${article.name
                 .replace(/\s+/g, "-")
@@ -29,25 +29,25 @@ const ArticlesList = ({ articles }) => (
         </div>
 
         <div className=" col-xl-4  col-lg-4 col-md-4 work-info">
-          <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+          <ScrollAnimation animateIn="fadeIn">
             <p className={!!((key + 1) % 2) ? "number" : "number2"}>
               {" "}
               {article.id}
             </p>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+          <ScrollAnimation animateIn="fadeIn">
             <h1 className={!!((key + 1) % 2) ? "name" : "name2"}>
               {" "}
               {article.name}
             </h1>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+          <ScrollAnimation animateIn="fadeIn">
             <p className={!!((key + 1) % 2) ? "type" : "type2"}>
               {" "}
               {article.type}
             </p>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+          <ScrollAnimation animateIn="fadeIn">
             <div className="row">
               <p
                 className={
@@ -60,7 +60,7 @@ const ArticlesList = ({ articles }) => (
               </p>
             </div>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+          <ScrollAnimation animateIn="fadeIn">
             <Link
               to={`/article/${article.name
                 .replace(/\s+/g, "-")

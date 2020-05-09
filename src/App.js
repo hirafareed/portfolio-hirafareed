@@ -26,7 +26,7 @@ import { createBrowserHistory } from "history";
 const history = createBrowserHistory();
 
 const contentStyle = {
-  background: "black",
+  background: "#404040",
   width: "100%",
   height: "100%",
   border: "none",

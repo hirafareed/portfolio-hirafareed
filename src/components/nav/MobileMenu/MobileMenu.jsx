@@ -2,44 +2,51 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
 import "./MobileMenu.scss";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 export default ({ close }) => {
   return (
     <>
       {/* It will be visible on mobile screens */}
-      <div className="d-block">
-        <div className="ml-auto popup-menu">
-          <Link className="nav-item nav-link popup-link" to="/">
-            <h1
-              onClick={() => {
-                close();
-              }}
-            >
-              Work
-            </h1>
-          </Link>
+      <div className="large-container full-popup">
+        <Row className="popup-mainlinks ">
+          {/* <div className="d-block"> */}
+          <div className="">
+            <Link className="popup-link" to="/">
+              <h1
+                onClick={() => {
+                  close();
+                }}
+              >
+                Work
+              </h1>
+            </Link>
 
-          <Link className="nav-item nav-link popup-link" to="/about">
-            <h1
-              onClick={() => {
-                close();
-              }}
-            >
-              About
-            </h1>
-          </Link>
+            <Link className="popup-link" to="/about">
+              <h1
+                onClick={() => {
+                  close();
+                }}
+              >
+                About
+              </h1>
+            </Link>
 
-          <Link className="nav-item nav-link popup-link" to="/contact">
-            <h1
-              onClick={() => {
-                close();
-              }}
-            >
-              Contact
-            </h1>
-          </Link>
-
-          <div className="social-links">
+            <Link className="popup-link" to="/contact">
+              <h1
+                onClick={() => {
+                  close();
+                }}
+              >
+                Contact
+              </h1>
+            </Link>
+          </div>
+          {/* </div> */}
+        </Row>
+        <Row className="popup-social-links">
+          <Col className="popup-social-links-behance">
             <a
               target="a_blnk"
               href="https://www.behance.net/hirafareed"
@@ -47,7 +54,9 @@ export default ({ close }) => {
             >
               Behance
             </a>
+          </Col>
 
+          <Col className="popup-social-links-linkedin">
             <a
               target="_blank"
               href="https://www.linkedin.com/in/hira-fareed"
@@ -55,16 +64,18 @@ export default ({ close }) => {
             >
               LinkedIn
             </a>
+          </Col>
 
+          <Col className="popup-social-links-dribbble">
             <a
               target="_blank"
               href="https://dribbble.com/hirafareed"
               className="d-sm-block"
             >
-              Dribble
+              Dribbble
             </a>
-          </div>
-        </div>
+          </Col>
+        </Row>
       </div>
     </>
   );

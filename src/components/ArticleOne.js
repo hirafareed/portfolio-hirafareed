@@ -44,7 +44,7 @@ export default ({ match }) => {
       <div className=" mb-5 mt-5">
         \{/* typography */}
         <div className="one-background-typography">
-          <div className="container-xl container-lg">
+          <div className="large-container">
             <div className="my-container">
               <h1 className="one-project-subhead">Typography</h1>
               <h1 className="one-font">BARLOW</h1>

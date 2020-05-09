@@ -39,12 +39,12 @@ export default withRouter(({ location, data, match }) => {
   return (
     <>
       <div style={{ backgroundColor: color, height: "84vh" }}>
-        <div className="large-container mb-5 p-5 flex-column-reverse">
+        <div className="large-container pt-5 flex-column-reverse">
           {/* row1 */}
-          <div className="header-row row flex-row-reverse">
+          <div className="header-row row flex-row-reverse ">
             {/* column1  */}
 
-            <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-centered d-flex justify-content-center">
+            <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-centered  ">
               <img
                 className="mainimage "
                 src={data.headerImage}
@@ -52,8 +52,8 @@ export default withRouter(({ location, data, match }) => {
               />
             </div>
 
-            <div className="col-xl-6 col-lg-6 col-md-6 header-text-bg  d-flex justify-content-center">
-              <h3 className="header-text  align-items-center">
+            <div className="col-xl-6 col-lg-6 col-md-6 header-text-bg  ">
+              <h3 className="header-text  align-items-center ">
                 {data.headerText}
               </h3>
             </div>

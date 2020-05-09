@@ -6,8 +6,11 @@
 }
 
 .header-row {
+  margin-left: 0;
+  padding-left: auto;
+
   margin-top: 80px;
-  // background-color: yellow;
+  // background-color: red;
 }
 
 .mainimage {
@@ -21,6 +24,7 @@
   font-family: "Graphik Light";
   src: url(../../font/Graphik-Light.ttf);
   color: white;
+  margin-left: 0;
 
   // text-align: left;
   font-size: 22pt;

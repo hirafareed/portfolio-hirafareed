@@ -50,7 +50,7 @@ const Footer = () => (
             className="d-lg-flex  d-xl-flex  footer-email justify-content-center"
           >
             <a className="d-sm-none d-xs-none d-lg-block  d-xl-block">
-              Designed &amp; Coded without coffee by Hira Fareed
+              Coded without coffee by Hira Fareed
             </a>
 
             <p className="footer-designer d-sm-block d-xs-block  d-lg-none d-xl-none">
@@ -66,7 +66,7 @@ const Footer = () => (
             </a>
           </Col>
           <Col lg={3} className="footer-copyrights ">
-            <p className="copyrights-text">© 2020 All Rights Reserved.</p>
+            <p className="copyrights-text">© 2020 Hira Fareed</p>
           </Col>
         </Row>
       </div>

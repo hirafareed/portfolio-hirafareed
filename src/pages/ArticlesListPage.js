@@ -7,19 +7,19 @@ import WorkTogether from "../components/WorkTogether";
 
 const ArticlesListPage = () => (
   <>
-    <Row>
-      <div className="all-articles">
-        <div className="subheading-work">
-          <hr className="line-work float-left" />
-          <h6 className="work-sub mt-5">Work</h6>
-        </div>
-
-        <ArticlesList articles={articleContent}></ArticlesList>
+    {/* <Row> */}
+    <div className="all-articles">
+      <div className="subheading-work">
+        <hr className="line-work float-left" />
+        <h6 className="work-sub mt-5">Work</h6>
       </div>
-    </Row>
-    <Row className="last-part">
-      <WorkTogether />
-    </Row>
+
+      <ArticlesList articles={articleContent}></ArticlesList>
+    </div>
+    {/* </Row> */}
+    {/* <Row className="last-part"> */}
+    <WorkTogether />
+    {/* </Row> */}
   </>
 );
 

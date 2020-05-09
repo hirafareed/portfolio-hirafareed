@@ -22,10 +22,12 @@ hr.line-work {
 }
 
 .all-articles {
-  // padding-bottom: 1%;
+  padding-bottom: 20%;
 }
 
 .last-part {
+  margin-left: 0;
+  padding-left: auto;
   margin-top: 10%;
   @media (max-width: $lg) {
     margin-top: 5%;

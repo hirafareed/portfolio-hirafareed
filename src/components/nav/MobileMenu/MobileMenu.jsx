@@ -10,10 +10,10 @@ export default ({ close }) => {
     <>
       {/* It will be visible on mobile screens */}
       <div className="large-container full-popup">
-        <Row className="popup-mainlinks ">
+        <Row className="popup-mainlinks d-flex justify-content-center ">
           {/* <div className="d-block"> */}
           <div className="">
-            <Link className="popup-link" to="/">
+            <Link className="popup-link d-flex justify-content-center " to="/">
               <h1
                 onClick={() => {
                   close();
@@ -23,7 +23,10 @@ export default ({ close }) => {
               </h1>
             </Link>
 
-            <Link className="popup-link" to="/about">
+            <Link
+              className="popup-link d-flex justify-content-center "
+              to="/about"
+            >
               <h1
                 onClick={() => {
                   close();
@@ -33,7 +36,10 @@ export default ({ close }) => {
               </h1>
             </Link>
 
-            <Link className="popup-link" to="/contact">
+            <Link
+              className="popup-link d-flex justify-content-center "
+              to="/contact"
+            >
               <h1
                 onClick={() => {
                   close();
@@ -45,8 +51,12 @@ export default ({ close }) => {
           </div>
           {/* </div> */}
         </Row>
-        <Row className="popup-social-links">
-          <Col className="popup-social-links-behance">
+        <Row>
+          <hr></hr>
+        </Row>
+
+        <Row className="popup-social-links ">
+          <Col className="popup-social-links-behance d-flex justify-content-center ">
             <a
               target="a_blnk"
               href="https://www.behance.net/hirafareed"
@@ -56,7 +66,7 @@ export default ({ close }) => {
             </a>
           </Col>
 
-          <Col className="popup-social-links-linkedin">
+          <Col className="popup-social-links-linkedin d-flex justify-content-center ">
             <a
               target="_blank"
               href="https://www.linkedin.com/in/hira-fareed"
@@ -66,7 +76,7 @@ export default ({ close }) => {
             </a>
           </Col>
 
-          <Col className="popup-social-links-dribbble">
+          <Col className="popup-social-links-dribbble d-flex justify-content-center ">
             <a
               target="_blank"
               href="https://dribbble.com/hirafareed"

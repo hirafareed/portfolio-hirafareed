@@ -14,7 +14,7 @@
   // margin-left: 0;
   margin-top: 200px;
   // background-color: red;
-  padding: 0;
+  // padding: 0;
 
   // float: left;
   // height: 10%;
@@ -23,14 +23,15 @@
 .popup-mainlinks h1 {
   // margin-left: 20px;
   margin-top: 30px;
-  margin-left: 0;
-  padding-left: 0;
+  // margin-left: 0;
+  // padding-left: 0;
   // background-color: black;
   font-family: "Graphik Medium";
   src: url(../../../font/Graphik-Medium.ttf);
+
   // position: relative;
   // display: inline-block;
-  font-size: 25pt;
+  font-size: 30pt;
   color: white;
   // //   overflow: hidden;
   // background: linear-gradient(to right, white, grey 50%, white 50%);
@@ -49,10 +50,19 @@
 
 .popup-social-links a {
   position: fixed;
-  bottom: 50px;
+  bottom: 40px;
+
   color: white;
+  font-family: "Graphik Medium";
+  src: url(../../../font/Graphik-Medium.ttf);
+  font-size: 10pt;
+
   // background-color: yellow;
   // display: inline-block;
+}
+
+hr {
+  border-top: 1px solid white;
 }
 
 .popup-social-links-linkedin {

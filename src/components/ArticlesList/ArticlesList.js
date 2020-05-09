@@ -8,7 +8,7 @@ const ArticlesList = ({ articles }) => (
     {articles.map((article, key) => (
       <div
         key={key}
-        className="row each-work float-left "
+        className={!!key ? "row float-left each-work " : "row  float-left "}
         style={{ flexDirection: !!((key + 1) % 2) ? "row" : "row-reverse" }}
       >
         <div className="col-xl-8 col-lg-8 col-md-8 work-image">

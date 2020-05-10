@@ -49,7 +49,7 @@ export default withRouter(({ location, data, match }) => {
           <div className="header-row row flex-row-reverse ">
             {/* column1  */}
 
-            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-centered  ">
+            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-centered  ">
               <img
                 className="mainimage "
                 src={data.headerImage}
@@ -57,7 +57,7 @@ export default withRouter(({ location, data, match }) => {
               />
             </div>
 
-            <div className="col-xl-6 col-lg-6 col-md-6 header-text ">
+            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 header-text ">
               <h3 className="header-text-type">{data.type}</h3>
               <h3 className="header-text-info ">{data.headerText}</h3>
             </div>

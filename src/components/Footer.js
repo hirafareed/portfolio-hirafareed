@@ -53,9 +53,9 @@ const Footer = () => (
           xl={5}
           lg={5}
           md={5}
-          className="d-lg-flex  d-xl-flex  footer-email justify-content-center"
+          className="d-lg-flex  d-xl-flex  footer-middle justify-content-center"
         >
-          <a className="d-sm-none d-xs-none d-lg-block  d-xl-block d-md-block">
+          <a className="footer-coded d-sm-none d-xs-none d-lg-block  d-xl-block d-md-block">
             Coded without coffee by Hira Fareed
           </a>
 

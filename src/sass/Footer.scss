@@ -64,12 +64,12 @@
 }
 
 .copyrights-text {
-  font-size: 12pt;
+  font-size: 14pt;
   color: $primary;
   font-family: "Graphik Light";
   src: url(../font/Graphik-Light.ttf);
   @media (max-width: $lg) {
-    font-size: 10pt;
+    font-size: 12pt;
   }
 }
 
@@ -94,11 +94,11 @@
 .footer-link {
   font-family: "Graphik Medium";
   src: url(../font/Graphik-Medium.ttf);
-  font-size: 12pt;
+  font-size: 14pt;
   margin-left: 13%;
   color: $primary;
   @media (max-width: $lg) {
-    font-size: 12pt;
+    font-size: 14pt;
   }
   @media (max-width: $md) {
     margin-bottom: 1%;
@@ -157,7 +157,7 @@
 }
 .footer-designer {
   color: $danger;
-  font-size: 10pt;
+  font-size: 12pt;
 
   font-family: "BerlingskeSerif Bold";
   src: url(../font/BerlingskeSerif-Bold.ttf);
@@ -175,7 +175,7 @@
 }
 
 .footer-social-insta {
-  font-size: 12pt;
+  font-size: 14pt;
   font-family: "Graphik Medium";
   src: url(../font/Graphik-Medium.ttf);
   color: $primary;

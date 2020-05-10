@@ -69,7 +69,10 @@
   font-family: "Graphik Light";
   src: url(../font/Graphik-Light.ttf);
   @media (max-width: $lg) {
-    font-size: 12pt;
+    font-size: 11pt;
+  }
+  @media (max-width: $md) {
+    margin-bottom: 10%;
   }
   @media (max-width: $sm) {
     margin-bottom: 30%;
@@ -77,7 +80,7 @@
 }
 
 .footer-middle a {
-  font-size: 10pt;
+  font-size: 14pt;
 
   font-family: "Graphik Light";
   src: url(../font/Graphik-Light.ttf);
@@ -110,9 +113,11 @@
   margin-left: 13%;
   color: $primary;
   @media (max-width: $lg) {
-    font-size: 14pt;
+    font-size: 10pt;
   }
   @media (max-width: $md) {
+    font-size: 14pt;
+
     margin-bottom: 1%;
     margin-left: 0;
   }
@@ -136,25 +141,6 @@
   color: $danger;
 }
 
-.footer-links {
-  // @media (max-width: $md) {
-  //   font-family: "Graphik Light";
-  //   src: url(../font/Graphik-Light.ttf);
-  //   margin-bottom: 10%;
-  // }
-  // @media (max-width: $sm) {
-  //   font-family: "Graphik Light";
-  //   src: url(../font/Graphik-Light.ttf);
-  // }
-
-  // @media (max-width: $xs) {
-  //   font-family: "Graphik Light";
-  //   src: url(../font/Graphik-Light.ttf);
-  // }
-  //   float: left;
-  //   margin: auto !important;
-  //
-}
 .footer-social {
   @media (max-width: $md) {
     margin-bottom: 10%;

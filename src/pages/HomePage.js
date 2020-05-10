@@ -10,6 +10,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "animate.css/animate.min.css";
 import ScrollAnimation from "react-animate-on-scroll";
+// import ScrollToTopArrow from "../components/ScrollToTopArrow";
 
 // import Footer from "./../components/Footer";
 class HomePage extends React.Component {
@@ -56,7 +57,6 @@ class HomePage extends React.Component {
                   <h6 className="intro-sub ">Intro</h6>
                 </div>
               </div> */}
-
             <div className="row">
               <div
                 className="lottie-animation "
@@ -112,7 +112,6 @@ class HomePage extends React.Component {
               VIEW PROJECTS
             </h2>
             {/* </ScrollAnimation> */}
-
             {/* scroll line */}
             {/* <div
                 class="scroll-down is-active is-inview"
@@ -132,6 +131,7 @@ class HomePage extends React.Component {
             <ArticlesListPage />
           </div>
         </div>
+        {/* <ScrollToTopArrow /> */}
 
         {/* <Footer></Footer> */}
       </div>

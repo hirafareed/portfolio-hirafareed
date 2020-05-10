@@ -56,6 +56,7 @@ class App extends React.Component {
             <Navigation />
             <Switch>
               <Route path="/" exact component={HomePage} />
+
               <Route path="/about" exact component={AboutPage} />
               <Route path="/articles-list" exact component={ArticlesListPage} />
               {/* <Route path="/article/:name" exact component={ArticlePage} /> */}
@@ -66,6 +67,7 @@ class App extends React.Component {
               <Route path="/article/:name/3" exact component={ArticleThree} />
               <Route component={NotFoundPage} />
             </Switch>
+
             <Footer></Footer>
           </div>
         </ScrollToTop>

@@ -68,30 +68,35 @@ export default ({ match }) => {
         </div>
         <div className="large-container">
           {/* colors */}
-
-          <h1 className="project-subhead">Color</h1>
-          <div className="row">
-            <div className="col-lg-3 col col-centered">
-              <img className="one-color-image img-fluid" src={Color1} />
-              <p className="one-color-code ">#69C9D6</p>
-            </div>
-            <div className="col-lg-3 col col-centered">
-              <img className="one-color-image img-fluid" src={Color2} />
-              <p className="one-color-code">#FE9491</p>
-            </div>
-            <div className="col-lg-3 col col-centered ">
-              <img className="one-color-image img-fluid" src={Color3} />
-              <p className="one-color-code">#747FFF</p>
-            </div>
-            <div className="col-lg-3 col col-centered">
-              <img className="one-color-image img-fluid" src={Color4} />
-              <p className="one-color-code">#F7AA70</p>
+          <div className="one-color-container">
+            <h1 className="project-subhead">Color</h1>
+            <div className="row">
+              <div className="col-lg-3 col col-centered">
+                <img className="one-color-image img-fluid" src={Color1} />
+                <p className="one-color-code ">#69C9D6</p>
+              </div>
+              <div className="col-lg-3 col col-centered">
+                <img className="one-color-image img-fluid" src={Color2} />
+                <p className="one-color-code">#FE9491</p>
+              </div>
+              <div className="col-lg-3 col col-centered ">
+                <img className="one-color-image img-fluid" src={Color3} />
+                <p className="one-color-code">#747FFF</p>
+              </div>
+              <div className="col-lg-3 col col-centered">
+                <img className="one-color-image img-fluid" src={Color4} />
+                <p className="one-color-code">#F7AA70</p>
+              </div>
             </div>
 
             {/* process */}
+            <div className="one-process-container"></div>
             <h1 className="project-subhead">Process</h1>
             <div className="row">
-              <img className="img-fluid col mt-5" src={Sketch1} />
+              <img
+                className="img-fluid col mt-5 one-process-sketch1"
+                src={Sketch1}
+              />
             </div>
           </div>
         </div>

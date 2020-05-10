@@ -127,6 +127,18 @@
   }
 }
 
+.one-color-container {
+  margin-top: 10%;
+}
+.one-process-container {
+  margin-top: 10%;
+}
+
+.one-process-sketch1 {
+  width: 100%;
+  height: auto;
+}
+
 .col-centered {
   float: none;
   text-align: center;
@@ -141,7 +153,15 @@
 .one-color-code {
   font-family: "Graphik Light";
   src: url(../font/Graphik-Light.ttf);
-  font-size: 1.1em;
+  font-size: 12pt;
+  line-height: 26pt;
+  color: $primary;
+  @media (max-width: $sm) {
+    font-size: 10pt;
+  }
+  @media (max-width: $xs) {
+    font-size: 9pt;
+  }
 }
 
 .sketch2 {

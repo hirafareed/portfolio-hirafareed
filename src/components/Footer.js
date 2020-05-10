@@ -18,7 +18,7 @@ const Footer = () => (
           xl={4}
           lg={4}
           md={4}
-          className="d-lg-flex  d-xl-flex  d-md-flex footer-links justify-content-center"
+          className="footer-social d-lg-flex  d-xl-flex  d-md-flex footer-links justify-content-center"
         >
           <p className="footer-designer d-sm-block d-xs-block   d-xl-none d-lg-none d-md-none">
             {" "}
@@ -43,7 +43,7 @@ const Footer = () => (
           <a
             target="_blank"
             href="https://dribbble.com/hirafareed"
-            className="footer-link d-sm-block"
+            className="footer-link d-sm-block d-xs-block"
           >
             Dribbble
           </a>
@@ -68,7 +68,7 @@ const Footer = () => (
             target="_blank"
             href="https://www.instagram.com/hira.designs/"
           >
-            Instagram
+            <p className="footer-social-insta">Instagram</p>
           </a>
         </Col>
         <Col xl={3} lg={3} md={3} className="footer-copyrights ">

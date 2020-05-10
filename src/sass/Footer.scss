@@ -93,13 +93,13 @@
 }
 
 .footer-link {
-  font-size: 10pt;
-
+  font-family: "Graphik Medium";
+  src: url(../font/Graphik-Medium.ttf);
+  font-size: 12pt;
   margin-left: 13%;
-
   color: $primary;
   @media (max-width: $lg) {
-    font-size: 10pt;
+    font-size: 12pt;
   }
   @media (max-width: $md) {
     margin-bottom: 1%;
@@ -122,8 +122,6 @@
 }
 
 .footer-links {
-  font-family: "Graphik Medium";
-  src: url(../font/Graphik-Medium.ttf);
   // @media (max-width: $md) {
   //   font-family: "Graphik Light";
   //   src: url(../font/Graphik-Light.ttf);
@@ -140,10 +138,22 @@
   // }
   //   float: left;
   //   margin: auto !important;
-  //   background-color: pink;
+  //
 }
+.footer-social {
+  @media (max-width: $md) {
+    margin-bottom: 10%;
+  }
 
+  @media (max-width: $sm) {
+    margin-bottom: 10%;
+  }
+  @media (max-width: $xs) {
+    margin-bottom: 10%;
+  }
+}
 .footer-designer {
+  color: $danger;
   font-size: 10pt;
 
   font-family: "BerlingskeSerif Bold";
@@ -151,5 +161,12 @@
 }
 
 .footer-instagram {
-  margin-bottom: 10%;
+  color: $primary;
+  margin-bottom: 20%;
+}
+
+.footer-social-insta {
+  font-size: 12pt;
+  font-family: "Graphik Medium";
+  src: url(../font/Graphik-Medium.ttf);
 }

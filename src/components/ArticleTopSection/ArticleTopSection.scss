@@ -56,6 +56,9 @@
   // background-color: red;s
   height: 300px;
   width: auto;
+  @media (max-width: $xl) {
+    height: 250px;
+  }
   @media (max-width: $lg) {
     height: 250px;
   }

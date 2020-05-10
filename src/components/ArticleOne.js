@@ -91,77 +91,77 @@ export default ({ match }) => {
           </div>
 
           {/* process */}
-
-          <h1 className="project-subhead">Process</h1>
-
-          <img
-            className="img-fluid col mt-5 one-process-sketch1"
-            src={Sketch1}
-          />
-        </div>
-        {/* end of container */}
-        {/* more process */}
-
-        <img className="img-fluid col one-process-sketch2" src={Sketch2} />
-
-        {/* wireframes */}
-        <div className="large-container">
-          <div className="my-container">
-            <h1 className="project-subhead">Wireframes</h1>
-            {/* wireframe1 */}
-            <div className="row">
-              <div className="col">
-                <h1 className="one-signin">Sign in</h1>
-                <p className="one-signin-info">
-                  The app requires the user to sign up in-order to register for
-                  an event. If he’s already <br></br> registered, he can sign in
-                  and start booking the events.
-                </p>
-              </div>
-            </div>
-
-            <div className="row">
-              <img className="img-fluid col col-centered" src={Screen1} />
-            </div>
-            {/* wireframe2 */}
-            <div className="row">
-              <div className="col">
-                <h1 className="one-mainfeed">Main feed</h1>
-                <p className="one-signin-info">
-                  User has the option to choose between different games,
-                  location or according to <br></br>popularity. Once he chooses
-                  the event, he gets more options where he can select <br></br>{" "}
-                  between different days and time.
-                </p>
-              </div>
-            </div>
+          <div className="one-process-container">
+            <h1 className="project-subhead">Process</h1>
 
             <img
-              className="img-fluid col-lg-9 col-sm-9 col-centered"
-              src={Screen2}
+              className="img-fluid col mt-5 one-process-sketch1"
+              src={Sketch1}
             />
+          </div>
+          {/* end of container */}
+          {/* more process */}
 
-            {/* wireframe3 */}
-            <div className="row  mt-5 flex-row-reverse">
-              <div className="col-lg-4">
-                <h1 className="one-events">Events</h1>
-                <p className="one-signin-info">
-                  After the user selects the event, there’s more information
-                  that he can read about that event. Clicking on “attend” lets
-                  him add it to the calendar
-                </p>
-              </div>
-              <img
-                className="img-fluid col-lg-8  col-sm-9 col-centered"
-                src={Screen3}
-              />
+          <img className="img-fluid col one-process-sketch2" src={Sketch2} />
+        </div>
+        {/* wireframes */}
+        <div className="large-container">
+          <h1 className="project-subhead one-wireframes-container">
+            Wireframes
+          </h1>
+          {/* wireframe1 */}
+          <div className="row">
+            <div className="col">
+              <h1 className="one-signin">Sign in</h1>
+              <p className="one-signin-info">
+                The app requires the user to sign up in-order to register for an
+                event. If he’s already <br></br> registered, he can sign in and
+                start booking the events.
+              </p>
             </div>
+          </div>
+
+          <div className="row">
+            <img className="img-fluid col col-centered" src={Screen1} />
+          </div>
+          {/* wireframe2 */}
+          <div className="row">
+            <div className="col">
+              <h1 className="one-mainfeed">Main feed</h1>
+              <p className="one-signin-info">
+                User has the option to choose between different games, location
+                or according to <br></br>popularity. Once he chooses the event,
+                he gets more options where he can select <br></br> between
+                different days and time.
+              </p>
+            </div>
+          </div>
+
+          <img
+            className="img-fluid col-lg-9 col-sm-9 col-centered"
+            src={Screen2}
+          />
+
+          {/* wireframe3 */}
+          <div className="row  mt-5 flex-row-reverse">
+            <div className="col-lg-4">
+              <h1 className="one-events">Events</h1>
+              <p className="one-signin-info">
+                After the user selects the event, there’s more information that
+                he can read about that event. Clicking on “attend” lets him add
+                it to the calendar
+              </p>
+            </div>
+            <img
+              className="img-fluid col-lg-8  col-sm-9 col-centered"
+              src={Screen3}
+            />
           </div>
         </div>
       </div>
 
       {/* bottom container */}
-      <div className="container-xl container-lg">
+      <div className="large-container">
         <div className="my-container">
           {/* <hr className="upvote-line"></hr> */}
 

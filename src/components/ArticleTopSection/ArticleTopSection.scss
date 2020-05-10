@@ -36,6 +36,17 @@
 
   margin-top: 50px;
   // background-color: red;
+  @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  }
+  // iphone 8
+  @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+    margin-top: 30px;
+  }
+  // iphone 5
+
+  @media screen and (device-aspect-ratio: 40/71) {
+    margin-top: 10px;
+  }
 }
 
 .mainimage {

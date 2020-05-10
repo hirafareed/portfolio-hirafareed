@@ -82,6 +82,9 @@
   @media (max-width: $lg) {
     font-size: 10pt;
   }
+  @media (max-width: $sm) {
+    display: none;
+  }
   //   background-color: green;
 }
 
@@ -104,6 +107,9 @@
   @media (max-width: $md) {
     margin-bottom: 1%;
     margin-left: 0;
+  }
+  @media (max-width: $sm) {
+    display: block;
   }
   @media (max-width: $xs) {
     display: block;

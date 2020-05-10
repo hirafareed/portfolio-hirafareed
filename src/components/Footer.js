@@ -15,18 +15,19 @@ const Footer = () => (
       {/* full footer row */}
       <Row className="footer-margin flex-row-reverse ">
         <Col
-          xl={5}
-          lg={5}
-          className="d-lg-flex  d-xl-flex footer-links justify-content-center"
+          xl={4}
+          lg={4}
+          md={4}
+          className="d-lg-flex  d-xl-flex  d-md-flex footer-links justify-content-center"
         >
-          <p className="footer-designer d-sm-block d-xs-block  d-lg-none d-xl-none">
+          <p className="footer-designer d-sm-block d-xs-block   d-xl-none d-lg-none d-md-none">
             {" "}
             I'm a designer -––
           </p>
           <a
             target="a_blnk"
             href="https://www.behance.net/hirafareed"
-            className="footer-link d-sm-block d-xs-block"
+            className="footer-link d-sm-block d-xs-block "
           >
             Behance
           </a>
@@ -34,7 +35,7 @@ const Footer = () => (
           <a
             target="_blank"
             href="https://www.linkedin.com/in/hira-fareed"
-            className="footer-link d-sm-block d-xs-block"
+            className="footer-link d-sm-block d-xs-block "
           >
             LinkedIn
           </a>
@@ -49,27 +50,28 @@ const Footer = () => (
         </Col>
 
         <Col
-          xl={4}
-          lg={4}
+          xl={5}
+          lg={5}
+          md={5}
           className="d-lg-flex  d-xl-flex  footer-email justify-content-center"
         >
-          <a className="d-sm-none d-xs-none d-lg-block  d-xl-block">
+          <a className="d-sm-none d-xs-none d-lg-block  d-xl-block d-md-block">
             Coded without coffee by Hira Fareed
           </a>
 
-          <p className="footer-designer d-sm-block d-xs-block  d-lg-none d-xl-none">
+          <p className="footer-designer d-sm-block d-xs-block  d-lg-none d-xl-none d-md-none">
             {" "}
             I'm a millennial -––
           </p>
           <a
-            className="footer-instagram d-lg-none d-xl-none d-sm-block  d-xs-block"
+            className="footer-instagram d-lg-none d-xl-none d-md-none d-sm-block  d-xs-block"
             target="_blank"
             href="https://www.instagram.com/hira.designs/"
           >
             Instagram
           </a>
         </Col>
-        <Col xl={3} lg={3} className="footer-copyrights ">
+        <Col xl={3} lg={3} md={3} className="footer-copyrights ">
           <p className="copyrights-text">© 2020 Hira Fareed</p>
         </Col>
       </Row>

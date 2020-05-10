@@ -68,15 +68,8 @@
 
   font-family: "Graphik Light";
   src: url(../font/Graphik-Light.ttf);
-  @media (max-width: $md) {
-    font-size: 1em;
-  }
-  @media (max-width: $sm) {
-    margin-bottom: 1%;
-  }
-
-  @media (max-width: $xs) {
-    font-size: 1em;
+  @media (max-width: $lg) {
+    font-size: 10pt;
   }
 }
 
@@ -85,7 +78,10 @@
 
   font-family: "Graphik Light";
   src: url(../font/Graphik-Light.ttf);
-  color: black;
+  color: $primary;
+  @media (max-width: $lg) {
+    font-size: 10pt;
+  }
   //   background-color: green;
 }
 
@@ -101,17 +97,20 @@
 
   margin-left: 13%;
 
-  color: black;
-  @media (max-width: $md) {
-    margin-bottom: 1%;
+  color: $primary;
+  @media (max-width: $lg) {
+    font-size: 10pt;
   }
-  @media (max-width: $sm) {
-    margin-bottom: 1%;
-  }
+  // @media (max-width: $md) {
+  //   margin-bottom: 1%;
+  // }
+  // @media (max-width: $sm) {
+  //   margin-bottom: 1%;
+  // }
 
-  @media (max-width: $xs) {
-    margin-bottom: 1%;
-  }
+  // @media (max-width: $xs) {
+  //   margin-bottom: 1%;
+  // }
 }
 
 .footer-link:hover {
@@ -124,20 +123,20 @@
 .footer-links {
   font-family: "Graphik Medium";
   src: url(../font/Graphik-Medium.ttf);
-  @media (max-width: $md) {
-    font-family: "Graphik Light";
-    src: url(../font/Graphik-Light.ttf);
-    margin-bottom: 10%;
-  }
-  @media (max-width: $sm) {
-    font-family: "Graphik Light";
-    src: url(../font/Graphik-Light.ttf);
-  }
+  // @media (max-width: $md) {
+  //   font-family: "Graphik Light";
+  //   src: url(../font/Graphik-Light.ttf);
+  //   margin-bottom: 10%;
+  // }
+  // @media (max-width: $sm) {
+  //   font-family: "Graphik Light";
+  //   src: url(../font/Graphik-Light.ttf);
+  // }
 
-  @media (max-width: $xs) {
-    font-family: "Graphik Light";
-    src: url(../font/Graphik-Light.ttf);
-  }
+  // @media (max-width: $xs) {
+  //   font-family: "Graphik Light";
+  //   src: url(../font/Graphik-Light.ttf);
+  // }
   //   float: left;
   //   margin: auto !important;
   //   background-color: pink;

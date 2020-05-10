@@ -38,8 +38,8 @@ export default withRouter(({ location, data, match }) => {
 
   return (
     <>
-      <div style={{ backgroundColor: color, height: "80vh" }}>
-        <div className="large-container pt-5 flex-column-reverse">
+      <div style={{ backgroundColor: color, height: "100vh" }}>
+        <div className="large-container pt-5 flex-column-reverse ">
           {/* row1 */}
           <div className="header-row row flex-row-reverse ">
             {/* column1  */}

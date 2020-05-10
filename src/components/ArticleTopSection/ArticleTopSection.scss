@@ -20,6 +20,10 @@
   @media (max-width: $lg) {
     height: 250px;
   }
+  @media (max-width: $md) {
+    width: 60%;
+    height: auto;
+  }
 }
 
 .header-text {

@@ -38,7 +38,12 @@ export default withRouter(({ location, data, match }) => {
 
   return (
     <>
-      <div style={{ backgroundColor: color, height: "100vh" }}>
+      <div
+        className="header-bg-color"
+        style={{
+          backgroundColor: color,
+        }}
+      >
         <div className="large-container pt-5 flex-column-reverse ">
           {/* row1 */}
           <div className="header-row row flex-row-reverse ">
@@ -58,6 +63,7 @@ export default withRouter(({ location, data, match }) => {
             </div>
             {/* column2 */}
           </div>
+          {/* scroll bar bottom */}
           <div className="d-flex scroll-bar">
             <div class="c-scrolldown ">
               <div class="c-line "></div>
@@ -66,7 +72,6 @@ export default withRouter(({ location, data, match }) => {
           </div>
 
           {/* end of row */}
-          {/* scroll for */}
         </div>
 
         {/* end of container */}

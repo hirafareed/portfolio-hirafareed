@@ -111,7 +111,11 @@ export default withRouter(({ location, data, match }) => {
               <h6 className="project-subhead approach-subhead">Approah </h6>
               <p className="project-info">{data.approach}</p>
               <p className="project-link-margin">
-                <a className="project-link" href={data.articleLink}>
+                <a
+                  className="project-link"
+                  href={data.articleLink}
+                  target="_blank"
+                >
                   {data.articleLinkText}
                 </a>
               </p>

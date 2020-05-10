@@ -134,14 +134,6 @@
   margin-top: 10%;
 }
 
-.one-process-sketch1 {
-  margin: auto;
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
 .col-centered {
   float: none;
   text-align: center;
@@ -166,14 +158,21 @@
     font-size: 9pt;
   }
 }
-
-.one-process-sketch2 {
+.one-process-sketch1 {
   margin: auto;
-  margin-top: 10%;
   width: 100%;
   max-width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+.one-process-sketch2 {
+  // margin: auto;
+  // margin-top: 10%;
+  // width: 100%;
+  // max-width: 100%;
+  // height: auto;
+  // object-fit: cover;
 }
 
 .one-signin {

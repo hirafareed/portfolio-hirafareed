@@ -10,9 +10,9 @@
   // overflow: hidden;
   // padding-bottom: 20%;
   margin-top: 12%;
-  // @media (max-width: $md) {
-  //   padding-bottom: 90%;
-  // }
+  @media (max-width: $md) {
+    margin-top: 20%;
+  }
   // @media (max-width: $sm) {
   //   padding-bottom: 90%;
   // }
@@ -74,7 +74,7 @@
 }
 
 .footer-email a {
-  font-size: 12pt;
+  font-size: 10pt;
 
   font-family: "Graphik Light";
   src: url(../font/Graphik-Light.ttf);
@@ -93,7 +93,7 @@
 }
 
 .footer-link {
-  font-size: 12pt;
+  font-size: 10pt;
 
   margin-left: 13%;
 
@@ -101,9 +101,10 @@
   @media (max-width: $lg) {
     font-size: 10pt;
   }
-  // @media (max-width: $md) {
-  //   margin-bottom: 1%;
-  // }
+  @media (max-width: $md) {
+    margin-bottom: 1%;
+    margin-left: 0;
+  }
   // @media (max-width: $sm) {
   //   margin-bottom: 1%;
   // }
@@ -143,12 +144,12 @@
 }
 
 .footer-designer {
-  font-size: 14pt;
+  font-size: 10pt;
 
   font-family: "BerlingskeSerif Bold";
   src: url(../font/BerlingskeSerif-Bold.ttf);
 }
 
 .footer-instagram {
-  margin-bottom: 22%;
+  margin-bottom: 10%;
 }

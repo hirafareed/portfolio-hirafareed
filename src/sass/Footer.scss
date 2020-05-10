@@ -71,6 +71,9 @@
   @media (max-width: $lg) {
     font-size: 12pt;
   }
+  @media (max-width: $sm) {
+    margin-bottom: 15%;
+  }
 }
 
 .footer-middle a {
@@ -84,6 +87,15 @@
   }
   @media (max-width: $sm) {
     // display: none;
+  }
+  //   background-color: green;
+}
+
+.footer-middle {
+  @media (max-width: $lg) {
+  }
+  @media (max-width: $sm) {
+    margin-bottom: 20%;
   }
   //   background-color: green;
 }

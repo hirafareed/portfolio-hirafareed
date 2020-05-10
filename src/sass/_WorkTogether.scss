@@ -1,7 +1,10 @@
 .layout-worktogether {
   margin-top: 20%;
-  // margin-bottom: 10%;
-
+  margin-bottom: 10%;
+  @media (max-width: $sm) {
+    margin-bottom: 20%;
+    // padding-top: 5%;
+  }
   // background-color: green;
 }
 

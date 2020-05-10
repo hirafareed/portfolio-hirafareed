@@ -88,17 +88,16 @@ export default ({ match }) => {
                 <p className="one-color-code">#F7AA70</p>
               </div>
             </div>
-
-            {/* process */}
-            <div className="one-process-container"></div>
-            <h1 className="project-subhead">Process</h1>
-            <div className="row">
-              <img
-                className="img-fluid col mt-5 one-process-sketch1"
-                src={Sketch1}
-              />
-            </div>
           </div>
+
+          {/* process */}
+
+          <h1 className="project-subhead">Process</h1>
+
+          <img
+            className="img-fluid col mt-5 one-process-sketch1"
+            src={Sketch1}
+          />
         </div>
         {/* end of container */}
         {/* more process */}

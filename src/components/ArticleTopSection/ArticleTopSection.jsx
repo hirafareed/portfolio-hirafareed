@@ -83,7 +83,7 @@ export default withRouter(({ location, data, match }) => {
           <h1 className="project-name text-left">{data.name}</h1>
 
           <div className="row project-about mt-5">
-            <div className="col-xl-5  col-lg-5 col-sm-12 text-left">
+            <div className="col-xl-5  col-lg-5  col-md-5 col-sm-12 text-left">
               <h6 className="project-subhead">Tools</h6>
               <p className="project-info new-line"> {data.tools}</p>
               <h6 className="project-subhead">Timeline</h6>
@@ -92,14 +92,14 @@ export default withRouter(({ location, data, match }) => {
               <p className="project-info new-line">{data.myRole}</p>
             </div>
 
-            <div className="col-xl-6 col-lg-6 col-sm-12 text-left">
+            <div className="col-xl-6 col-lg-6  col-md-6 col-sm-12 text-left">
               <h6 className="project-subhead ">Overview</h6>
               <p className="project-info new-line"> {data.overview}</p>
             </div>
           </div>
 
           <div className="row approach">
-            <div className="col-lg-9 approach-image">
+            <div className="col-xl-9 col-lg-9  col-md-9 approach-image">
               {" "}
               <img
                 className="img-fluid"
@@ -108,7 +108,7 @@ export default withRouter(({ location, data, match }) => {
               />
             </div>
             <div className="col">
-              <h6 className="project-subhead ">Approah </h6>
+              <h6 className="project-subhead approach-subhead">Approah </h6>
               <p className="project-info">{data.approach}</p>
               <p className="project-link-margin">
                 <a className="project-link" href={data.articleLink}>

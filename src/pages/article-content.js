@@ -31,7 +31,7 @@ const articles = [
       "I wanted the app to look fun, colourful because that’s how board games are. ",
     articleLink:
       "https://www.figma.com/proto/TZDAfiowf98P0IWvUyrTqp/BB-Prototyping?node-id=69%3A4&viewport=446%2C373%2C0.18485523760318756&scaling=scale-down",
-    articleLinkText: "View Interactive prototype",
+    articleLinkText: "VIEW INTERACTIVE PROTOTYPE",
   },
   {
     mainImage: ArticleTwo,
@@ -53,7 +53,7 @@ const articles = [
     approach:
       "I wanted the app to look fun, colourful because that’s how board games are. ",
     articleLink: "/",
-    articleLinkText: "Website Coming Soon",
+    articleLinkText: "WEBSITE COMING SOON",
   },
   {
     mainImage: ArticleThree,
@@ -74,7 +74,7 @@ const articles = [
     approach:
       "I wanted the app to look fun, colourful because that’s how board games are. ",
     articleLink: "/",
-    articleLinkText: "Website Coming Soon",
+    articleLinkText: "WEBSITE COMING SOON",
   },
 ];
 

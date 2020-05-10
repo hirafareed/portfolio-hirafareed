@@ -36,7 +36,10 @@
 
   margin-top: 50px;
   // background-color: red;
+  // iphone 11 pro
+
   @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    margin-top: 80px;
   }
   // iphone 8
   @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
@@ -212,10 +215,10 @@
 }
 
 .project-link-margin {
-  margin-top: 80px;
+  margin-top: 30px;
 
   @media (max-width: $md) {
-    margin-top: 50px;
+    margin-top: 20px;
     // margin-left: auto !important;
   }
 }
@@ -232,7 +235,7 @@
   content: " ";
   display: block;
   border: 0.6px solid $primary;
-  margin: 5px 0;
+  // margin: 5px 0;
 }
 
 .project-link:hover {

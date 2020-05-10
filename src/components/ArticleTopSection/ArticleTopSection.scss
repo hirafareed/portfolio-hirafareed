@@ -102,6 +102,19 @@
   @media (max-width: $md) {
     font-size: 20pt;
   }
+  // iphone x
+  @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    font-size: 18pt;
+    line-height: 28pt;
+  }
+  // iphone 8
+  @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+  }
+  // iphone 5
+
+  @media screen and (device-aspect-ratio: 40/71) {
+    // padding-top: 130px;
+  }
 }
 
 .col-centered {

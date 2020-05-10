@@ -105,7 +105,7 @@ export default ({ match }) => {
         <img className="img-fluid col one-process-sketch2" src={Sketch2} />
 
         {/* wireframes */}
-        <div className="container-xl container-lg">
+        <div className="large-container">
           <div className="my-container">
             <h1 className="project-subhead">Wireframes</h1>
             {/* wireframe1 */}
@@ -135,12 +135,12 @@ export default ({ match }) => {
                 </p>
               </div>
             </div>
-            <div className="row">
-              <img
-                className="img-fluid col-lg-9 col-sm-9 col-centered"
-                src={Screen2}
-              />
-            </div>
+
+            <img
+              className="img-fluid col-lg-9 col-sm-9 col-centered"
+              src={Screen2}
+            />
+
             {/* wireframe3 */}
             <div className="row  mt-5 flex-row-reverse">
               <div className="col-lg-4">

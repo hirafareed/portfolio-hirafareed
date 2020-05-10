@@ -65,7 +65,7 @@
 
 .copyrights-text {
   font-size: 12pt;
-
+  color: $primary;
   font-family: "Graphik Light";
   src: url(../font/Graphik-Light.ttf);
   @media (max-width: $lg) {
@@ -105,6 +105,9 @@
     margin-bottom: 1%;
     margin-left: 0;
   }
+  @media (max-width: $xs) {
+    display: block;
+  }
   // @media (max-width: $sm) {
   //   margin-bottom: 1%;
   // }
@@ -116,9 +119,7 @@
 
 .footer-link:hover {
   text-decoration: none;
-  font-family: "Graphik Regular";
-  src: url(../font/Graphik-Regular.ttf);
-  color: black;
+  color: $danger;
 }
 
 .footer-links {
@@ -169,4 +170,9 @@
   font-size: 12pt;
   font-family: "Graphik Medium";
   src: url(../font/Graphik-Medium.ttf);
+  color: $primary;
+}
+.footer-social-insta:hover {
+  text-decoration: none;
+  color: $danger;
 }

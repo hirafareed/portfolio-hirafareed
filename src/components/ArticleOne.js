@@ -45,50 +45,47 @@ export default ({ match }) => {
         {/* typography */}
         <div className="one-background-typography">
           <div className="large-container">
-            <div className="my-container">
-              <h1 className="one-project-subhead">Typography</h1>
-              <h1 className="one-font">BARLOW</h1>
+            <h1 className="one-project-subhead">Typography</h1>
+            <h1 className="one-font">BARLOW</h1>
 
-              <div className="row typography-one">
-                <div className="col-xl-6 col-lg-6 col-md-6">
-                  <p className="one-barlow-regular"> Regular</p>
-                  <p className="barlow-regular-text">
-                    Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm cNn Oo Pp Qq Rr Ss Tt
-                    Uu Vv Ww Xx Yy Zz
-                  </p>
-                </div>
-                <div className="barlow-semibold col-xl-6  col-lg-6  col-md-6 ">
-                  <p className="one-barlow-semibold"> Semibold</p>
-                  <p className="barlow-semibold-text">
-                    Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt
-                    Uu Vv Ww Xx Yy Zz
-                  </p>
-                </div>
+            <div className="row typography-one">
+              <div className="col-xl-6 col-lg-6 col-md-6">
+                <p className="one-barlow-regular"> Regular</p>
+                <p className="barlow-regular-text">
+                  Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm cNn Oo Pp Qq Rr Ss Tt
+                  Uu Vv Ww Xx Yy Zz
+                </p>
+              </div>
+              <div className="barlow-semibold col-xl-6  col-lg-6  col-md-6 ">
+                <p className="one-barlow-semibold"> Semibold</p>
+                <p className="barlow-semibold-text">
+                  Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu
+                  Vv Ww Xx Yy Zz
+                </p>
               </div>
             </div>
           </div>
         </div>
-        <div className="container-xl container-lg">
+        <div className="large-container">
           {/* colors */}
-          <div className="my-container">
-            <h1 className="project-subhead">Color</h1>
-            <div className="row">
-              <div className="col-lg-3 col col-centered">
-                <img className="one-color-image img-fluid" src={Color1} />
-                <p className="one-color-code ">#69C9D6</p>
-              </div>
-              <div className="col-lg-3 col col-centered">
-                <img className="one-color-image img-fluid" src={Color2} />
-                <p className="one-color-code">#FE9491</p>
-              </div>
-              <div className="col-lg-3 col col-centered ">
-                <img className="one-color-image img-fluid" src={Color3} />
-                <p className="one-color-code">#747FFF</p>
-              </div>
-              <div className="col-lg-3 col col-centered">
-                <img className="one-color-image img-fluid" src={Color4} />
-                <p className="one-color-code">#F7AA70</p>
-              </div>
+
+          <h1 className="project-subhead">Color</h1>
+          <div className="row">
+            <div className="col-lg-3 col col-centered">
+              <img className="one-color-image img-fluid" src={Color1} />
+              <p className="one-color-code ">#69C9D6</p>
+            </div>
+            <div className="col-lg-3 col col-centered">
+              <img className="one-color-image img-fluid" src={Color2} />
+              <p className="one-color-code">#FE9491</p>
+            </div>
+            <div className="col-lg-3 col col-centered ">
+              <img className="one-color-image img-fluid" src={Color3} />
+              <p className="one-color-code">#747FFF</p>
+            </div>
+            <div className="col-lg-3 col col-centered">
+              <img className="one-color-image img-fluid" src={Color4} />
+              <p className="one-color-code">#F7AA70</p>
             </div>
 
             {/* process */}

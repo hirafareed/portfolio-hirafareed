@@ -93,17 +93,18 @@ export default ({ match }) => {
           {/* process */}
           <div className="one-process-container">
             <h1 className="project-subhead">Process</h1>
-
-            <img
-              className="img-fluid col mt-5 one-process-sketch1"
-              src={Sketch1}
-            />
           </div>
-          {/* end of container */}
-          {/* more process */}
 
-          <img className="img-fluid col one-process-sketch2" src={Sketch2} />
+          <img
+            className="img-fluid col mt-5 one-process-sketch1"
+            src={Sketch1}
+          />
         </div>
+        {/* end of container */}
+        {/* more process */}
+
+        <img className="img-fluid col one-process-sketch2" src={Sketch2} />
+
         {/* wireframes */}
         <div className="large-container">
           <h1 className="project-subhead one-wireframes-container">

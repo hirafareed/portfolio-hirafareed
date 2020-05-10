@@ -109,11 +109,14 @@
   }
   // iphone 8
   @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+    font-size: 18pt;
+    line-height: 28pt;
   }
   // iphone 5
 
   @media screen and (device-aspect-ratio: 40/71) {
-    // padding-top: 130px;
+    font-size: 16pt;
+    line-height: 24pt;
   }
 }
 

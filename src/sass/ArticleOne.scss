@@ -159,19 +159,20 @@
   }
 }
 .one-process-sketch1 {
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  width: 100%;
   max-width: 100%;
   height: auto;
-  object-fit: cover;
+  object-fit: content;
 }
 
 .one-process-sketch2 {
-  margin: 0;
-  padding: 0;
-  max-width: 100%;
-  height: auto;
-  object-fit: cover;
+  // margin: auto;
+  // margin-top: 10%;
+  // width: 100%;
+  // max-width: 100%;
+  // height: auto;
+  // object-fit: cover;
 }
 
 .one-signin {

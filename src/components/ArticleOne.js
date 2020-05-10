@@ -102,9 +102,9 @@ export default ({ match }) => {
         </div>
         {/* end of container */}
         {/* more process */}
-        <div className="row">
-          <img className="img-fluid col one-process-sketch2" src={Sketch2} />
-        </div>
+
+        <img className="img-fluid col one-process-sketch2" src={Sketch2} />
+
         {/* wireframes */}
         <div className="container-xl container-lg">
           <div className="my-container">

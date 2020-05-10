@@ -41,8 +41,8 @@ export default ({ match }) => {
   return (
     <>
       <TopSection data={item1}></TopSection>
-      <div className=" mb-5 mt-5">
-        \{/* typography */}
+      <div className="">
+        {/* typography */}
         <div className="one-background-typography">
           <div className="large-container">
             <div className="my-container">
@@ -50,18 +50,18 @@ export default ({ match }) => {
               <h1 className="one-font">BARLOW</h1>
 
               <div className="row typography-one">
-                <div className="col-lg-7">
+                <div className="col-xl-6 col-lg-6 col-md-6">
                   <p className="one-barlow-regular"> Regular</p>
                   <p className="barlow-regular-text">
                     Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm cNn Oo Pp Qq Rr Ss Tt
                     Uu Vv Ww Xx Yy Zz
                   </p>
                 </div>
-                <div className="barlow-semibold col-lg-5">
+                <div className="barlow-semibold col-xl-6  col-lg-6  col-md-6 ">
                   <p className="one-barlow-semibold"> Semibold</p>
                   <p className="barlow-semibold-text">
-                    Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm <br></br>Nn Oo Pp Qq
-                    Rr Ss Tt Uu Vv Ww Xx Yy Zz
+                    Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt
+                    Uu Vv Ww Xx Yy Zz
                   </p>
                 </div>
               </div>

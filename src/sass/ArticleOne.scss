@@ -5,22 +5,27 @@
 }
 
 .one-project-subhead {
-  margin-top: 10%;
-  font-size: 1.5em;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-size: 14pt;
   color: white;
-  font-family: "BerlingskeSerif SemiBold";
-  font-style: normal;
-  font-weight: normal;
-  src: url(../font/BerlingskeSerif-SemiBold.ttf);
-  margin-bottom: 20px;
-  letter-spacing: 2px;
+  font-family: "BerlingskeSerif Bold";
+  letter-spacing: 0.5px;
+  src: url(../font/BerlingskeSerif-Bold.ttf);
+  @media (max-width: $xl) {
+  }
+  @media (max-width: $lg) {
+  }
+  @media (max-width: $md) {
+    font-size: 12pt;
+  }
 }
 
 .one-font {
   font-family: "Graphik Medium";
   src: url(../font/Graphik-Medium.ttf);
   color: white;
-  font-size: 4em;
+  font-size: 40pt;
   margin-bottom: 70px;
 }
 
@@ -28,28 +33,68 @@
   font-family: "Barlow", sans-serif;
   font-weight: 400;
   color: white;
-  font-size: 1.5em;
+  font-size: 16pt;
+  line-height: 26pt;
+  @media (max-width: $xl) {
+    font-size: 16pt;
+  }
+  @media (max-width: $lg) {
+  }
+  @media (max-width: $md) {
+    font-size: 14pt;
+    line-height: 24pt;
+  }
 }
 
 .barlow-regular-text {
   font-family: "Barlow", sans-serif;
   font-weight: 400;
   color: white;
-  font-size: 1.5em;
+  font-size: 16pt;
+  line-height: 26pt;
+  @media (max-width: $xl) {
+    font-size: 16pt;
+  }
+  @media (max-width: $lg) {
+  }
+  @media (max-width: $md) {
+    font-size: 14pt;
+    line-height: 24pt;
+  }
 }
 
 .one-barlow-semibold {
   font-family: "Barlow", sans-serif;
   font-weight: 600;
   color: white;
-  font-size: 1.5em;
+  font-size: 16pt;
+  line-height: 26pt;
+  @media (max-width: $xl) {
+    font-size: 16pt;
+  }
+  @media (max-width: $lg) {
+  }
+  @media (max-width: $md) {
+    font-size: 14pt;
+    line-height: 24pt;
+  }
 }
 
 .barlow-semibold-text {
   font-family: "Barlow", sans-serif;
   font-weight: 600;
   color: white;
-  font-size: 1.5em;
+  font-size: 16pt;
+  line-height: 26pt;
+  @media (max-width: $xl) {
+    font-size: 16pt;
+  }
+  @media (max-width: $lg) {
+  }
+  @media (max-width: $md) {
+    font-size: 14pt;
+    line-height: 24pt;
+  }
 }
 
 .col-centered {

@@ -41,34 +41,20 @@
 
 // comment
 
-.comment-button {
-  float: right;
-  font-family: "Graphik Light";
-  src: url(../font/Graphik-Light.ttf);
-  border: 1px solid #2369f6;
-  padding-right: 4%;
-  padding-top: 0.75%;
-  padding-bottom: 0.75%;
-  padding-left: 4%;
-  border-radius: 3px;
-  //   margin-right: 0;
-
-  //   background-color: red;
-}
-
 .articles-container {
   width: 80%;
   align-items: center;
 }
 
 .next-project {
-  margin-top: 200px;
+  margin-top: 20%;
 }
 
 .next-project h3 {
   font-family: "BerlingskeSerif ExtraBold";
   src: url(../font/BerlingskeSerif-ExtraBold.ttf);
   color: #aaaaaa;
+  font-size: 2em;
 }
 
 .next-project h1 {

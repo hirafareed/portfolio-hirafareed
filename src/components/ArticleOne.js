@@ -112,7 +112,7 @@ export default ({ match }) => {
           </h1>
           {/* wireframe1 */}
           <div className="row">
-            <div className="col">
+            <div className="col-xl-7 col-lg-7 col-md-7 ">
               <h1 className="one-signin">Sign in</h1>
               <p className="one-signin-info">
                 The app requires the user to sign up in-order to register for an
@@ -128,8 +128,8 @@ export default ({ match }) => {
           />
 
           {/* wireframe2 */}
-          <div className="row">
-            <div className="col">
+          <div className="row mt-5 one-events-image ">
+            <div className="col-lg-4">
               <h1 className="one-mainfeed">Main feed</h1>
               <p className="one-signin-info">
                 User has the option to choose between different games, location
@@ -138,12 +138,10 @@ export default ({ match }) => {
                 time.
               </p>
             </div>
+            <div className="col-lg-8  col-sm-9 col-centered">
+              <img className="img-fluid" src={Screen2} />
+            </div>
           </div>
-
-          <img
-            className="img-fluid col-lg-9 col-sm-9 col-centered"
-            src={Screen2}
-          />
 
           {/* wireframe3 */}
           <div className="row mt-5 flex-row-reverse one-events-image ">
@@ -164,27 +162,24 @@ export default ({ match }) => {
 
       {/* bottom container */}
       <div className="large-container">
-        <div className="my-container">
-          {/* <hr className="upvote-line"></hr> */}
+        {/* <hr className="upvote-line"></hr> */}
 
-          {/* other articles */}
-          {/* article two */}
-          <div className="row next-project">
-            <div className="col ">
-              <h3 className="text-center">Next Project</h3>
-              <Link
-                to={`/article/${item2.name
-                  .replace(/\s+/g, "-")
-                  .toLowerCase()}/2`}
-              >
-                <div className="d-flex justify-content-center">
-                  <h1>{item2.name}</h1>
-                  <img className="view overlay zoom" src={Next} />
-                </div>
-              </Link>
-            </div>
+        {/* other articles */}
+        {/* article two */}
+        <div className="row next-project">
+          <div className="col">
+            <h3 className="text-center">Next Project</h3>
+            <Link
+              to={`/article/${item2.name.replace(/\s+/g, "-").toLowerCase()}/2`}
+            >
+              <div className="d-flex justify-content-center">
+                <h1>{item2.name}</h1>
+                <img className="view overlay zoom" src={Next} />
+              </div>
+            </Link>
+          </div>
 
-            {/* <div className="col">
+          {/* <div className="col">
               <h3>Article Three</h3>
 
               <Link
@@ -199,9 +194,9 @@ export default ({ match }) => {
                 />
               </Link>
             </div> */}
-          </div>
-          {/* end of row */}
         </div>
+        {/* end of row */}
+
         {/* end of my-container */}
       </div>
       {/* end of container */}

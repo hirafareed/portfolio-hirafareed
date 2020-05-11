@@ -108,7 +108,7 @@ export default withRouter(({ location, data, match }) => {
               />
             </div>
             <div className="col">
-              <h6 className="project-subhead approach-subhead">Approah </h6>
+              <h6 className="project-subhead approach-subhead">Approach </h6>
               <p className="project-info">{data.approach}</p>
               <p className="project-link-margin">
                 <a

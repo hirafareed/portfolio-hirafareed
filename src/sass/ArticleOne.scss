@@ -222,27 +222,30 @@
 .one-mainfeed {
   margin-top: 15%;
   font-family: "BerlingskeSerif ExtraBold";
-  font-style: normal;
-  font-weight: normal;
+  font-size: 40pt;
   src: url(../font/BerlingskeSerif-ExtraBold.ttf);
-  font-size: 4em;
   color: rgb(105, 201, 214);
   @media (max-width: $md) {
-    font-size: 2.3em;
+    font-size: 30pt;
+  }
+  @media (max-width: $md) {
+    font-size: 20pt;
   }
 }
 
 .one-events {
-  margin-top: 30%;
+  margin-top: 15%;
   font-family: "BerlingskeSerif ExtraBold";
   font-style: normal;
   font-weight: normal;
   src: url(../font/BerlingskeSerif-ExtraBold.ttf);
-  font-size: 4em;
+  font-size: 40pt;
   color: rgb(247, 170, 112);
   @media (max-width: $md) {
-    margin-top: 5%;
-    font-size: 2.3em;
+    font-size: 30pt;
+  }
+  @media (max-width: $md) {
+    font-size: 20pt;
   }
 }
 

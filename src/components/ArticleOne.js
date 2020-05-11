@@ -122,7 +122,10 @@ export default ({ match }) => {
             </div>
           </div>
 
-          <img className="img-fluid col col-centered" src={Screen1} />
+          <img
+            className="img-fluid col col-centered one-signin-image"
+            src={Screen1}
+          />
 
           {/* wireframe2 */}
           <div className="row">
@@ -130,9 +133,9 @@ export default ({ match }) => {
               <h1 className="one-mainfeed">Main feed</h1>
               <p className="one-signin-info">
                 User has the option to choose between different games, location
-                or according to <br></br>popularity. Once he chooses the event,
-                he gets more options where he can select <br></br> between
-                different days and time.
+                or according to popularity. Once he chooses the event, he gets
+                more options where he can select between different days and
+                time.
               </p>
             </div>
           </div>

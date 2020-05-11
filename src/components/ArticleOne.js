@@ -157,6 +157,18 @@ export default ({ match }) => {
               <img className="img-fluid one-events-image " src={Screen3} />
             </div>
           </div>
+
+          <div className=" row  mt-5"></div>
+          <div className="col-xl-8 col-lg-8 col-md-8">
+            <div className=" project-subhead"> Key takeaways</div>
+            <p className="  one-signin-info">
+              Working on this app helped me to pay attention to the more
+              intricate details on mobile. I had to take into consideration
+              designing for the thumb zone and figuring out how certain form
+              input fields can be altered to better suit smaller touch screens
+              rather than a desktop.
+            </p>
+          </div>
         </div>
       </div>
 

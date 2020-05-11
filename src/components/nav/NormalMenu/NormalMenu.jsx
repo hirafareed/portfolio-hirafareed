@@ -15,6 +15,7 @@ export default withRouter(({ location }) => {
     "2": "#E6ABAC",
     "3": "#3EDBB4",
   };
+  const [animate, setAnimate] = useState(true);
 
   useEffect(() => {
     const { pathname } = location;
@@ -32,17 +33,23 @@ export default withRouter(({ location }) => {
       style={{ padding: "10px", backgroundColor: style.backgroundColor }}
     >
       <Navbar expand="md" className="navbar">
-        <Navbar.Brand>
+        <Navbar.Brand
+          onMouseOver={() => {
+            setAnimate(false);
+            console.log("animate", animate);
+          }}
+          onMouseOut={() => setAnimate(true)}
+        >
           <Link className="navbar-brand text-primary" to="/">
-            {/* <h1 style={{ color: style.color }}>Hira.</h1>s */}
             <Lottie
               className="lottielogo"
               style={{ color: style.color }}
               options={{
-                loop: false,
+                loop: true,
                 autoplay: true,
                 animationData: animationlogo,
               }}
+              isStopped={animate}
             ></Lottie>
           </Link>
         </Navbar.Brand>

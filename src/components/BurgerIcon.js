@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { withRouter } from "react-router-dom";
+import Lottie from "react-lottie";
+import animationlogo from "../lottie/logowhite.json";
 
 import "./BurgerIcon.scss";
 
@@ -14,6 +16,7 @@ export default withRouter(({ location, open, ...props }) => {
   } else {
     document.body.style.overflow = "auto";
   }
+  const [animate, setAnimate] = useState(true);
 
   useEffect(() => {
     const { pathname } = location;
@@ -35,10 +38,24 @@ export default withRouter(({ location, open, ...props }) => {
         {...props}
       >
         <div className="d-flex justify-content-between">
-          <div>
-            <h1 style={{ color: "#FFF", display: open ? "block" : "none" }}>
-              Hira.
-            </h1>
+          <div
+            style={{ height: "50px", width: "60px" }}
+            onMouseOver={() => {
+              setAnimate(false);
+              console.log("animate", animate);
+            }}
+            onMouseOut={() => setAnimate(true)}
+          >
+            <Lottie
+              style={{ display: open ? "block" : "none" }}
+              className="lottielogo"
+              options={{
+                loop: true,
+                autoplay: true,
+                animationData: animationlogo,
+              }}
+              isStopped={animate}
+            ></Lottie>
           </div>
           <div>
             <div

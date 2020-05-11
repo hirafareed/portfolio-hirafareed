@@ -53,9 +53,11 @@ const articles = [
       "Wonder is a travel journal which allows the  user to create a travel profile, log their past trips, connect with other travellers and wish-list their future travel destinations. \n \n The app brings together all the pieces of your trip and turn that into a simple day by day narrative. ",
     approachImage: ApproahImage2,
     approach:
-      "I wanted the app to look fun, colourful because that’s how board games are. ",
+      "The idea was to narrate their trip through pictures and captions. One can easily update and make changes accordingly and it will essentially create an entire digital diary of your trip. The app will also let you share your travel experiences with other users while having all travellers on just one platform.",
     articleLink: "/",
     articleLinkText: "WEBSITE COMING SOON",
+    challenge:
+      "One of the downsides of taking a vacation is that it eventually comes to an end. I recently went to Greece for my summer vacation and even though it was a week long, it only felt like a day. To carry a physical journal is more of a hassle for any traveller. Hence, except a bunch of photos, a few videos and a stamp on my passport, I wasn’t able to record my trip.",
   },
   {
     mainImage: ArticleThree,

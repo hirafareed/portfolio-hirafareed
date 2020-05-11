@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { withRouter } from "react-router-dom";
 // import UpvotesSection from "../UpvotesSection";
+import ScrollAnimation from "react-animate-on-scroll";
 
 import "../../sass/style.scss";
 
@@ -46,30 +47,32 @@ export default withRouter(({ location, data, match }) => {
       >
         <div className="large-container pt-5 flex-column-reverse ">
           {/* row1 */}
-          <div className="header-row row flex-row-reverse ">
-            {/* column1  */}
+          <ScrollAnimation animateIn="fadeIn">
+            <div className="header-row row flex-row-reverse ">
+              {/* column1  */}
 
-            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-centered  ">
-              <img
-                className="mainimage "
-                src={data.headerImage}
-                alt={data.name}
-              />
-            </div>
+              <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-centered  ">
+                <img
+                  className="mainimage "
+                  src={data.headerImage}
+                  alt={data.name}
+                />
+              </div>
 
-            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 header-text ">
-              <h3 className="header-text-type">{data.type}</h3>
-              <h3 className="header-text-info ">{data.headerText}</h3>
+              <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 header-text ">
+                <h3 className="header-text-type">{data.type}</h3>
+                <h3 className="header-text-info ">{data.headerText}</h3>
+              </div>
+              {/* column2 */}
             </div>
-            {/* column2 */}
-          </div>
-          {/* scroll bar bottom */}
-          <div className="d-flex scroll-bar">
-            <div class="c-scrolldown ">
-              <div class="c-line "></div>
+            {/* scroll bar bottom */}
+            <div className="d-flex scroll-bar">
+              <div class="c-scrolldown ">
+                <div class="c-line "></div>
+              </div>
+              <p className="scroll-info">SCROLL FOR MORE</p>
             </div>
-            <p className="scroll-info">SCROLL FOR MORE</p>
-          </div>
+          </ScrollAnimation>
 
           {/* end of row */}
         </div>
@@ -80,45 +83,63 @@ export default withRouter(({ location, data, match }) => {
 
       <div className="large-container">
         <div className="my-container">
-          <h1 className="project-name text-left">{data.name}</h1>
+          <ScrollAnimation animateIn="fadeIn">
+            <h1 className="project-name text-left">{data.name}</h1>
+          </ScrollAnimation>
 
           <div className="row project-about mt-5">
             <div className="col-xl-5  col-lg-5  col-md-5 col-sm-12 text-left">
-              <h6 className="project-subhead">Tools</h6>
-              <p className="project-info new-line"> {data.tools}</p>
-              <h6 className="project-subhead">Timeline</h6>
-              <p className="project-info">{data.timeline}</p>
-              <h6 className="project-subhead ">My role: </h6>
-              <p className="project-info new-line">{data.myRole}</p>
+              <ScrollAnimation animateIn="fadeIn">
+                <h6 className="project-subhead">Tools</h6>
+                <p className="project-info new-line"> {data.tools}</p>
+              </ScrollAnimation>
+              <ScrollAnimation animateIn="fadeIn">
+                <h6 className="project-subhead">Timeline</h6>
+                <p className="project-info">{data.timeline}</p>
+              </ScrollAnimation>
+              <ScrollAnimation animateIn="fadeIn">
+                <h6 className="project-subhead ">My role: </h6>
+                <p className="project-info new-line">{data.myRole}</p>
+              </ScrollAnimation>
             </div>
 
             <div className="col-xl-6 col-lg-6  col-md-6 col-sm-12 text-left">
-              <h6 className="project-subhead ">Overview</h6>
-              <p className="project-info new-line"> {data.overview}</p>
+              <ScrollAnimation animateIn="fadeIn">
+                <h6 className="project-subhead ">Overview</h6>
+                <p className="project-info new-line"> {data.overview}</p>
+              </ScrollAnimation>
             </div>
           </div>
 
           <div className="row approach">
             <div className="col-xl-9 col-lg-9  col-md-9 approach-image">
               {" "}
-              <img
-                className="img-fluid"
-                src={data.approachImage}
-                alt={data.name}
-              />
+              <ScrollAnimation animateIn="fadeIn">
+                <img
+                  className="img-fluid"
+                  src={data.approachImage}
+                  alt={data.name}
+                />
+              </ScrollAnimation>
             </div>
             <div className="col">
-              <h6 className="project-subhead approach-subhead">Approach </h6>
-              <p className="project-info">{data.approach}</p>
-              <p className="project-link-margin">
-                <a
-                  className="project-link"
-                  href={data.articleLink}
-                  target="_blank"
-                >
-                  {data.articleLinkText}
-                </a>
-              </p>
+              <ScrollAnimation animateIn="fadeIn">
+                <h6 className="project-subhead approach-subhead">Approach </h6>
+              </ScrollAnimation>
+              <ScrollAnimation animateIn="fadeIn">
+                <p className="project-info">{data.approach}</p>
+              </ScrollAnimation>
+              <ScrollAnimation animateIn="fadeIn">
+                <p className="project-link-margin">
+                  <a
+                    className="project-link"
+                    href={data.articleLink}
+                    target="_blank"
+                  >
+                    {data.articleLinkText}
+                  </a>
+                </p>
+              </ScrollAnimation>
             </div>
           </div>
         </div>

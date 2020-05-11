@@ -28,10 +28,12 @@ const articles = [
       "Talk ’n’ roll help you find gaming events, players, groups. Search local gaming events all in one place, without needing to keep track of different websites and social platforms. Post listings looking for people interested in playing specific games near you.",
     approachImage: ApproahImage1,
     approach:
-      "I wanted the app to look fun, colourful because that’s how board games are. ",
+      "The idea was to use technology in a way that it brings people closer through social board game gatherings",
     articleLink:
       "https://www.figma.com/proto/TZDAfiowf98P0IWvUyrTqp/BB-Prototyping?node-id=69%3A4&viewport=446%2C373%2C0.18485523760318756&scaling=scale-down",
     articleLinkText: "VIEW INTERACTIVE PROTOTYPE",
+    challenge:
+      "Since everything is becoming digital, there has been a rise in people spending too much time on technology and forgetting the experience of social gatherings. ",
   },
   {
     mainImage: ArticleTwo,

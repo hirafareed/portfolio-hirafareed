@@ -111,6 +111,13 @@ export default withRouter(({ location, data, match }) => {
             </div>
           </div>
 
+          <div className="row challenge">
+            <div className="col-xl-8 col-lg-8 col-md-8">
+              <h6 className="project-subhead ">Challenge</h6>
+              <p className="project-info">{data.challenge}</p>
+            </div>
+          </div>
+
           <div className="row approach">
             <div className="col-xl-9 col-lg-9  col-md-9 approach-image">
               {" "}

@@ -116,15 +116,14 @@ export default ({ match }) => {
               <h1 className="one-signin">Sign in</h1>
               <p className="one-signin-info">
                 The app requires the user to sign up in-order to register for an
-                event. If he’s already <br></br> registered, he can sign in and
-                start booking the events.
+                event. If he’s already registered, he can sign in and start
+                booking the events.
               </p>
             </div>
           </div>
 
-          <div className="row">
-            <img className="img-fluid col col-centered" src={Screen1} />
-          </div>
+          <img className="img-fluid col col-centered" src={Screen1} />
+
           {/* wireframe2 */}
           <div className="row">
             <div className="col">

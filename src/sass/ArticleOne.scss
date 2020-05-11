@@ -71,7 +71,7 @@
   }
   @media (max-width: $md) {
     font-size: 14pt;
-    line-height: 24pt;
+    line-height: 22pt;
   }
 }
 
@@ -88,7 +88,7 @@
   }
   @media (max-width: $md) {
     font-size: 14pt;
-    line-height: 24pt;
+    line-height: 22pt;
     padding-bottom: 5%;
   }
 }
@@ -171,7 +171,8 @@
 }
 
 .one-process-sketch2 {
-  // margin: auto;
+  // background-color: red;
+  margin: 0;
   margin-top: 10%;
   width: 100%;
   max-width: 100%;
@@ -182,24 +183,40 @@
 .one-signin {
   margin-top: 5%;
   font-family: "BerlingskeSerif ExtraBold";
-  font-style: normal;
-  font-weight: normal;
   src: url(../font/BerlingskeSerif-ExtraBold.ttf);
-  font-size: 4em;
+  font-size: 40pt;
   color: rgb(116, 127, 255);
   @media (max-width: $md) {
-    font-size: 2.3em;
+    font-size: 30pt;
+  }
+  @media (max-width: $md) {
+    font-size: 20pt;
   }
 }
 
 .one-signin-info {
   font-family: "Graphik Light";
   src: url(../font/Graphik-Light.ttf);
-  font-size: 1.4em;
+  font-size: 16pt;
+  line-height: 26pt;
   margin-bottom: 7%;
-  @media (max-width: $md) {
-    font-size: 1.2em;
+  @media (max-width: $xl) {
+    font-size: 16pt;
   }
+  @media (max-width: $lg) {
+  }
+  @media (max-width: $md) {
+    font-size: 14pt;
+    line-height: 22pt;
+  }
+}
+
+.one-signin-image {
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: content;
 }
 
 .one-mainfeed {

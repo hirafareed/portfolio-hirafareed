@@ -155,10 +155,9 @@ export default ({ match }) => {
                 it to the calendar
               </p>
             </div>
-            <img
-              className="img-fluid col-lg-8  col-sm-9 col-centered one-signin-image"
-              src={Screen3}
-            />
+            <div className="col-lg-8  col-sm-9 col-centered">
+              <img className="img-fluid " src={Screen3} />
+            </div>
           </div>
         </div>
       </div>

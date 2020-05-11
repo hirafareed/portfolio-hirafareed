@@ -146,7 +146,7 @@ export default ({ match }) => {
           />
 
           {/* wireframe3 */}
-          <div className="row mt-5 flex-row-reverse">
+          <div className="row mt-5 flex-row-reverse one-events-image ">
             <div className="col-lg-4">
               <h1 className="one-events">Events</h1>
               <p className="one-signin-info">

@@ -16,7 +16,7 @@
 .one-project-subhead {
   padding-top: 100px;
   padding-bottom: 20px;
-  font-size: 14pt;
+  font-size: 12pt;
   color: white;
   font-family: "BerlingskeSerif Bold";
   letter-spacing: 0.5px;
@@ -31,7 +31,6 @@
     padding-top: 60px;
   }
   @media (max-width: $md) {
-    font-size: 12pt;
     padding-top: 50px;
   }
 }
@@ -40,7 +39,7 @@
   font-family: "Graphik Medium";
   src: url(../font/Graphik-Medium.ttf);
   color: white;
-  font-size: 40pt;
+  font-size: 30pt;
   margin-bottom: 70px;
 
   @media (max-width: $lg) {
@@ -62,10 +61,10 @@
   font-family: "Barlow", sans-serif;
   font-weight: 400;
   color: white;
-  font-size: 16pt;
-  line-height: 26pt;
+  font-size: 14pt;
+  line-height: 25pt;
   @media (max-width: $xl) {
-    font-size: 16pt;
+    font-size: 14pt;
   }
   @media (max-width: $lg) {
   }
@@ -79,8 +78,8 @@
   font-family: "Barlow", sans-serif;
   font-weight: 400;
   color: white;
-  font-size: 16pt;
-  line-height: 26pt;
+  font-size: 14pt;
+  line-height: 25pt;
   @media (max-width: $xl) {
     font-size: 16pt;
   }
@@ -97,10 +96,10 @@
   font-family: "Barlow", sans-serif;
   font-weight: 600;
   color: white;
-  font-size: 16pt;
-  line-height: 26pt;
+  font-size: 14pt;
+  line-height: 25pt;
   @media (max-width: $xl) {
-    font-size: 16pt;
+    font-size: 14pt;
   }
   @media (max-width: $lg) {
   }
@@ -114,10 +113,10 @@
   font-family: "Barlow", sans-serif;
   font-weight: 600;
   color: white;
-  font-size: 16pt;
-  line-height: 26pt;
+  font-size: 14pt;
+  line-height: 25pt;
   @media (max-width: $xl) {
-    font-size: 16pt;
+    font-size: 14pt;
   }
   @media (max-width: $lg) {
   }
@@ -152,9 +151,12 @@
 .one-color-code {
   font-family: "Graphik Light";
   src: url(../font/Graphik-Light.ttf);
-  font-size: 12pt;
-  line-height: 26pt;
+  font-size: 14pt;
+  line-height: 25pt;
   color: $primary;
+  @media (max-width: $md) {
+    font-size: 10pt;
+  }
   @media (max-width: $sm) {
     font-size: 10pt;
   }
@@ -184,7 +186,7 @@
   margin-top: 5%;
   font-family: "BerlingskeSerif ExtraBold";
   src: url(../font/BerlingskeSerif-ExtraBold.ttf);
-  font-size: 40pt;
+  font-size: 30pt;
   color: rgb(116, 127, 255);
   @media (max-width: $md) {
     font-size: 30pt;
@@ -197,17 +199,18 @@
 .one-signin-info {
   font-family: "Graphik Light";
   src: url(../font/Graphik-Light.ttf);
-  font-size: 16pt;
-  line-height: 26pt;
+  font-size: 14pt;
+  line-height: 25pt;
   margin-bottom: 7%;
+  color: $primary;
   @media (max-width: $xl) {
-    font-size: 16pt;
+    font-size: 14pt;
   }
   @media (max-width: $lg) {
   }
   @media (max-width: $md) {
-    font-size: 14pt;
-    line-height: 22pt;
+    font-size: 12pt;
+    line-height: 18pt;
   }
 }
 
@@ -222,7 +225,7 @@
 .one-mainfeed {
   margin-top: 15%;
   font-family: "BerlingskeSerif ExtraBold";
-  font-size: 40pt;
+  font-size: 30pt;
   src: url(../font/BerlingskeSerif-ExtraBold.ttf);
   color: rgb(105, 201, 214);
   @media (max-width: $md) {
@@ -239,7 +242,7 @@
   font-style: normal;
   font-weight: normal;
   src: url(../font/BerlingskeSerif-ExtraBold.ttf);
-  font-size: 40pt;
+  font-size: 30pt;
   color: rgb(247, 170, 112);
   @media (max-width: $md) {
     font-size: 30pt;
@@ -254,7 +257,7 @@
   width: 100%;
   max-width: 100%;
   height: auto;
-  object-fit: content;
+  object-fit: cover;
 }
 
 .one-screen-image {

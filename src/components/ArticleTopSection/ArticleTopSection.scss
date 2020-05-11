@@ -97,6 +97,8 @@
   font-size: 12pt;
   margin-bottom: 40px;
   @media (max-width: $lg) {
+  }
+  @media (max-width: $md) {
     font-size: 10pt;
   }
   @media (max-width: $sm) {
@@ -182,7 +184,7 @@
   @media (max-width: $lg) {
   }
   @media (max-width: $md) {
-    font-size: 12pt;
+    font-size: 10pt;
   }
 }
 
@@ -194,14 +196,13 @@
   color: $primary;
   margin-bottom: 7%;
   @media (max-width: $xl) {
-    font-size: 12pt;
   }
   @media (max-width: $lg) {
   }
   @media (max-width: $md) {
     margin-bottom: 9%;
-    font-size: 10pt;
-    line-height: 18pt;
+    font-size: 12pt;
+    line-height: 20pt;
   }
 }
 
@@ -222,10 +223,11 @@
 }
 
 .project-link-margin {
-  margin-top: 30px;
+  margin-top: 50px;
+  margin-bottom: 60px;
 
   @media (max-width: $md) {
-    margin-top: 20px;
+    margin-top: 10px;
     // margin-left: auto !important;
   }
 }
@@ -234,6 +236,7 @@
   src: url(../../font/Graphik-Medium.ttf);
   font-size: 9pt;
   color: $primary;
+
   // border-radius: 10px;
 }
 

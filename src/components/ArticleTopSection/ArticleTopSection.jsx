@@ -113,8 +113,12 @@ export default withRouter(({ location, data, match }) => {
 
           <div className="row challenge">
             <div className="col-xl-8 col-lg-8 col-md-8">
-              <h6 className="project-subhead ">Challenge</h6>
-              <p className="project-info">{data.challenge}</p>
+              <ScrollAnimation animateIn="fadeIn">
+                <h6 className="project-subhead ">Challenge</h6>
+              </ScrollAnimation>
+              <ScrollAnimation animateIn="fadeIn">
+                <p className="project-info">{data.challenge}</p>
+              </ScrollAnimation>
             </div>
           </div>
 

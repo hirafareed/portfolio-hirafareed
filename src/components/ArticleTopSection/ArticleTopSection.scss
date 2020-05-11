@@ -54,10 +54,10 @@
 
 .mainimage {
   // background-color: red;s
-  height: 300px;
+  height: 350px;
   width: auto;
   @media (max-width: $xl) {
-    height: 250px;
+    height: 300px;
   }
   @media (max-width: $lg) {
     height: 250px;
@@ -111,15 +111,14 @@
   src: url(../../font/Graphik-Light.ttf);
   color: white;
 
-  font-size: 28pt;
-  line-height: 42pt;
+  font-size: 24pt;
+  line-height: 35pt;
 
   @media (max-width: $xl) {
-    font-size: 24pt;
-    line-height: 30pt;
   }
   @media (max-width: $lg) {
     font-size: 20pt;
+    line-height: 32pt;
   }
   @media (max-width: $md) {
     font-size: 20pt;

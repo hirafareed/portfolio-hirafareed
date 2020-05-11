@@ -155,11 +155,11 @@ export default ({ match }) => {
                 it to the calendar
               </p>
             </div>
-            <img
-              className="img-fluid col-lg-8  col-sm-9 col-centered"
-              src={Screen3}
-            />
           </div>
+          <img
+            className="img-fluid col-lg-8  col-sm-9 col-centered"
+            src={Screen3}
+          />
         </div>
       </div>
 

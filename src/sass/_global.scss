@@ -19,17 +19,29 @@
     float: none;
     margin: auto;
   }
+}
 
-  // @media (max-width: $sm) {
-  //   width: 80%;
-  //   float: none;
-  //   margin: auto;
-  // }
-  // @media (max-width: $xs) {
-  //   width: 80%;
-  //   float: none;
-  //   margin: auto;
-  // }
+.article-container {
+  width: 56%;
+  float: none;
+  margin: auto;
+  // background-color: green;
+  @media (max-width: $xl) {
+    width: 66%;
+    float: none;
+    margin: auto;
+  }
+  @media (max-width: $lg) {
+    width: 80%;
+    float: none;
+    margin: auto;
+  }
+
+  @media (max-width: $md) {
+    width: 85%;
+    float: none;
+    margin: auto;
+  }
 }
 
 .col-centered {

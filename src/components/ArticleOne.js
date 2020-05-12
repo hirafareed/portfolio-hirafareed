@@ -44,23 +44,23 @@ export default ({ match }) => {
       <div className="">
         {/* typography */}
         <div className="one-background-typography">
-          <div className="large-container">
+          <div className="article-container">
             <div className="row">
-              <div className="col-xl-5 offset-xl-1 col-lg-5 offset-lg-1">
+              <div className="col">
                 <h1 className=" one-project-subhead">Typography</h1>
                 <h1 className="   one-font">BARLOW</h1>
               </div>
             </div>
 
             <div className="row typography-one">
-              <div className="col-xl-5 offset-xl-1 col-lg-5 offset-lg-1 col-md-6">
+              <div className="col-xl-6 col-lg-6 col-md-6 ">
                 <p className="one-barlow-regular"> Regular</p>
                 <p className="barlow-regular-text">
                   Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm cNn Oo Pp Qq Rr Ss Tt
                   Uu Vv Ww Xx Yy Zz
                 </p>
               </div>
-              <div className="barlow-semibold col-xl-5  col-lg-5 col-md-6 ">
+              <div className="barlow-semibold col-xl-6 col-lg-6 col-md-6 ">
                 <p className="one-barlow-semibold"> Semibold</p>
                 <p className="barlow-semibold-text">
                   Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu
@@ -70,30 +70,30 @@ export default ({ match }) => {
             </div>
           </div>
         </div>
-        <div className="large-container">
+        <div className="article-container">
           {/* colors */}
 
           <div className="one-color-container">
             <div className="row">
-              <div className="col-xl-5 offset-xl-1 col-lg-5 offset-lg-1">
+              <div className="col">
                 <h1 className="project-subhead">Color</h1>
               </div>
             </div>
 
             <div className="row">
-              <div className="col-lg-2 offset-lg-1 col-xl-2 offset-xl-1 col col-centered">
+              <div className="col-lg-3 col col-centered">
                 <img className="one-color-image img-fluid" src={Color1} />
                 <p className="one-color-code ">#69C9D6</p>
               </div>
-              <div className="col-lg-2 c col col-centered">
+              <div className="col-lg-3 col col-centered">
                 <img className="one-color-image img-fluid" src={Color2} />
                 <p className="one-color-code">#FE9491</p>
               </div>
-              <div className="col-lg-2 col-xl-2 col col-centered ">
+              <div className="col-lg-3 col col-centered">
                 <img className="one-color-image img-fluid" src={Color3} />
                 <p className="one-color-code">#747FFF</p>
               </div>
-              <div className="col-lg-2 col-xl-2 col col-centered">
+              <div className="col-lg-3 col col-centered">
                 <img className="one-color-image img-fluid" src={Color4} />
                 <p className="one-color-code">#F7AA70</p>
               </div>
@@ -102,13 +102,13 @@ export default ({ match }) => {
 
           {/* process */}
           <div className="row">
-            <div className="col-xl-5 offset-xl-1 col-lg-5 offset-lg-1 one-process-container">
+            <div className="col-xl-6  col-lg-6 one-process-container">
               <h1 className="project-subhead">Process</h1>
             </div>
           </div>
 
           <div className="row image-fitted-formobile ">
-            <div className="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1  col-md-12 mt-5 col-centered ">
+            <div className="col-xl-12  col-lg-12 o col-md-12 mt-5 col-centered ">
               <img
                 className="img-fluid image-fitted-formobile "
                 src={Sketch1}
@@ -123,17 +123,21 @@ export default ({ match }) => {
 
         {/* wireframes */}
 
-        <div className="large-container">
+        <div className="article-container">
           {/* subhead */}
-          <h1 className="project-subhead one-wireframes-container">
-            Final Outcome
-          </h1>
-          <p className="main-body-copy">
-            A walkthrough of Talk n roll and it’s features
-          </p>
+          <div className="row">
+            <div className="col">
+              <h1 className="project-subhead one-wireframes-container">
+                Final Outcome
+              </h1>
+              <p className="main-body-copy">
+                A walkthrough of Talk n roll and it’s features
+              </p>
+            </div>
+          </div>
           {/* wireframe1 */}
-          <div className="row mt-5  flex-row-reverse image-fitted-formobile  ">
-            <div className="col-lg-4">
+          <div className="row mt-5  flex-row-reverse image-fitted-formobile">
+            <div className="col-xl-5 col-lg-5 col-md-5">
               <h1 className="project-subhead">Sign in</h1>
               <p className="one-signin-info">
                 User has the option to choose between different games, location
@@ -142,14 +146,14 @@ export default ({ match }) => {
                 time.
               </p>
             </div>
-            <div className="col-lg-6  col-sm-9 col-centered">
-              <img className="img-fluid" src={Screen2} />
+            <div className="col-xl-7 col-lg-7  col-md-7">
+              <img className="img-fluid approach-image" src={Screen2} />
             </div>
           </div>
 
           {/* wireframe2 */}
           <div className="row mt-5  flex-row-reverse image-fitted-formobile  ">
-            <div className="col-lg-4">
+            <div className="col-xl-5 col-lg-5 col-md-5">
               <h1 className="project-subhead">Main feed</h1>
               <p className="one-signin-info">
                 User has the option to choose between different games, location
@@ -158,14 +162,14 @@ export default ({ match }) => {
                 time.
               </p>
             </div>
-            <div className="col-lg-6  col-sm-9 col-centered">
-              <img className="img-fluid" src={Screen2} />
+            <div className="col-xl-7 col-lg-7  col-md-7">
+              <img className="img-fluid approach-image" src={Screen2} />
             </div>
           </div>
 
           {/* wireframe3 */}
           <div className="row mt-5 flex-row-reverse image-fitted-formobile  ">
-            <div className="col-lg-4">
+            <div className="col-xl-5 col-lg-5 col-md-5">
               <h1 className="project-subhead">Events</h1>
               <p className="one-signin-info">
                 After the user selects the event, there’s more information that
@@ -173,11 +177,8 @@ export default ({ match }) => {
                 it to the calendar
               </p>
             </div>
-            <div className="col-lg-6  col-sm-9 col-centered">
-              <img
-                className="img-fluid image-fitted-formobile  "
-                src={Screen3}
-              />
+            <div className="col-xl-7 col-lg-7  col-md-7">
+              <img className="img-fluid approach-image " src={Screen3} />
             </div>
           </div>
           {/* demo row */}
@@ -223,7 +224,7 @@ export default ({ match }) => {
       </div>
 
       {/* bottom container */}
-      <div className="large-container">
+      <div className="article-container">
         {/* <hr className="upvote-line"></hr> */}
 
         {/* other articles */}

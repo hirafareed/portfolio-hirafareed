@@ -14,7 +14,7 @@ const articles = [
   {
     mainImage: ArticleOne,
     id: "01",
-    name: "Talk’n’roll",
+    name: "BoardGamers",
     subHeading: "A social app to find gaming events near you",
     type: "UX/UI Case Study",
     view: "VIEW WORK",

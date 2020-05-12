@@ -178,9 +178,22 @@ export default ({ match }) => {
               />
             </div>
           </div>
+          {/* demo row */}
+          <div className="demo-row">
+            <div className="col">
+              <h1 className=" project-subhead">Demo</h1>
+              <p className="main-body-copy">
+                In order to further visualize talk n roll, I built a
+                high-fidelity interactive prototype that displays the key
+                features of the final application using Figma.
+              </p>
+            </div>
+          </div>
         </div>
         <div className="takeaway-color mt-5">
+          {/* key-takeaway-color */}
           <div className="large-container">
+            {/* key-takeaway row */}
             <div className=" row  mt-5">
               <div className="col-xl-8 col-lg-8 col-md-8 col-centered">
                 <div className=" project-subhead"> Key takeaways</div>

@@ -109,7 +109,7 @@ export default ({ match }) => {
 
           <div className="row image-fitted-formobile ">
             <img
-              className="img-fluid col-xl-10 offset-xl-1 col-lg-10 offset-lg-1  col-md-12 mt-5 one-process-sketch1 image-fitted-formobile "
+              className="img-fluid col-xl-10 offset-xl-1 col-lg-10 offset-lg-1  col-md-12 mt-5 image-fitted-formobile "
               src={Sketch1}
             />
           </div>
@@ -122,8 +122,9 @@ export default ({ match }) => {
         {/* wireframes */}
         <div className="large-container">
           <h1 className="project-subhead one-wireframes-container">
-            Wireframes
+            Final Outcome
           </h1>
+          <p>A walkthrough of Talk n roll and it’s features</p>
           {/* wireframe1 */}
           <div className="row">
             <div className="col-xl-7 col-lg-7 col-md-7 ">

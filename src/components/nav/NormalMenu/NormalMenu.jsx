@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, withRouter } from "react-router-dom";
 import Lottie from "react-lottie";
 import animationlogo from "../../../lottie/logoblack.json";
+import logowhite from "../../../lottie/logowhite.json";
 import { Navbar, Nav } from "react-bootstrap";
 // import "./NormalMenu.scss";
 
@@ -16,13 +17,16 @@ export default withRouter(({ location }) => {
     "3": "#3EDBB4",
   };
   const [animate, setAnimate] = useState(true);
+  const [whiteLogo, setWhiteLogo] = useState(false);
 
   useEffect(() => {
     const { pathname } = location;
     const article = pathname.split("/")[pathname.split("/").length - 1];
     if (colors[article]) {
+      setWhiteLogo(true);
       setStyle({ backgroundColor: colors[article], color: "#fff" });
     } else {
+      setWhiteLogo(false);
       setStyle({ backgroundColor: "#fff", color: "#404040" });
     }
   }, [location.pathname]);
@@ -47,7 +51,7 @@ export default withRouter(({ location }) => {
               options={{
                 loop: true,
                 autoplay: true,
-                animationData: animationlogo,
+                animationData: whiteLogo ? logowhite : animationlogo,
               }}
               isStopped={animate}
             ></Lottie>

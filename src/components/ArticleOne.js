@@ -81,19 +81,19 @@ export default ({ match }) => {
             </div>
 
             <div className="row">
-              <div className="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 col-centered">
+              <div className="col-3 col-centered">
                 <img className="one-color-image img-fluid" src={Color1} />
                 <p className="wireframe-text ">#69C9D6</p>
               </div>
-              <div className="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 col-centered">
+              <div className="col-3 col-centered">
                 <img className="one-color-image img-fluid" src={Color2} />
                 <p className="wireframe-text">#FE9491</p>
               </div>
-              <div className="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 col-centered">
+              <div className="col-3 col-centered">
                 <img className="one-color-image img-fluid" src={Color3} />
                 <p className="wireframe-text">#747FFF</p>
               </div>
-              <div className="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 col-centered">
+              <div className="col-3 col-centered">
                 <img className="one-color-image img-fluid" src={Color4} />
                 <p className="wireframe-text">#F7AA70</p>
               </div>
@@ -208,7 +208,7 @@ export default ({ match }) => {
           <div className="large-container">
             {/* key-takeaway row */}
             <div className=" row mt-5">
-              <div className="col-xl-8 col-lg-8 col-md-8 col-centered text-xl-center text-lg-center  text-md-center text-sm-left">
+              <div className="col-xl-8 col-lg-8 col-md-8 col-centered text-xl-center text-lg-center  text-md-center text-left text-xs-left">
                 <div className=" project-subhead"> Key takeaways</div>
                 <p className="wireframe-text">
                   Working on this app helped me to pay attention to the more

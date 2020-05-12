@@ -83,19 +83,19 @@ export default ({ match }) => {
             <div className="row">
               <div className="col-lg-3 col col-centered">
                 <img className="one-color-image img-fluid" src={Color1} />
-                <p className="one-color-code ">#69C9D6</p>
+                <p className="wireframe-text ">#69C9D6</p>
               </div>
               <div className="col-lg-3 col col-centered">
                 <img className="one-color-image img-fluid" src={Color2} />
-                <p className="one-color-code">#FE9491</p>
+                <p className="wireframe-text">#FE9491</p>
               </div>
               <div className="col-lg-3 col col-centered">
                 <img className="one-color-image img-fluid" src={Color3} />
-                <p className="one-color-code">#747FFF</p>
+                <p className="wireframe-text">#747FFF</p>
               </div>
               <div className="col-lg-3 col col-centered">
                 <img className="one-color-image img-fluid" src={Color4} />
-                <p className="one-color-code">#F7AA70</p>
+                <p className="wireframe-text">#F7AA70</p>
               </div>
             </div>
           </div>
@@ -130,7 +130,7 @@ export default ({ match }) => {
               <h1 className="project-subhead one-wireframes-container">
                 Final Outcome
               </h1>
-              <p className="main-body-copy">
+              <p className="wireframe-text">
                 A walkthrough of Talk n roll and it’s features
               </p>
             </div>
@@ -139,7 +139,7 @@ export default ({ match }) => {
           <div className="row mt-5  flex-row-reverse image-fitted-formobile">
             <div className="col-xl-5 col-lg-5 col-md-5">
               <h1 className="project-subhead">Sign in</h1>
-              <p className="one-signin-info">
+              <p className="wireframe-text">
                 User has the option to choose between different games, location
                 or according to popularity. Once he chooses the event, he gets
                 more options where he can select between different days and
@@ -155,7 +155,7 @@ export default ({ match }) => {
           <div className="row mt-5  flex-row-reverse image-fitted-formobile  ">
             <div className="col-xl-5 col-lg-5 col-md-5">
               <h1 className="project-subhead">Main feed</h1>
-              <p className="one-signin-info">
+              <p className="wireframe-text">
                 User has the option to choose between different games, location
                 or according to popularity. Once he chooses the event, he gets
                 more options where he can select between different days and
@@ -185,7 +185,7 @@ export default ({ match }) => {
           <div className="demo-row">
             <div className="col">
               <h1 className=" project-subhead mt-5">Demo</h1>
-              <p className="main-body-copy">
+              <p className="wireframe-text">
                 In order to further visualize talk n roll, I built a
                 high-fidelity interactive prototype that displays the key
                 features of the final application using Figma.
@@ -207,10 +207,10 @@ export default ({ match }) => {
           {/* key-takeaway-color */}
           <div className="large-container">
             {/* key-takeaway row */}
-            <div className=" row  mt-5">
-              <div className="col-xl-8 col-lg-8 col-md-8 col-centered">
+            <div className=" row mt-5">
+              <div className="col-xl-8 col-lg-8 col-md-8 col-centered text-xl-center text-lg-center  text-md-center text-sm-left">
                 <div className=" project-subhead"> Key takeaways</div>
-                <p className="  one-signin-info">
+                <p className="wireframe-text">
                   Working on this app helped me to pay attention to the more
                   intricate details on mobile. I had to take into consideration
                   designing for the thumb zone and figuring out how certain form

@@ -95,22 +95,22 @@ export default withRouter(({ location, data, match }) => {
             <div className=" col-xl-6 col-lg-6   col-md-5 col-sm-12 text-left">
               <ScrollAnimation animateIn="fadeIn">
                 <h6 className="project-subhead">Tools</h6>
-                <p className="project-info new-line"> {data.tools}</p>
+                <p className="wireframe-text new-line"> {data.tools}</p>
               </ScrollAnimation>
               <ScrollAnimation animateIn="fadeIn">
                 <h6 className="project-subhead">Timeline</h6>
-                <p className="project-info">{data.timeline}</p>
+                <p className="wireframe-text">{data.timeline}</p>
               </ScrollAnimation>
               <ScrollAnimation animateIn="fadeIn">
                 <h6 className="project-subhead ">My role: </h6>
-                <p className="project-info new-line">{data.myRole}</p>
+                <p className="wireframe-text new-line">{data.myRole}</p>
               </ScrollAnimation>
             </div>
 
             <div className="col-xl-6  col-lg-6  col-md-6 col-sm-12 text-left">
               <ScrollAnimation animateIn="fadeIn">
                 <h6 className="project-subhead ">Overview</h6>
-                <p className="project-info new-line"> {data.overview}</p>
+                <p className="wireframe-text new-line"> {data.overview}</p>
               </ScrollAnimation>
             </div>
           </div>
@@ -121,7 +121,7 @@ export default withRouter(({ location, data, match }) => {
                 <h6 className="project-subhead ">Challenge</h6>
               </ScrollAnimation>
               <ScrollAnimation animateIn="fadeIn">
-                <p className="project-info">{data.challenge}</p>
+                <p className="wireframe-text">{data.challenge}</p>
               </ScrollAnimation>
             </div>
           </div>
@@ -142,7 +142,7 @@ export default withRouter(({ location, data, match }) => {
                 <h6 className="project-subhead approach-subhead">Approach </h6>
               </ScrollAnimation>
               <ScrollAnimation animateIn="fadeIn">
-                <p className="project-info">{data.approach}</p>
+                <p className="wireframe-text">{data.approach}</p>
               </ScrollAnimation>
             </div>
           </div>

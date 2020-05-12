@@ -276,3 +276,27 @@ br {
     display: none;
   }
 }
+
+.main-body-copy {
+  font-family: "Graphik Light";
+  src: url(../font/Graphik-Light.ttf);
+  font-size: 14pt;
+  line-height: 25pt;
+  margin-bottom: 7%;
+  color: $primary;
+  @media (max-width: $xl) {
+    font-size: 14pt;
+  }
+  @media (max-width: $lg) {
+  }
+  @media (max-width: $md) {
+    font-size: 12pt;
+    line-height: 20pt;
+  }
+}
+
+.takeaway-color {
+  padding-top: 5%;
+  background-color: #f6f6f6;
+  padding-bottom: 5%;
+}

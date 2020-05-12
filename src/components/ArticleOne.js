@@ -120,32 +120,19 @@ export default ({ match }) => {
         <img className="img-fluid col one-process-sketch2" src={Sketch2} />
 
         {/* wireframes */}
+
         <div className="large-container">
+          {/* subhead */}
           <h1 className="project-subhead one-wireframes-container">
             Final Outcome
           </h1>
-          <p>A walkthrough of Talk n roll and it’s features</p>
+          <p className="main-body-copy">
+            A walkthrough of Talk n roll and it’s features
+          </p>
           {/* wireframe1 */}
-          <div className="row">
-            <div className="col-xl-7 col-lg-7 col-md-7 ">
-              <h1 className="one-signin">Sign in</h1>
-              <p className="one-signin-info">
-                The app requires the user to sign up in-order to register for an
-                event. If he’s already registered, he can sign in and start
-                booking the events.
-              </p>
-            </div>
-          </div>
-
-          <img
-            className="img-fluid col col-centered one-signin-image"
-            src={Screen1}
-          />
-
-          {/* wireframe2 */}
-          <div className="row mt-5 image-fitted-formobile  ">
+          <div className="row mt-5  flex-row-reverse image-fitted-formobile  ">
             <div className="col-lg-4">
-              <h1 className="one-mainfeed">Main feed</h1>
+              <h1 className="project-subhead">Sign in</h1>
               <p className="one-signin-info">
                 User has the option to choose between different games, location
                 or according to popularity. Once he chooses the event, he gets
@@ -153,7 +140,23 @@ export default ({ match }) => {
                 time.
               </p>
             </div>
-            <div className="col-lg-8  col-sm-9 col-centered">
+            <div className="col-lg-6  col-sm-9 col-centered">
+              <img className="img-fluid" src={Screen2} />
+            </div>
+          </div>
+
+          {/* wireframe2 */}
+          <div className="row mt-5  flex-row-reverse image-fitted-formobile  ">
+            <div className="col-lg-4">
+              <h1 className="project-subhead">Main feed</h1>
+              <p className="one-signin-info">
+                User has the option to choose between different games, location
+                or according to popularity. Once he chooses the event, he gets
+                more options where he can select between different days and
+                time.
+              </p>
+            </div>
+            <div className="col-lg-6  col-sm-9 col-centered">
               <img className="img-fluid" src={Screen2} />
             </div>
           </div>
@@ -161,31 +164,35 @@ export default ({ match }) => {
           {/* wireframe3 */}
           <div className="row mt-5 flex-row-reverse image-fitted-formobile  ">
             <div className="col-lg-4">
-              <h1 className="one-events">Events</h1>
+              <h1 className="project-subhead">Events</h1>
               <p className="one-signin-info">
                 After the user selects the event, there’s more information that
                 he can read about that event. Clicking on “attend” lets him add
                 it to the calendar
               </p>
             </div>
-            <div className="col-lg-8  col-sm-9 col-centered">
+            <div className="col-lg-6  col-sm-9 col-centered">
               <img
                 className="img-fluid image-fitted-formobile  "
                 src={Screen3}
               />
             </div>
           </div>
-
-          <div className=" row  mt-5"></div>
-          <div className="col-xl-8 col-lg-8 col-md-8">
-            <div className=" project-subhead"> Key takeaways</div>
-            <p className="  one-signin-info">
-              Working on this app helped me to pay attention to the more
-              intricate details on mobile. I had to take into consideration
-              designing for the thumb zone and figuring out how certain form
-              input fields can be altered to better suit smaller touch screens
-              rather than a desktop.
-            </p>
+        </div>
+        <div className="takeaway-color mt-5">
+          <div className="large-container">
+            <div className=" row  mt-5">
+              <div className="col-xl-8 col-lg-8 col-md-8 col-centered">
+                <div className=" project-subhead"> Key takeaways</div>
+                <p className="  one-signin-info">
+                  Working on this app helped me to pay attention to the more
+                  intricate details on mobile. I had to take into consideration
+                  designing for the thumb zone and figuring out how certain form
+                  input fields can be altered to better suit smaller touch
+                  screens rather than a desktop.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

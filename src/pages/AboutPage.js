@@ -53,10 +53,10 @@ const AboutPage = () => (
                 I recently graduated from the Interactive Multimedia Management
                 Program at Sheridan College. Previously I also obtained a
                 Bachelor of Communication Design from the Indus Valley School of
-                Art and Architecture. <br></br>I’m passionate about creating
-                experiences and products that are meaningful, user-driven and
-                delightful. My approach to learning is to figure out the how
-                before making the what.
+                Art and Architecture. <br></br>I enjoy working on projects that
+                require both strategy as well as visual design. I love working
+                on problems from the ideation stage and seeing them through
+                completion through pixel-perfect designs.
               </p>
             </Col>
           </Row>

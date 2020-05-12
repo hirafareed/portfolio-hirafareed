@@ -36,12 +36,9 @@ hr.line-about {
       font-size: 25pt;
     }
     @media (max-width: $sm) {
-      font-size: 2.4em;
+      font-size: 15pt;
     }
 
-    @media (max-width: $xs) {
-      font-size: 2.4em;
-    }
     // background-color: red;
   }
   p {
@@ -51,24 +48,24 @@ hr.line-about {
     // margin-left: 24%;
     margin-top: 50px;
     text-align: left;
-    font-size: 14pt;
-    line-height: 25pt;
+    font-size: 12pt;
+    line-height: 20pt;
     padding-bottom: 130px;
     @media (max-width: $lg) {
-      font-size: 14pt;
-      line-height: 25pt;
+      font-size: 12pt;
+      line-height: 20pt;
     }
     @media (max-width: $md) {
       font-size: 12pt;
-      line-height: 24pt;
+      line-height: 20pt;
     }
     @media (max-width: $sm) {
-      font-size: 1.5em;
+      // font-size: 1.5em;
       // margin-left: 0;
     }
 
     @media (max-width: $xs) {
-      font-size: 1.5em;
+      // font-size: 1.5em;
       // margin-left: 0;
     }
     // background-color: red;
@@ -252,7 +249,7 @@ hr.line-education {
 }
 
 .skills-programming {
-  font-size: 16pt;
+  font-size: 14pt;
 
   color: #c7c7c7;
 
@@ -262,7 +259,7 @@ hr.line-education {
   letter-spacing: 0.5px;
 }
 .skills-tools {
-  font-size: 16pt;
+  font-size: 14pt;
 
   color: #c7c7c7;
 
@@ -277,7 +274,7 @@ hr.line-education {
   src: url(../font/Graphik-Light.ttf);
   color: #404040;
   text-align: left;
-  font-size: 22pt;
-  line-height: 40pt;
+  font-size: 14pt;
+  line-height: 25pt;
   padding-bottom: 100px;
 }

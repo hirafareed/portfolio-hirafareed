@@ -101,14 +101,18 @@ export default ({ match }) => {
           </div>
 
           {/* process */}
-          <div className="one-process-container">
-            <h1 className="project-subhead">Process</h1>
+          <div className="row">
+            <div className="col-xl-5 offset-xl-1 col-lg-5 offset-lg-1 one-process-container">
+              <h1 className="project-subhead">Process</h1>
+            </div>
           </div>
 
-          <img
-            className="img-fluid col mt-5 one-process-sketch1"
-            src={Sketch1}
-          />
+          <div className="row">
+            <img
+              className="img-fluid col-xl-10 offset-xl-1 col-lg-10 offset-lg-1  col-md-12 mt-5 one-process-sketch1"
+              src={Sketch1}
+            />
+          </div>
         </div>
         {/* end of container */}
         {/* more process */}
@@ -138,7 +142,7 @@ export default ({ match }) => {
           />
 
           {/* wireframe2 */}
-          <div className="row mt-5 one-events-image ">
+          <div className="row mt-5 image-fitted-formobile  ">
             <div className="col-lg-4">
               <h1 className="one-mainfeed">Main feed</h1>
               <p className="one-signin-info">
@@ -154,7 +158,7 @@ export default ({ match }) => {
           </div>
 
           {/* wireframe3 */}
-          <div className="row mt-5 flex-row-reverse one-events-image ">
+          <div className="row mt-5 flex-row-reverse image-fitted-formobile  ">
             <div className="col-lg-4">
               <h1 className="one-events">Events</h1>
               <p className="one-signin-info">
@@ -164,7 +168,10 @@ export default ({ match }) => {
               </p>
             </div>
             <div className="col-lg-8  col-sm-9 col-centered">
-              <img className="img-fluid one-events-image " src={Screen3} />
+              <img
+                className="img-fluid image-fitted-formobile  "
+                src={Screen3}
+              />
             </div>
           </div>
 

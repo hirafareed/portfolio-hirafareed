@@ -140,10 +140,9 @@ export default ({ match }) => {
             <div className="col-xl-5 col-lg-5 col-md-5">
               <h1 className="project-subhead">Sign in</h1>
               <p className="wireframe-text">
-                User has the option to choose between different games, location
-                or according to popularity. Once he chooses the event, he gets
-                more options where he can select between different days and
-                time.
+                The app requires the user to sign up in-order to register for an
+                event. If he’s already registered, he can sign in and start
+                booking the events.
               </p>
             </div>
             <div className="col-xl-7 col-lg-7  col-md-7">

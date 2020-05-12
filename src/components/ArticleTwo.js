@@ -4,6 +4,10 @@ import Data from "./../pages/article-content";
 import { Link } from "react-router-dom";
 import Next from "../images/next.svg";
 
+// import { SccrollView, Dimensions } from "react-native";
+// import Video from "react-native-video";
+import AnimationVideo from "../images/project-two/countdown.mp4";
+
 export default ({ match }) => {
   const name = match.params.name;
 
@@ -28,9 +32,14 @@ export default ({ match }) => {
   return (
     <>
       <TopSection data={item2}></TopSection>
-      <div className="mb-5 mt-5">
-        <h1>Article two bottom part</h1>
-        <h2>{item2.name}</h2>
+      <div className="article-container">
+        <div className="mb-5 mt-5">
+          <h1>Article two bottom part</h1>
+          <h2>{item2.name}</h2>
+        </div>
+        <video loop autoPlay className="wander-video">
+          <source src={AnimationVideo} type="video/mp4" />
+        </video>
       </div>
       <hr></hr>
 

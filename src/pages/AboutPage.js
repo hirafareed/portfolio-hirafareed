@@ -402,7 +402,7 @@ const AboutPage = () => (
         </Row>
       </div>
     </div>
-    <Row className="skills-bg">
+    <div className="skills-bg">
       <div className="large-container">
         <Row className="skills-inside">
           {/* column for design and programming*/}
@@ -446,7 +446,7 @@ const AboutPage = () => (
           </Col>
         </Row>
       </div>
-    </Row>
+    </div>
   </>
 );
 

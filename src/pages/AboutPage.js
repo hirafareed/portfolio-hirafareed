@@ -429,7 +429,11 @@ const AboutPage = () => (
           </Col>
           {/* column for tools*/}
 
-          <Col xl={{ span: 3, offset: 2 }}>
+          <Col
+            xl={{ span: 3, offset: 2 }}
+            lg={{ span: 3, offset: 2 }}
+            md={{ span: 12 }}
+          >
             <Row>
               <Col>
                 <h6 className="skills-tools">Tools</h6>

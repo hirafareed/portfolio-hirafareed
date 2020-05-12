@@ -101,7 +101,7 @@ const AboutPage = () => (
                     sm={{ span: 6, order: 2 }}
                     xs={{ span: 6, order: 2 }}
                   >
-                    <p className="year d-xl-flex justify-content-xl-start d-sm-flex justify-content-sm-center ">
+                    <p className="year d-xl-flex justify-content-xl-start d-lg-flex justify-content-lg-start  justify-content-md-start d-lg-flex justify-content-md-start  d-sm-flex justify-content-sm-center  d-flex justify-content-center ">
                       {" "}
                       Jan 2018 - Present{" "}
                     </p>
@@ -191,7 +191,7 @@ const AboutPage = () => (
                     sm={{ span: 6, order: 2 }}
                     xs={{ span: 6, order: 2 }}
                   >
-                    <p className="year d-xl-flex justify-content-xl-start d-sm-flex justify-content-sm-center ">
+                    <p className="year d-xl-flex justify-content-xl-start d-lg-flex justify-content-lg-start  justify-content-md-start d-lg-flex justify-content-md-start  d-sm-flex justify-content-sm-center  d-flex justify-content-center ">
                       {" "}
                       Sept 2019 - Present{" "}
                     </p>
@@ -256,7 +256,7 @@ const AboutPage = () => (
                     sm={{ span: 6, order: 2 }}
                     xs={{ span: 6, order: 2 }}
                   >
-                    <p className="year d-xl-flex justify-content-xl-start d-sm-flex justify-content-sm-center ">
+                    <p className="year d-xl-flex justify-content-xl-start d-lg-flex justify-content-lg-start  justify-content-md-start d-lg-flex justify-content-md-start  d-sm-flex justify-content-sm-center  d-flex justify-content-center ">
                       Sept 2016 - Nov 2017{" "}
                     </p>
                   </Col>
@@ -318,9 +318,9 @@ const AboutPage = () => (
                     lg={{ span: 3, order: 3 }}
                     md={{ span: 3, order: 3 }}
                     sm={{ span: 6, order: 2 }}
-                    xs={{ span: 6, order: 3 }}
+                    xs={{ span: 6, order: 2 }}
                   >
-                    <p className="year d-xl-flex justify-content-xl-start d-sm-flex justify-content-sm-center ">
+                    <p className="year d-xl-flex justify-content-xl-start d-lg-flex justify-content-lg-start  justify-content-md-start d-lg-flex justify-content-md-start  d-sm-flex justify-content-sm-center  d-flex justify-content-center ">
                       {" "}
                       Feb 2015 - Aug 2016{" "}
                     </p>
@@ -380,7 +380,7 @@ const AboutPage = () => (
                 </p>
               </Col>
               <Col xl={3} lg={3} md={3} sm={3} xs={3}>
-                <p className="year">2019 - 2020 </p>
+                <p className="education-year">2019 - 2020 </p>
               </Col>
             </Row>
 
@@ -391,7 +391,7 @@ const AboutPage = () => (
                   <p className="degree">Bachelors in Communication Design</p>
                 </Col>
                 <Col xl={3} lg={3} md={3} sm={3} xs={3}>
-                  <p className="year">2011 - 2014 </p>
+                  <p className="education-year">2011 - 2014 </p>
                 </Col>
               </Row>
               <p className="school">

@@ -81,19 +81,19 @@ export default ({ match }) => {
             </div>
 
             <div className="row">
-              <div className="col-lg-3 col col-centered">
+              <div className="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 col-centered">
                 <img className="one-color-image img-fluid" src={Color1} />
                 <p className="wireframe-text ">#69C9D6</p>
               </div>
-              <div className="col-lg-3 col col-centered">
+              <div className="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 col-centered">
                 <img className="one-color-image img-fluid" src={Color2} />
                 <p className="wireframe-text">#FE9491</p>
               </div>
-              <div className="col-lg-3 col col-centered">
+              <div className="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 col-centered">
                 <img className="one-color-image img-fluid" src={Color3} />
                 <p className="wireframe-text">#747FFF</p>
               </div>
-              <div className="col-lg-3 col col-centered">
+              <div className="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 col-centered">
                 <img className="one-color-image img-fluid" src={Color4} />
                 <p className="wireframe-text">#F7AA70</p>
               </div>

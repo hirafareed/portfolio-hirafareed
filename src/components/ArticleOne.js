@@ -83,7 +83,7 @@ export default ({ match }) => {
             <div className="row">
               <div className="col-3 col-centered">
                 <img className="one-color-image img-fluid" src={Color1} />
-                <p className="wireframe-text ">#69C9D6</p>
+                <p className="wireframe-text">#69C9D6</p>
               </div>
               <div className="col-3 col-centered">
                 <img className="one-color-image img-fluid" src={Color2} />
@@ -182,26 +182,23 @@ export default ({ match }) => {
             </div>
           </div>
           {/* demo row */}
-          <div className="demo-row">
-            <div className="col">
-              <h1 className=" project-subhead mt-5">Demo</h1>
-              <p className="wireframe-text">
-                In order to further visualize talk n roll, I built a
-                high-fidelity interactive prototype that displays the key
-                features of the final application using Figma.
-              </p>
 
-              <p className="project-link-margin">
-                <a
-                  className="project-link"
-                  href="https://www.figma.com/proto/TZDAfiowf98P0IWvUyrTqp/BB-Prototyping?node-id=69%3A4&viewport=446%2C373%2C0.18485523760318756&scaling=scale-down"
-                  target="_blank"
-                >
-                  VIEW PROTOTYPE
-                </a>
-              </p>
-            </div>
-          </div>
+          <h1 className=" project-subhead mt-5">Demo</h1>
+          <p className="wireframe-text">
+            In order to further visualize talk n roll, I built a high-fidelity
+            interactive prototype that displays the key features of the final
+            application using Figma.
+          </p>
+
+          <p className="project-link-margin">
+            <a
+              className="project-link"
+              href="https://www.figma.com/proto/TZDAfiowf98P0IWvUyrTqp/BB-Prototyping?node-id=69%3A4&viewport=446%2C373%2C0.18485523760318756&scaling=scale-down"
+              target="_blank"
+            >
+              VIEW PROTOTYPE
+            </a>
+          </p>
         </div>
         <div className="takeaway-color mt-5">
           {/* key-takeaway-color */}

@@ -92,7 +92,7 @@ export default withRouter(({ location, data, match }) => {
           </ScrollAnimation>
 
           <div className="row project-about mt-5">
-            <div className=" col-xl-5 offset-xl-1 col-lg-5 offset-lg-1   col-md-5 col-sm-12 text-left">
+            <div className=" col-xl-5 offset-xl-1 col-lg-5 offset-lg-1  col-md-5 col-sm-12 text-left">
               <ScrollAnimation animateIn="fadeIn">
                 <h6 className="project-subhead">Tools</h6>
                 <p className="project-info new-line"> {data.tools}</p>
@@ -143,17 +143,6 @@ export default withRouter(({ location, data, match }) => {
               </ScrollAnimation>
               <ScrollAnimation animateIn="fadeIn">
                 <p className="project-info">{data.approach}</p>
-              </ScrollAnimation>
-              <ScrollAnimation animateIn="fadeIn">
-                <p className="project-link-margin">
-                  <a
-                    className="project-link"
-                    href={data.articleLink}
-                    target="_blank"
-                  >
-                    {data.articleLinkText}
-                  </a>
-                </p>
               </ScrollAnimation>
             </div>
           </div>

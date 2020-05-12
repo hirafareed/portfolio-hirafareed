@@ -282,7 +282,7 @@ br {
   src: url(../font/Graphik-Light.ttf);
   font-size: 14pt;
   line-height: 25pt;
-  margin-bottom: 7%;
+  // margin-bottom: 7%;
   color: $primary;
   @media (max-width: $xl) {
     font-size: 14pt;
@@ -299,4 +299,21 @@ br {
   padding-top: 5%;
   background-color: #f6f6f6;
   padding-bottom: 5%;
+}
+
+.project-link {
+  font-family: "Graphik Medium";
+  src: url(../font/Graphik-Medium.ttf);
+  font-size: 9pt;
+  color: $primary;
+
+  // border-radius: 10px;
+}
+
+.project-link:before {
+  width: 100px;
+  content: " ";
+  display: block;
+  border: 0.6px solid $primary;
+  // margin: 5px 0;
 }

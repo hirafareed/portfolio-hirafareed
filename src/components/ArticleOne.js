@@ -108,10 +108,12 @@ export default ({ match }) => {
           </div>
 
           <div className="row image-fitted-formobile ">
-            <img
-              className="img-fluid col-xl-10 offset-xl-1 col-lg-10 offset-lg-1  col-md-12 mt-5 image-fitted-formobile "
-              src={Sketch1}
-            />
+            <div className="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1  col-md-12 mt-5 col-centered ">
+              <img
+                className="img-fluid image-fitted-formobile "
+                src={Sketch1}
+              />
+            </div>
           </div>
         </div>
         {/* end of container */}
@@ -181,11 +183,21 @@ export default ({ match }) => {
           {/* demo row */}
           <div className="demo-row">
             <div className="col">
-              <h1 className=" project-subhead">Demo</h1>
+              <h1 className=" project-subhead mt-5">Demo</h1>
               <p className="main-body-copy">
                 In order to further visualize talk n roll, I built a
                 high-fidelity interactive prototype that displays the key
                 features of the final application using Figma.
+              </p>
+
+              <p className="project-link-margin">
+                <a
+                  className="project-link"
+                  href="https://www.figma.com/proto/TZDAfiowf98P0IWvUyrTqp/BB-Prototyping?node-id=69%3A4&viewport=446%2C373%2C0.18485523760318756&scaling=scale-down"
+                  target="_blank"
+                >
+                  VIEW PROTOTYPE
+                </a>
               </p>
             </div>
           </div>

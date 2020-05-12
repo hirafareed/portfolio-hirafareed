@@ -107,9 +107,9 @@ export default ({ match }) => {
             </div>
           </div>
 
-          <div className="row">
+          <div className="row image-fitted-formobile ">
             <img
-              className="img-fluid col-xl-10 offset-xl-1 col-lg-10 offset-lg-1  col-md-12 mt-5 one-process-sketch1"
+              className="img-fluid col-xl-10 offset-xl-1 col-lg-10 offset-lg-1  col-md-12 mt-5 one-process-sketch1 image-fitted-formobile "
               src={Sketch1}
             />
           </div>

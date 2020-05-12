@@ -213,8 +213,14 @@
 
 .approach-image {
   // margin-top: 5%;
-  margin-left: -10%;
+  margin-left: 3%;
   // background-color: yellow;
+
+  @media (max-width: $xl) {
+    margin-left: -5%;
+
+    // margin-left: auto !important;
+  }
   @media (max-width: $md) {
     margin-left: -5%;
 

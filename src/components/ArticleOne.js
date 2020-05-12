@@ -45,18 +45,22 @@ export default ({ match }) => {
         {/* typography */}
         <div className="one-background-typography">
           <div className="large-container">
-            <h1 className="one-project-subhead">Typography</h1>
-            <h1 className="one-font">BARLOW</h1>
+            <div className="row">
+              <div className="col-xl-5 offset-xl-1 col-lg-5 offset-lg-1">
+                <h1 className=" one-project-subhead">Typography</h1>
+                <h1 className="   one-font">BARLOW</h1>
+              </div>
+            </div>
 
             <div className="row typography-one">
-              <div className="col-xl-6 col-lg-6 col-md-6">
+              <div className="col-xl-5 offset-xl-1 col-lg-5 offset-lg-1 col-md-6">
                 <p className="one-barlow-regular"> Regular</p>
                 <p className="barlow-regular-text">
                   Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm cNn Oo Pp Qq Rr Ss Tt
                   Uu Vv Ww Xx Yy Zz
                 </p>
               </div>
-              <div className="barlow-semibold col-xl-6  col-lg-6  col-md-6 ">
+              <div className="barlow-semibold col-xl-5  col-lg-5 col-md-6 ">
                 <p className="one-barlow-semibold"> Semibold</p>
                 <p className="barlow-semibold-text">
                   Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu
@@ -68,22 +72,28 @@ export default ({ match }) => {
         </div>
         <div className="large-container">
           {/* colors */}
+
           <div className="one-color-container">
-            <h1 className="project-subhead">Color</h1>
             <div className="row">
-              <div className="col-lg-3 col col-centered">
+              <div className="col-xl-5 offset-xl-1 col-lg-5 offset-lg-1">
+                <h1 className="project-subhead">Color</h1>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col-lg-2 offset-lg-1 col-xl-2 offset-xl-1 col col-centered">
                 <img className="one-color-image img-fluid" src={Color1} />
                 <p className="one-color-code ">#69C9D6</p>
               </div>
-              <div className="col-lg-3 col col-centered">
+              <div className="col-lg-2 c col col-centered">
                 <img className="one-color-image img-fluid" src={Color2} />
                 <p className="one-color-code">#FE9491</p>
               </div>
-              <div className="col-lg-3 col col-centered ">
+              <div className="col-lg-2 col-xl-2 col col-centered ">
                 <img className="one-color-image img-fluid" src={Color3} />
                 <p className="one-color-code">#747FFF</p>
               </div>
-              <div className="col-lg-3 col col-centered">
+              <div className="col-lg-2 col-xl-2 col col-centered">
                 <img className="one-color-image img-fluid" src={Color4} />
                 <p className="one-color-code">#F7AA70</p>
               </div>

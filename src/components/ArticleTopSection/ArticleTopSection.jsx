@@ -84,11 +84,15 @@ export default withRouter(({ location, data, match }) => {
       <div className="large-container">
         <div className="my-container">
           <ScrollAnimation animateIn="fadeIn">
-            <h1 className="project-name text-left">{data.name}</h1>
+            <div className="row">
+              <h1 className="project-name text-left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1 ">
+                {data.name}
+              </h1>
+            </div>
           </ScrollAnimation>
 
           <div className="row project-about mt-5">
-            <div className="col-xl-5  col-lg-5  col-md-5 col-sm-12 text-left">
+            <div className=" col-xl-5 offset-xl-1 col-lg-5 offset-lg-1   col-md-5 col-sm-12 text-left">
               <ScrollAnimation animateIn="fadeIn">
                 <h6 className="project-subhead">Tools</h6>
                 <p className="project-info new-line"> {data.tools}</p>
@@ -103,7 +107,7 @@ export default withRouter(({ location, data, match }) => {
               </ScrollAnimation>
             </div>
 
-            <div className="col-xl-6 col-lg-6  col-md-6 col-sm-12 text-left">
+            <div className="col-xl-5  col-lg-5  col-md-6 col-sm-12 text-left">
               <ScrollAnimation animateIn="fadeIn">
                 <h6 className="project-subhead ">Overview</h6>
                 <p className="project-info new-line"> {data.overview}</p>
@@ -112,7 +116,7 @@ export default withRouter(({ location, data, match }) => {
           </div>
 
           <div className="row challenge">
-            <div className="col-xl-8 col-lg-8 col-md-8">
+            <div className="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1  col-md-12">
               <ScrollAnimation animateIn="fadeIn">
                 <h6 className="project-subhead ">Challenge</h6>
               </ScrollAnimation>
@@ -123,17 +127,17 @@ export default withRouter(({ location, data, match }) => {
           </div>
 
           <div className="row approach">
-            <div className="col-xl-9 col-lg-9  col-md-9 approach-image">
+            <div className="col-xl-7 col-lg-7  col-md-8 approach-image">
               {" "}
               <ScrollAnimation animateIn="fadeIn">
                 <img
-                  className="img-fluid"
+                  className="img-fluid "
                   src={data.approachImage}
                   alt={data.name}
                 />
               </ScrollAnimation>
             </div>
-            <div className="col">
+            <div className="col-xl-4 col-lg-4 col-md-4">
               <ScrollAnimation animateIn="fadeIn">
                 <h6 className="project-subhead approach-subhead">Approach </h6>
               </ScrollAnimation>

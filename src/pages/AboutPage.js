@@ -81,6 +81,7 @@ const AboutPage = () => (
                     lg={{ span: 3, order: 1 }}
                     md={{ span: 3, order: 1 }}
                     sm={{ span: 6, order: 1 }}
+                    xs={{ span: 6, order: 1 }}
                   >
                     <p className="position "> Freelance Designer </p>
                   </Col>
@@ -89,6 +90,7 @@ const AboutPage = () => (
                     lg={{ span: 3, order: 2 }}
                     md={{ span: 3, order: 2 }}
                     sm={{ span: 6, order: 3 }}
+                    xs={{ span: 6, order: 3 }}
                   >
                     <p className="company align-middle ">Freelance</p>
                   </Col>
@@ -97,6 +99,7 @@ const AboutPage = () => (
                     lg={{ span: 3, order: 3 }}
                     md={{ span: 3, order: 3 }}
                     sm={{ span: 6, order: 2 }}
+                    xs={{ span: 6, order: 2 }}
                   >
                     <p className="year d-xl-flex justify-content-xl-start d-sm-flex justify-content-sm-center ">
                       {" "}
@@ -110,6 +113,7 @@ const AboutPage = () => (
                     lg={{ span: 3, order: 4 }}
                     md={{ span: 3, order: 4 }}
                     sm={{ span: 6, order: 4 }}
+                    xs={{ span: 6, order: 4 }}
                   >
                     <Accordion.Toggle as={Button} variant="link" eventKey="0">
                       <img
@@ -121,7 +125,7 @@ const AboutPage = () => (
                   </Col>
                 </Row>
 
-                <hr></hr>
+                <hr className="eachexperience-line"></hr>
 
                 <Accordion.Collapse eventKey="0">
                   <Row className="eachExperience">
@@ -167,6 +171,7 @@ const AboutPage = () => (
                     lg={{ span: 3, order: 1 }}
                     md={{ span: 3, order: 1 }}
                     sm={{ span: 6, order: 1 }}
+                    xs={{ span: 6, order: 1 }}
                   >
                     <p className="position"> Creative Designer </p>
                   </Col>
@@ -175,6 +180,7 @@ const AboutPage = () => (
                     lg={{ span: 3, order: 2 }}
                     md={{ span: 3, order: 2 }}
                     sm={{ span: 6, order: 3 }}
+                    xs={{ span: 6, order: 3 }}
                   >
                     <p className="company"> EDGE, Sheridan</p>
                   </Col>
@@ -183,6 +189,7 @@ const AboutPage = () => (
                     lg={{ span: 3, order: 3 }}
                     md={{ span: 3, order: 3 }}
                     sm={{ span: 6, order: 2 }}
+                    xs={{ span: 6, order: 2 }}
                   >
                     <p className="year d-xl-flex justify-content-xl-start d-sm-flex justify-content-sm-center ">
                       {" "}
@@ -195,6 +202,7 @@ const AboutPage = () => (
                     lg={{ span: 3, order: 4 }}
                     md={{ span: 3, order: 4 }}
                     sm={{ span: 6, order: 4 }}
+                    xs={{ span: 6, order: 4 }}
                   >
                     <Accordion.Toggle as={Button} variant="link" eventKey="1">
                       <img
@@ -205,7 +213,7 @@ const AboutPage = () => (
                     </Accordion.Toggle>
                   </Col>
                 </Row>
-                <hr></hr>
+                <hr className="eachexperience-line"></hr>
 
                 <Accordion.Collapse eventKey="1">
                   <Row className="eachExperience">
@@ -228,6 +236,7 @@ const AboutPage = () => (
                     lg={{ span: 3, order: 1 }}
                     md={{ span: 3, order: 1 }}
                     sm={{ span: 6, order: 1 }}
+                    xs={{ span: 6, order: 1 }}
                   >
                     <p className="position"> Creative Associate </p>
                   </Col>
@@ -236,6 +245,7 @@ const AboutPage = () => (
                     lg={{ span: 3, order: 2 }}
                     md={{ span: 3, order: 2 }}
                     sm={{ span: 6, order: 3 }}
+                    xs={{ span: 6, order: 3 }}
                   >
                     <p className="company"> The Nest I/O </p>
                   </Col>
@@ -244,6 +254,7 @@ const AboutPage = () => (
                     lg={{ span: 3, order: 3 }}
                     md={{ span: 3, order: 3 }}
                     sm={{ span: 6, order: 2 }}
+                    xs={{ span: 6, order: 2 }}
                   >
                     <p className="year d-xl-flex justify-content-xl-start d-sm-flex justify-content-sm-center ">
                       Sept 2016 - Nov 2017{" "}
@@ -255,6 +266,7 @@ const AboutPage = () => (
                     lg={{ span: 3, order: 4 }}
                     md={{ span: 3, order: 4 }}
                     sm={{ span: 6, order: 4 }}
+                    xs={{ span: 6, order: 4 }}
                   >
                     <Accordion.Toggle as={Button} variant="link" eventKey="2">
                       <img
@@ -265,7 +277,7 @@ const AboutPage = () => (
                     </Accordion.Toggle>
                   </Col>
                 </Row>
-                <hr></hr>
+                <hr className="eachexperience-line"></hr>
 
                 <Accordion.Collapse eventKey="2">
                   <Row className="eachExperience">
@@ -288,6 +300,7 @@ const AboutPage = () => (
                     lg={{ span: 3, order: 1 }}
                     md={{ span: 3, order: 1 }}
                     sm={{ span: 6, order: 1 }}
+                    xs={{ span: 6, order: 1 }}
                   >
                     <p className="position"> Graphic Designer </p>
                   </Col>
@@ -296,6 +309,7 @@ const AboutPage = () => (
                     lg={{ span: 3, order: 2 }}
                     md={{ span: 3, order: 2 }}
                     sm={{ span: 6, order: 3 }}
+                    xs={{ span: 6, order: 3 }}
                   >
                     <p className="company"> Express Tribune</p>
                   </Col>
@@ -304,6 +318,7 @@ const AboutPage = () => (
                     lg={{ span: 3, order: 3 }}
                     md={{ span: 3, order: 3 }}
                     sm={{ span: 6, order: 2 }}
+                    xs={{ span: 6, order: 3 }}
                   >
                     <p className="year d-xl-flex justify-content-xl-start d-sm-flex justify-content-sm-center ">
                       {" "}
@@ -316,6 +331,7 @@ const AboutPage = () => (
                     lg={{ span: 3, order: 4 }}
                     md={{ span: 3, order: 4 }}
                     sm={{ span: 6, order: 4 }}
+                    xs={{ span: 6, order: 4 }}
                   >
                     <Accordion.Toggle as={Button} variant="link" eventKey="3">
                       <img

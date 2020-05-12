@@ -317,3 +317,21 @@ br {
   border: 0.6px solid $primary;
   // margin: 5px 0;
 }
+
+.wireframe-text {
+  font-family: "Graphik Light";
+  src: url(../font/Graphik-Light.ttf);
+  font-size: 12pt;
+  line-height: 20pt;
+  // margin-bottom: 7%;
+  color: $primary;
+  @media (max-width: $xl) {
+    font-size: 12pt;
+  }
+  @media (max-width: $lg) {
+  }
+  @media (max-width: $md) {
+    font-size: 10pt;
+    line-height: 16pt;
+  }
+}

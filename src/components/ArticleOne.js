@@ -171,7 +171,7 @@ export default ({ match }) => {
           <div className="row mt-5 flex-row-reverse image-fitted-formobile  ">
             <div className="col-xl-5 col-lg-5 col-md-5">
               <h1 className="project-subhead">Events</h1>
-              <p className="one-signin-info">
+              <p className="wireframe-text">
                 After the user selects the event, there’s more information that
                 he can read about that event. Clicking on “attend” lets him add
                 it to the calendar

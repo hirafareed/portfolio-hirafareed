@@ -38,7 +38,7 @@ export default ({ match }) => {
           <h2>{item2.name}</h2>
         </div>
         <div className="background-video">
-          <video playsInline loop autoPlay className="wander-video">
+          <video playsInline loop autoPlay muted className="wander-video">
             <source src={AnimationVideo} type="video/mp4" />
           </video>
         </div>

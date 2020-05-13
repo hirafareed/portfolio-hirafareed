@@ -82,23 +82,7 @@ export default ({ match }) => {
           className="img-fluid image-fitted-formobile two-margin-bottom "
           src={UserflowWander}
         />
-        <h1 className="project-subhead">Greybox Prototype</h1>
-        <p className="wireframe-text">
-          After solidifying the ideas on paper I began to refine them through a
-          greybox prototype. At this stage I wanted to make sure that the
-          navigation was smooth and understandable for the users.
-        </p>
-
-        {/* <div className="background-video">
-          <video playsInline loop autoPlay muted className="wander-video">
-            <source src={AnimationVideo} type="video/mp4" />
-          </video>
-        </div> */}
       </div>
-      <img
-        className="img-fluid image-fitted-formobile two-margin-bottom "
-        src={Sketch2Wander}
-      />
       {/* visual design text */}
       <div className="article-container">
         <h1 className="project-subhead">Visual Design</h1>
@@ -139,6 +123,61 @@ export default ({ match }) => {
           className="img-fluid image-fitted-formobile two-margin-bottom  d-flex col-9 col-centered mt-5"
           src={WanderLogo}
         />
+        <h1 className="project-subhead ">Greybox Prototype</h1>
+        <p className="wireframe-text">
+          After solidifying the ideas on paper I began to refine them through a
+          greybox prototype. At this stage I wanted to make sure that the
+          navigation was smooth and understandable for the users.
+        </p>
+        <img
+          className="img-fluid image-fitted-formobile two-margin-bottom "
+          src={Sketch2Wander}
+        />
+      </div>
+
+      {/*  wonder video */}
+      <div className="background-video mt-5">
+        <div className="article-container pt-5 pb-5">
+          <div className="row">
+            <div className="col-xl-6 col-lg-6 col-md-6 col-12 ">
+              <div className="wander-final-text">
+                <h1 className="project-subhead"> Final Prototype</h1>
+                <p className="wireframe-text">
+                  In order to further visualize Chapter, I built a high-fidelity
+                  interactive prototype that displays the key features of the
+                  final application using Figma.
+                </p>
+              </div>
+            </div>
+            <div className="col-xl-6 col-lg-6 col-md-6 col-12 d-flex justify-content-center ">
+              <video playsInline loop autoPlay muted className="wander-video">
+                <source
+                  src={AnimationVideo}
+                  type="video/mp4"
+                  className="wander-video-top"
+                />
+              </video>
+            </div>
+          </div>
+        </div>
+        <div className="takeaway-color mt-5">
+          {/* key-takeaway-color */}
+          <div className="large-container">
+            {/* key-takeaway row */}
+            <div className=" row mt-5">
+              <div className="col-xl-8 col-lg-8 col-md-8 col-centered text-xl-center text-lg-center  text-md-center text-left text-xs-left">
+                <div className=" project-subhead"> Key takeaways</div>
+                <p className="wireframe-text">
+                  Working on this app helped me to pay attention to the more
+                  intricate details on mobile. I had to take into consideration
+                  designing for the thumb zone and figuring out how certain form
+                  input fields can be altered to better suit smaller touch
+                  screens rather than a desktop.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <hr></hr>

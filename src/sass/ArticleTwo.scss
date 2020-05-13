@@ -36,6 +36,8 @@
 
 .wander-visualdesign {
   padding-top: 4%;
+  padding-bottom: 1%;
+
   background-color: #f2f2f2;
   @media (max-width: $sm) {
     padding-top: 8%;
@@ -114,10 +116,22 @@
   }
 }
 .wander-video {
-  width: 30%;
+  box-shadow: 2px 2px 5px #ccc;
+  width: 70%;
   height: auto;
+  @media (max-width: $md) {
+    width: 50%;
+  }
 }
 
 .background-video {
-  background-color: pink;
+  // background-color: #faf2f2;
+}
+
+.wander-final-text {
+  position: relative;
+  top: 100px;
+  @media (max-width: $md) {
+    position: static;
+  }
 }

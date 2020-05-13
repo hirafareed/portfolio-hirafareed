@@ -12,6 +12,7 @@ import AnimationVideo from "../images/project-two/countdown.mp4";
 import SketchWander from "../images/project-two/wander-sketch.png";
 import UserflowWander from "../images/project-two/userflow-wander.svg";
 import Sketch2Wander from "../images/project-two/sketch2-wander.svg";
+import WanderLogo from "../images/project-two/wander-logo.svg";
 
 export default ({ match }) => {
   const name = match.params.name;
@@ -47,15 +48,15 @@ export default ({ match }) => {
             <div className="classWithPad two-audience">
               <h1 className="wireframe-text-big m-0">Fatima (Female, 20)</h1>
               <p className="wireframe-text">
-                Fatima is planning to go on a trip to Bali and she doesn’t want
-                to carry a journal. she wants a way to record her trip.
+                Fatima is planning to go on a trip to Italy but she doesn’t want
+                to carry a physical journal. She wants a way to record her trip.
               </p>
             </div>
           </div>
 
           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12  mt-xl-0  mt-lg-0 mt-md-0 mt-3">
             <div className="classWithPad two-audience two-margin-bottom">
-              <h1 className="wireframe-text-big m-0">Hafsa (Female, 26)</h1>
+              <h1 className="wireframe-text-big m-0">Hafsa (Female, 27)</h1>
               <p className="wireframe-text">
                 Hafsa wants to go on a trip for her vacation but she wants some
                 inspiration as to where her next vacation should be.
@@ -96,6 +97,16 @@ export default ({ match }) => {
         className="img-fluid image-fitted-formobile two-margin-bottom "
         src={Sketch2Wander}
       />
+      <div className="article-container">
+        <h1 className="project-subhead">Visual Design</h1>
+        <p className="wireframe-text">
+          Colours, typography and icons that make up Wnder
+        </p>
+        <img
+          className="img-fluid image-fitted-formobile two-margin-bottom  d-flex col-9 col-centered"
+          src={WanderLogo}
+        />
+      </div>
 
       <hr></hr>
 

@@ -37,6 +37,10 @@
 .wander-visualdesign {
   padding-top: 4%;
   background-color: #f2f2f2;
+  @media (max-width: $sm) {
+    padding-top: 8%;
+    padding-bottom: 4%;
+  }
 }
 
 .gilroy-heading {
@@ -80,7 +84,7 @@
     line-height: 14pt;
   }
   @media (max-width: $sm) {
-    font-size: 6pt;
+    font-size: 8pt;
     line-height: 10pt;
   }
 }
@@ -106,7 +110,7 @@
   width: 65%;
   @media (max-width: $md) {
     // margin-top: 8px;
-    width: 70%;
+    width: 90%;
   }
 }
 .wander-video {

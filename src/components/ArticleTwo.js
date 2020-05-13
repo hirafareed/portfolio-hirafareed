@@ -99,24 +99,26 @@ export default ({ match }) => {
         className="img-fluid image-fitted-formobile two-margin-bottom "
         src={Sketch2Wander}
       />
+      {/* visual design text */}
       <div className="article-container">
         <h1 className="project-subhead">Visual Design</h1>
         <p className="wireframe-text">
           Colours, typography and icons that make up Wander
         </p>{" "}
       </div>
+      {/* visual design row */}
       <div className=" wander-visualdesign">
         <div className="article-container">
           <div className="row">
-            <div className="col-6 d-flex justify-content-center">
+            <div className="col-4  col-xl-6 col-lg-6  col-md-6 d-flex justify-content-center">
               <img
                 className="img-fluid  two-margin-bottom wander-colors"
                 src={WanderColors}
               />
             </div>
-            <div className="col-6 ">
-              <h1 className="gilroy-heading">Gilroy</h1>
-              <p className="gilroy-heading">
+            <div className="col-7  col-xl-6 col-lg-6  col-md-6">
+              <h1 className="gilroy-heading mt-3">Gilroy</h1>
+              <p className="gilroy-text">
                 Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu
                 Vv Ww Xx Yy Zz
               </p>
@@ -129,9 +131,12 @@ export default ({ match }) => {
         </div>
       </div>
 
-      <div className="article-container">
+      {/* wander logo */}
+
+      <div className="article-container mt-5">
+        <h1 className="project-subhead"> Logo</h1>
         <img
-          className="img-fluid image-fitted-formobile two-margin-bottom  d-flex col-9 col-centered"
+          className="img-fluid image-fitted-formobile two-margin-bottom  d-flex col-9 col-centered mt-5"
           src={WanderLogo}
         />
       </div>

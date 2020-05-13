@@ -35,20 +35,63 @@
 }
 
 .wander-visualdesign {
+  padding-top: 4%;
   background-color: #f2f2f2;
 }
 
 .gilroy-heading {
   font-family: "Gilroy Light";
   src: url(../font/Gilroy-Light.otf);
+  color: $primary;
+  font-size: 35pt;
+
+  // margin-bottom: 7%;
+  color: $primary;
+  @media (max-width: $xl) {
+    font-size: 28pt;
+  }
+  @media (max-width: $lg) {
+  }
+  @media (max-width: $md) {
+    font-size: 20pt;
+    // line-height: 24pt;
+  }
+}
+
+.gilroy-text {
+  font-family: "Gilroy Light";
+  src: url(../font/Gilroy-Light.otf);
+  color: $primary;
+  font-size: 14pt;
+
+  // margin-bottom: 7%;
+  color: $primary;
+  @media (max-width: $xl) {
+    font-size: 14pt;
+  }
+  @media (max-width: $lg) {
+  }
+  @media (max-width: $md) {
+    font-size: 10pt;
+    line-height: 14pt;
+  }
 }
 
 .wander-icons {
+  margin-top: 50px;
   width: 80%;
+  @media (max-width: $md) {
+    margin-top: 8px;
+    width: 60%;
+  }
 }
 
 .wander-colors {
-  width: 30%;
+  width: 45%;
+  @media (max-width: $md) {
+    // margin-top: 8px;
+    width: 80%;
+  }
 }
 .wander-video {
   width: 30%;

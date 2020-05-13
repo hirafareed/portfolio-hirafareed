@@ -78,20 +78,24 @@
 }
 
 .wander-icons {
-  margin-top: 50px;
+  margin-top: 30px;
   width: 60%;
-  @media (max-width: $md) {
-    margin-top: 8px;
+  @media (max-width: $lg) {
+    margin-top: 50px;
     width: 60%;
+  }
+  @media (max-width: $md) {
+    margin-top: 10px;
+    width: 70%;
   }
 }
 
 .wander-colors {
   width: 65%;
-  // @media (max-width: $md) {
-  //   // margin-top: 8px;
-  //   width: 80%;
-  // }
+  @media (max-width: $md) {
+    // margin-top: 8px;
+    width: 80%;
+  }
 }
 .wander-video {
   width: 30%;

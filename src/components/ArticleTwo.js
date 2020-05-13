@@ -110,13 +110,13 @@ export default ({ match }) => {
       <div className=" wander-visualdesign">
         <div className="article-container">
           <div className="row">
-            <div className="col-4  col-xl-6 col-lg-6  col-md-6 d-flex justify-content-center">
+            <div className="col-4  col-xl-4 col-lg-4  col-md-4 d-flex justify-content-center">
               <img
                 className="img-fluid  two-margin-bottom wander-colors"
                 src={WanderColors}
               />
             </div>
-            <div className="col-7  col-xl-6 col-lg-6  col-md-6">
+            <div className="col-7  col-xl-8 col-lg-8  col-md-8">
               <h1 className="gilroy-heading mt-3">Gilroy</h1>
               <p className="gilroy-text">
                 Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu

@@ -79,7 +79,7 @@
 
 .wander-icons {
   margin-top: 50px;
-  width: 80%;
+  width: 60%;
   @media (max-width: $md) {
     margin-top: 8px;
     width: 60%;
@@ -87,11 +87,11 @@
 }
 
 .wander-colors {
-  width: 45%;
-  @media (max-width: $md) {
-    // margin-top: 8px;
-    width: 80%;
-  }
+  width: 65%;
+  // @media (max-width: $md) {
+  //   // margin-top: 8px;
+  //   width: 80%;
+  // }
 }
 .wander-video {
   width: 30%;

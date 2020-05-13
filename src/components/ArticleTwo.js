@@ -7,8 +7,11 @@ import Next from "../images/next.svg";
 // import { SccrollView, Dimensions } from "react-native";
 // import Video from "react-native-video";
 import AnimationVideo from "../images/project-two/countdown.mp4";
+
+// images
 import SketchWander from "../images/project-two/wander-sketch.png";
-import userflowWander from "../images/project-two/userflow-wander.svg";
+import UserflowWander from "../images/project-two/userflow-wander.svg";
+import Sketch2Wander from "../images/project-two/sketch2-wander.svg";
 
 export default ({ match }) => {
   const name = match.params.name;
@@ -74,8 +77,14 @@ export default ({ match }) => {
 
         <img
           className="img-fluid image-fitted-formobile two-margin-bottom "
-          src={userflowWander}
+          src={UserflowWander}
         />
+        <h1 className="project-subhead">Greybox Prototype</h1>
+        <p className="wireframe-text">
+          After solidifying the ideas on paper I began to refine them through a
+          greybox prototype. At this stage I wanted to make sure that the
+          navigation was smooth and understandable for the users.
+        </p>
 
         {/* <div className="background-video">
           <video playsInline loop autoPlay muted className="wander-video">
@@ -83,6 +92,10 @@ export default ({ match }) => {
           </video>
         </div> */}
       </div>
+      <img
+        className="img-fluid image-fitted-formobile two-margin-bottom "
+        src={Sketch2Wander}
+      />
 
       <hr></hr>
 

@@ -119,7 +119,10 @@ export default ({ match }) => {
         {/* end of container */}
         {/* more process */}
 
-        <img className="img-fluid col one-process-sketch2" src={Sketch2} />
+        <img
+          className="img-fluid col one-process-sketch2 image-fitted-formobile "
+          src={Sketch2}
+        />
 
         {/* wireframes */}
 

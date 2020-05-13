@@ -7,6 +7,7 @@ import Next from "../images/next.svg";
 // import { SccrollView, Dimensions } from "react-native";
 // import Video from "react-native-video";
 import AnimationVideo from "../images/project-two/countdown.mp4";
+import SketchWander from "../images/project-two/wander-sketch.png";
 
 export default ({ match }) => {
   const name = match.params.name;
@@ -34,10 +35,10 @@ export default ({ match }) => {
       <TopSection data={item2}></TopSection>
       <div className="article-container">
         <h1 className="project-subhead">Who is Wander for?</h1>
-        <p className="wireframe-text">
+        <p className="wireframe-text ">
           Wander is created for two kinds of users.{" "}
         </p>
-        <div className="row">
+        <div className="row two-audience-box">
           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
             <div className="classWithPad two-audience">
               <h1 className="wireframe-text-big m-0">Fatima (Female, 20)</h1>
@@ -48,7 +49,7 @@ export default ({ match }) => {
             </div>
           </div>
 
-          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12  mt-xl-0  mt-lg-0 mt-md-0 mt-sm-3 mt-xs-3">
+          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12  mt-xl-0  mt-lg-0 mt-md-0 mt-3">
             <div className="classWithPad two-audience">
               <h1 className="wireframe-text-big m-0">Hafsa (Female, 26)</h1>
               <p className="wireframe-text">
@@ -58,6 +59,13 @@ export default ({ match }) => {
             </div>
           </div>
         </div>
+
+        <h1 className="project-subhead mt-5">Designing the prototype </h1>
+        <p className="wireframe-text">
+          Now that we had a better idea of who we were designing for, we began
+          to conceptualize how a system can meet their needs.{" "}
+        </p>
+        <img className="img-fluid image-fitted-formobile " src={SketchWander} />
         {/* <div className="background-video">
           <video playsInline loop autoPlay muted className="wander-video">
             <source src={AnimationVideo} type="video/mp4" />

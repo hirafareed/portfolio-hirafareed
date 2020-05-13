@@ -1,3 +1,29 @@
+.two-audience {
+  background-color: #f2f2f2;
+}
+
+.wireframe-text-big {
+  font-family: "Graphik Medium";
+  src: url(../font/Graphik-Medium.ttf);
+  font-size: 14pt;
+  line-height: 24pt;
+  margin-bottom: 7%;
+  // margin-bottom: 7%;
+  color: $primary;
+  @media (max-width: $xl) {
+    font-size: 14pt;
+  }
+  @media (max-width: $lg) {
+  }
+  @media (max-width: $md) {
+    font-size: 14pt;
+    line-height: 24pt;
+  }
+}
+.classWithPad {
+  // margin: 3px;
+  padding: 20px 30px 15px 30px;
+}
 .wander-video {
   width: 30%;
   height: auto;

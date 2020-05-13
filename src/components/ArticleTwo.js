@@ -33,16 +33,38 @@ export default ({ match }) => {
     <>
       <TopSection data={item2}></TopSection>
       <div className="article-container">
-        <div className="mb-5 mt-5">
-          <h1>Article two bottom part</h1>
-          <h2>{item2.name}</h2>
+        <h1 className="project-subhead">Who is Wander for?</h1>
+        <p className="wireframe-text">
+          Wander is created for two kinds of users.{" "}
+        </p>
+        <div className="row">
+          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+            <div className="classWithPad two-audience">
+              <h1 className="wireframe-text-big m-0">Fatima (Female, 20)</h1>
+              <p className="wireframe-text">
+                Fatima is planning to go on a trip to Bali and she doesn’t want
+                to carry a journal. she wants a way to record her trip.
+              </p>
+            </div>
+          </div>
+
+          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12  mt-xl-0  mt-lg-0 mt-md-0 mt-sm-3 mt-xs-3">
+            <div className="classWithPad two-audience">
+              <h1 className="wireframe-text-big m-0">Hafsa (Female, 26)</h1>
+              <p className="wireframe-text">
+                Hafsa wants to go on a trip for her vacation but she wants some
+                inspiration as to where her next vacation should be.
+              </p>
+            </div>
+          </div>
         </div>
-        <div className="background-video">
+        {/* <div className="background-video">
           <video playsInline loop autoPlay muted className="wander-video">
             <source src={AnimationVideo} type="video/mp4" />
           </video>
-        </div>
+        </div> */}
       </div>
+
       <hr></hr>
 
       {/* bottom container */}

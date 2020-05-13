@@ -56,6 +56,10 @@
     font-size: 20pt;
     // line-height: 24pt;
   }
+  @media (max-width: $sm) {
+    font-size: 16pt;
+    // line-height: 24pt;
+  }
 }
 
 .gilroy-text {
@@ -75,6 +79,10 @@
     font-size: 10pt;
     line-height: 14pt;
   }
+  @media (max-width: $sm) {
+    font-size: 6pt;
+    line-height: 10pt;
+  }
 }
 
 .wander-icons {
@@ -87,6 +95,10 @@
   @media (max-width: $md) {
     margin-top: 10px;
     width: 70%;
+  }
+  @media (max-width: $sm) {
+    margin-top: 0;
+    width: 60%;
   }
 }
 

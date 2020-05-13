@@ -139,6 +139,15 @@ export default ({ match }) => {
       <div className="background-video mt-5">
         <div className="article-container pt-5 pb-5">
           <div className="row">
+            <div className="col-xl-6 col-lg-6 col-md-6 col-12 d-flex justify-content-center ">
+              <video playsInline loop autoPlay muted className="wander-video">
+                <source
+                  src={AnimationVideo}
+                  type="video/mp4"
+                  className="wander-video-top"
+                />
+              </video>
+            </div>
             <div className="col-xl-6 col-lg-6 col-md-6 col-12 ">
               <div className="wander-final-text">
                 <h1 className="project-subhead"> Final Prototype</h1>
@@ -148,15 +157,6 @@ export default ({ match }) => {
                   final application using Figma.
                 </p>
               </div>
-            </div>
-            <div className="col-xl-6 col-lg-6 col-md-6 col-12 d-flex justify-content-center ">
-              <video playsInline loop autoPlay muted className="wander-video">
-                <source
-                  src={AnimationVideo}
-                  type="video/mp4"
-                  className="wander-video-top"
-                />
-              </video>
             </div>
           </div>
         </div>

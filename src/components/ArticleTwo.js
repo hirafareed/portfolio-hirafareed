@@ -50,7 +50,7 @@ export default ({ match }) => {
           </div>
 
           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12  mt-xl-0  mt-lg-0 mt-md-0 mt-3">
-            <div className="classWithPad two-audience">
+            <div className="classWithPad two-margin-bottom">
               <h1 className="wireframe-text-big m-0">Hafsa (Female, 26)</h1>
               <p className="wireframe-text">
                 Hafsa wants to go on a trip for her vacation but she wants some
@@ -65,7 +65,16 @@ export default ({ match }) => {
           Now that we had a better idea of who we were designing for, we began
           to conceptualize how a system can meet their needs.{" "}
         </p>
-        <img className="img-fluid image-fitted-formobile " src={SketchWander} />
+        <img
+          className="img-fluid image-fitted-formobile two-margin-bottom "
+          src={SketchWander}
+        />
+        <h1 className="project-subhead ">Designing the prototype </h1>
+        <p className="wireframe-text ">
+          Now that we had a better idea of who we were designing for, we began
+          to conceptualize how a system can meet their needs.{" "}
+        </p>
+
         {/* <div className="background-video">
           <video playsInline loop autoPlay muted className="wander-video">
             <source src={AnimationVideo} type="video/mp4" />

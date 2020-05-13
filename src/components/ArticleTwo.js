@@ -123,7 +123,7 @@ export default ({ match }) => {
                 Vv Ww Xx Yy Zz
               </p>
               <img
-                className="img-fluid image-fitted-formobile two-margin-bottom wander-icons"
+                className="img-fluid  two-margin-bottom wander-icons"
                 src={WanderIcons}
               />
             </div>

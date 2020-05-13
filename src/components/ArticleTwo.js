@@ -13,6 +13,8 @@ import SketchWander from "../images/project-two/wander-sketch.png";
 import UserflowWander from "../images/project-two/userflow-wander.svg";
 import Sketch2Wander from "../images/project-two/sketch2-wander.svg";
 import WanderLogo from "../images/project-two/wander-logo.svg";
+import WanderIcons from "../images/project-two/wander-icons.svg";
+import WanderColors from "../images/project-two/wander-colors.svg";
 
 export default ({ match }) => {
   const name = match.params.name;
@@ -100,8 +102,34 @@ export default ({ match }) => {
       <div className="article-container">
         <h1 className="project-subhead">Visual Design</h1>
         <p className="wireframe-text">
-          Colours, typography and icons that make up Wnder
-        </p>
+          Colours, typography and icons that make up Wander
+        </p>{" "}
+      </div>
+      <div className=" wander-visualdesign">
+        <div className="article-container">
+          <div className="row">
+            <div className="col-6 d-flex justify-content-center">
+              <img
+                className="img-fluid  two-margin-bottom wander-colors"
+                src={WanderColors}
+              />
+            </div>
+            <div className="col-6 ">
+              <h1 className="gilroy-heading">Gilroy</h1>
+              <p className="gilroy-heading">
+                Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu
+                Vv Ww Xx Yy Zz
+              </p>
+              <img
+                className="img-fluid image-fitted-formobile two-margin-bottom wander-icons"
+                src={WanderIcons}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="article-container">
         <img
           className="img-fluid image-fitted-formobile two-margin-bottom  d-flex col-9 col-centered"
           src={WanderLogo}
@@ -111,7 +139,7 @@ export default ({ match }) => {
       <hr></hr>
 
       {/* bottom container */}
-      <div className="container-xl container-lg">
+      <div className="large-container">
         <div className="my-container">
           {/* <hr className="upvote-line"></hr> */}
 

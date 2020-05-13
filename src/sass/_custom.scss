@@ -68,6 +68,13 @@
   src: url(../font/BerlingskeSerif-ExtraBold.ttf);
 }
 
+@font-face {
+  font-family: "Gilroy Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../font/Gilroy-Light.otf);
+}
+
 $spacer: 1rem;
 
 $spacers: (

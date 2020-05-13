@@ -37,9 +37,11 @@ export default ({ match }) => {
           <h1>Article two bottom part</h1>
           <h2>{item2.name}</h2>
         </div>
-        <video loop autoPlay className="wander-video">
-          <source src={AnimationVideo} type="video/mp4" />
-        </video>
+        <div className="background-video">
+          <video playsInline loop autoPlay className="wander-video">
+            <source src={AnimationVideo} type="video/mp4" />
+          </video>
+        </div>
       </div>
       <hr></hr>
 

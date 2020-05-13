@@ -63,19 +63,15 @@ export default ({ match }) => {
 
         <h1 className="project-subhead mt-5">Designing the prototype </h1>
         <p className="wireframe-text">
-          Now that we had a better idea of who we were designing for, we began
-          to conceptualize how a system can meet their needs.{" "}
+          Now that I had a better idea of who I am designing for, I began to
+          conceptualize how a system can meet their needs.{" "}
         </p>
         <img
           className="img-fluid image-fitted-formobile two-margin-bottom "
           src={SketchWander}
         />
         <h1 className="project-subhead ">User flow </h1>
-        <p className="wireframe-text ">
-          A sitemap was created with some basic user-flow points to identify
-          where the main points of navigation should be placed. This helped
-          eliminate any redundant pages optimizing the user experience.{" "}
-        </p>
+
         <img
           className="img-fluid image-fitted-formobile two-margin-bottom "
           src={userflowWander}

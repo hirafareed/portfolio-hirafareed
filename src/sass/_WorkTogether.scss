@@ -31,8 +31,8 @@
   font-family: "Graphik Light";
   src: url(../font/Graphik-Light.ttf);
   // margin-top: 30%;
-  color: $primary;
-  font-size: 16pt;
+  // color: $primary;
+  font-size: 14pt;
   @media (max-width: $lg) {
     font-size: 12pt;
   }
@@ -41,4 +41,9 @@
   }
 
   // background-color: red;
+}
+
+a:hover {
+  text-decoration: none;
+  color: $danger;
 }

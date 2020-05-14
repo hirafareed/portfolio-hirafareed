@@ -116,13 +116,15 @@
   }
 }
 .wander-video {
+  margin: auto;
+
   width: 70%;
   max-width: 70%;
   height: auto;
   margin: auto;
   // object-fit: cover;
 
-  // box-shadow: 2px 2px 5px #ccc;
+  box-shadow: 2px 2px 5px #ccc;
 
   @media (max-width: $md) {
     // width: 50%;

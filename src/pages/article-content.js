@@ -76,10 +76,10 @@ const articles = [
       "Powerup is a mobile charger rental app to find charging stations near you. It lets you charge your mobile on the go and when it’s fully charged you can return the battery at any station.",
     approachImage: ApproahImage3,
     approach:
-      "I wanted the app to look fun, colourful because that’s how board games are. ",
+      "Powerup makes it possible to find all the nearest power stations near you. Once you locate the rental station, you can head there and rent the charger for as long as you need. The smart watch will notify you when the time is up and the phone will eventually stop charging.  ",
     articleLink: "/",
     articleLinkText: "WEBSITE COMING SOON",
-    challenge: "Carrying an extra battery pack all the time may not be the best solution. At times you do not even remember or have the room to carry one, especially if you are traveling by public transport. There are a lot of rental stations around the city, but it is quite difficult to locate the ones around you.   "
+    challenge: "Carrying an extra battery pack all the time may not be the best solution. At times you do not even remember or have the room to carry one, especially if you are traveling by public transport. There are a lot of rental stations around the city, but it is quite difficult to locate the ones around you.  "
   },
 ];
 

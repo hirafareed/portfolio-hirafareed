@@ -138,27 +138,28 @@ export default ({ match }) => {
       {/*  wonder video */}
 
       <div className="article-container pt-5 pb-5">
-        <div className="row flex-row-reverse image-fitted-formobile">
+        <div className="row flex-row-reverse">
           <div className="col-xl-6 col-lg-6 col-md-6 col-12 ">
-            <div className="wander-final-text">
-              <h1 className="project-subhead"> Final Prototype</h1>
-              <p className="wireframe-text">
-                In order to further visualize Wander, I built a high-fidelity
-                interactive prototype that displays the key features of the
-                final application using Figma.
-              </p>
-              <p className="project-link-margin">
-                <a
-                  className="project-link "
-                  href="https://www.figma.com/proto/foKkCZPRhas9nwqB9Rlp4V/Untitled?node-id=1%3A2&viewport=159%2C176%2C0.171177476644516&scaling=scale-down"
-                  target="_blank"
-                >
-                  VIEW PROTOTYPE
-                </a>
-              </p>
-            </div>
+            <h1 className="project-subhead wander-final-text">
+              {" "}
+              Final Prototype
+            </h1>
+            <p className="wireframe-text">
+              In order to further visualize Wander, I built a high-fidelity
+              interactive prototype that displays the key features of the final
+              application using Figma.
+            </p>
+            <p className="project-link-margin">
+              <a
+                className="project-link "
+                href="https://www.figma.com/proto/foKkCZPRhas9nwqB9Rlp4V/Untitled?node-id=1%3A2&viewport=159%2C176%2C0.171177476644516&scaling=scale-down"
+                target="_blank"
+              >
+                VIEW PROTOTYPE
+              </a>
+            </p>
           </div>
-          <div className="col-xl-6 col-lg-6 col-md-6 col-12 d-flex justify-content-center  image-fitted-formobile ">
+          <div className="col-xl-6 col-lg-6 col-md-6 col-12 d-flex justify-content-center">
             <video playsInline loop autoPlay muted className="wander-video">
               <source src={AnimationVideo} type="video/mp4" />
             </video>

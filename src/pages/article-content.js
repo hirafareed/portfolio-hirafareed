@@ -41,7 +41,7 @@ const articles = [
     name: "Wander",
     subHeading:
       "A travel app to log your trips and connect to other travellers",
-    type: "UX/UI Design / Front End",
+    type: "UX/UI Design - Front End",
     view: "VIEW WORK",
     headerText:
       "Bring together all the pieces of your trip and turn that into a simple day by day narrative. ",

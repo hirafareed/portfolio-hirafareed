@@ -136,54 +136,53 @@ export default ({ match }) => {
       </div>
 
       {/*  wonder video */}
-      <div className="background-video mt-5">
-        <div className="article-container pt-5 pb-5">
-          <div className="row">
-            <div className="col-xl-6 col-lg-6 col-md-6 col-12 d-flex justify-content-center ">
-              <video playsInline loop autoPlay muted className="wander-video">
-                <source
-                  src={AnimationVideo}
-                  type="video/mp4"
-                  className="wander-video-top image-fitted-formobile"
-                />
-              </video>
-            </div>
-            <div className="col-xl-6 col-lg-6 col-md-6 col-12 ">
-              <div className="wander-final-text">
-                <h1 className="project-subhead"> Final Prototype</h1>
-                <p className="wireframe-text">
-                  In order to further visualize Wander, I built a high-fidelity
-                  interactive prototype that displays the key features of the
-                  final application using Figma.
-                </p>
-                <p className="project-link-margin">
-                  <a
-                    className="project-link "
-                    href="https://www.figma.com/proto/foKkCZPRhas9nwqB9Rlp4V/Untitled?node-id=1%3A2&viewport=159%2C176%2C0.171177476644516&scaling=scale-down"
-                    target="_blank"
-                  >
-                    VIEW PROTOTYPE
-                  </a>
-                </p>
-              </div>
+
+      <div className="article-container pt-5 pb-5">
+        <div className="row flex-row-reverse image-fitted-formobile">
+          <div className="col-xl-6 col-lg-6 col-md-6 col-12 ">
+            <div className="wander-final-text">
+              <h1 className="project-subhead"> Final Prototype</h1>
+              <p className="wireframe-text">
+                In order to further visualize Wander, I built a high-fidelity
+                interactive prototype that displays the key features of the
+                final application using Figma.
+              </p>
+              <p className="project-link-margin">
+                <a
+                  className="project-link "
+                  href="https://www.figma.com/proto/foKkCZPRhas9nwqB9Rlp4V/Untitled?node-id=1%3A2&viewport=159%2C176%2C0.171177476644516&scaling=scale-down"
+                  target="_blank"
+                >
+                  VIEW PROTOTYPE
+                </a>
+              </p>
             </div>
           </div>
+          <div className="col-xl-6 col-lg-6 col-md-6 col-12 d-flex justify-content-center ">
+            <video playsInline loop autoPlay muted className="wander-video">
+              <source
+                src={AnimationVideo}
+                type="video/mp4"
+                className="wander-video-top "
+              />
+            </video>
+          </div>
         </div>
-        <div className="takeaway-color mt-5">
-          {/* key-takeaway-color */}
-          <div className="large-container">
-            {/* key-takeaway row */}
-            <div className=" row mt-5">
-              <div className="col-xl-8 col-lg-8 col-md-8 col-centered text-xl-center text-lg-center  text-md-center text-left text-xs-left">
-                <div className=" project-subhead"> Key takeaways</div>
-                <p className="wireframe-text">
-                  Working on this app helped me to pay attention to the more
-                  intricate details on mobile. I had to take into consideration
-                  designing for the thumb zone and figuring out how certain form
-                  input fields can be altered to better suit smaller touch
-                  screens rather than a desktop.
-                </p>
-              </div>
+      </div>
+      <div className="takeaway-color mt-5">
+        {/* key-takeaway-color */}
+        <div className="large-container">
+          {/* key-takeaway row */}
+          <div className=" row mt-5">
+            <div className="col-xl-8 col-lg-8 col-md-8 col-centered text-xl-center text-lg-center  text-md-center text-left text-xs-left">
+              <div className=" project-subhead"> Key takeaways</div>
+              <p className="wireframe-text">
+                Working on this app helped me to pay attention to the more
+                intricate details on mobile. I had to take into consideration
+                designing for the thumb zone and figuring out how certain form
+                input fields can be altered to better suit smaller touch screens
+                rather than a desktop.
+              </p>
             </div>
           </div>
         </div>

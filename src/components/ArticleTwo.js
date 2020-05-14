@@ -137,7 +137,7 @@ export default ({ match }) => {
 
       {/*  wonder video */}
 
-      <div className="article-container ">
+      <div className="article-container image-fitted-formobile2 ">
         <div className="row flex-row-reverse image-fitted-formobile2">
           <div className="col-xl-6 col-lg-6 col-md-6 col-12 ">
             <h1 className="project-subhead wander-final-text">
@@ -166,6 +166,7 @@ export default ({ match }) => {
           </div>
         </div>
       </div>
+
       <div className="takeaway-color mt-5">
         {/* key-takeaway-color */}
         <div className="large-container">

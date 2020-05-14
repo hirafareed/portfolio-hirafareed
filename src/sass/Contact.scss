@@ -19,60 +19,64 @@ hr.line-contact {
   letter-spacing: 0.5px;
 }
 
-.contact-info {
-  h1 {
-    font-family: "Graphik SemiBold";
-    src: url(../font/Graphik-Semibold.ttf);
-    color: #404040;
-    // position: absolute;
-    display: block;
-    margin-top: 8%;
-    text-align: left;
-    font-size: 30pt;
-    @media (max-width: $lg) {
-      font-size: 30pt;
-    }
-    @media (max-width: $md) {
-      font-size: 25pt;
-    }
-    @media (max-width: $sm) {
-      font-size: 19pt;
-    }
-
-    // background-color: red;
-  }
-  p {
-    font-family: "Graphik Regular";
-    src: url(../font/Graphik-Regular.ttf);
-    color: #aaaaaa;
-    // margin-left: 24%;
-    margin-top: 5%;
-    text-align: left;
-    font-size: 12pt;
-    line-height: 20pt;
-    padding-bottom: 11%;
-    @media (max-width: $lg) {
-      font-size: 12pt;
-      line-height: 20pt;
-    }
-    @media (max-width: $md) {
-      font-size: 12pt;
-      line-height: 20pt;
-    }
-    @media (max-width: $sm) {
-      margin-top: 1%;
-
-      // font-size: 1.5em;
-      // margin-left: 0;
-    }
-
-    @media (max-width: $xs) {
-      // font-size: 1.5em;
-      // margin-left: 0;
-    }
-    // background-color: red;
-  }
+.contact-body {
+  margin-top: 3%;
 }
+
+// .contact-info {
+//   h1 {
+//     font-family: "Graphik SemiBold";
+//     src: url(../font/Graphik-Semibold.ttf);
+//     color: #404040;
+//     // position: absolute;
+//     display: block;
+//     margin-top: 8%;
+//     text-align: left;
+//     font-size: 30pt;
+//     @media (max-width: $lg) {
+//       font-size: 30pt;
+//     }
+//     @media (max-width: $md) {
+//       font-size: 25pt;
+//     }
+//     @media (max-width: $sm) {
+//       font-size: 19pt;
+//     }
+
+//     // background-color: red;
+//   }
+//   p {
+//     font-family: "Graphik Regular";
+//     src: url(../font/Graphik-Regular.ttf);
+//     color: #aaaaaa;
+//     // margin-left: 24%;
+//     margin-top: 5%;
+//     text-align: left;
+//     font-size: 12pt;
+//     line-height: 20pt;
+//     padding-bottom: 11%;
+//     @media (max-width: $lg) {
+//       font-size: 12pt;
+//       line-height: 20pt;
+//     }
+//     @media (max-width: $md) {
+//       font-size: 12pt;
+//       line-height: 20pt;
+//     }
+//     @media (max-width: $sm) {
+//       margin-top: 1%;
+
+//       // font-size: 1.5em;
+//       // margin-left: 0;
+//     }
+
+//     @media (max-width: $xs) {
+//       // font-size: 1.5em;
+//       // margin-left: 0;
+//     }
+//     // background-color: red;
+//   }
+// }
 
 // .contact-info {
 //   h1 {

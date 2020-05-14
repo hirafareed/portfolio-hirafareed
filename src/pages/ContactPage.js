@@ -38,10 +38,10 @@ const ContactPage = () => (
           </Row>
           <Row>
             <Col
-              lg={{ offset: 3 }}
-              xl={{ offset: 3 }}
+              lg={{ span: 8, offset: 3 }}
+              xl={{ span: 8, offset: 3 }}
               md={{ offset: 3 }}
-              className="about-body"
+              className="contact-body"
             >
               <a href="mailto:hirafareedkapadia@gmail.com">
                 hirafareedkapadia@gmail.com

@@ -34,9 +34,12 @@
   margin-left: 0;
   padding-left: auto;
 
-  margin-top: 50px;
+  margin-top: 20px;
   // background-color: red;
   // iphone 11 pro
+  @media (max-width: $md) {
+    margin-top: 0;
+  }
 
   @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
     margin-top: 10px;
@@ -54,13 +57,13 @@
 
 .mainimage {
   // background-color: red;s
-  height: 260px;
+  height: 350px;
   width: auto;
   @media (max-width: $xl) {
-    height: 260px;
+    height: 320px;
   }
   @media (max-width: $lg) {
-    height: 250px;
+    height: 300px;
   }
   @media (max-width: $md) {
     width: 30%;
@@ -80,7 +83,7 @@
   margin-left: 0;
 
   line-height: 42pt;
-  margin-top: 40px;
+  margin-top: 80px;
   @media (max-width: $xl) {
   }
   @media (max-width: $lg) {

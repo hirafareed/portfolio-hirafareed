@@ -188,7 +188,7 @@ export default ({ match }) => {
 
           <h1 className=" project-subhead mt-5">Demo</h1>
           <p className="wireframe-text">
-            In order to further visualize talk n roll, I built a high-fidelity
+            In order to further visualize BoardGamer, I built a high-fidelity
             interactive prototype that displays key features of the final
             application using Figma.
           </p>

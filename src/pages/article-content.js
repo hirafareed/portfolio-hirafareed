@@ -25,7 +25,7 @@ const articles = [
     timeline: "2 weeks",
     myRole: "Branding, \n User Research, \n UX/UI Design,  \n Prototyping ",
     overview:
-      "BoardGamer helps you locate players, groups, and gaming events all in one place without the need to spend hours on social platforms and different websites. Its as simple as posting your favourite game on this app where tons of players can connect,or you can simply join a gaming event. ",
+      "BoardGamer helps you locate players, groups, and gaming events all in one place without the need to spend hours on social platforms and different websites. It's as simple as posting your favourite game on this app where tons of players can connect, or you can simply join a gaming event. ",
     approachImage: ApproahImage1,
     approach:
       "This app makes it possible for people to come together by locating players and gaming events near them all in one place. Players no longer need to browse on forums or sign-up on various apps. The user can easily create a BoardGamer profile and locate boardgame events happening around them.",

@@ -22,7 +22,7 @@ const ContactPage = () => (
         </Row>
 
         {/* contact-info */}
-        <div className="about-info">
+        <div className="about-info contact-margin">
           <Row>
             <Col
               lg={12}

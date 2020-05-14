@@ -174,10 +174,10 @@ export default ({ match }) => {
             <div className="col-xl-5 col-lg-5 col-md-5">
               <h1 className="project-subhead">Events</h1>
               <p className="wireframe-text">
-                After the user selects the event, there is more information that
-                he can read about that event, they are able to see more
-                information for that event. Clicking on “attend” would add that
-                event to their calendar.
+                After the user selects an event, there is more information about
+                about that event. For example name of the host, number of
+                attendees etc. Clicking on “attend” would add that event to
+                their calendar.
               </p>
             </div>
             <div className="col-xl-7 col-lg-7  col-md-7">

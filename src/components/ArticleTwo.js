@@ -159,7 +159,7 @@ export default ({ match }) => {
               </a>
             </p>
           </div>
-          <div className="col-xl-6 col-lg-6 col-md-6 col-12 d-flex justify-content-center">
+          <div className="col-xl-6 col-lg-6 col-md-6 col-12 d-flex justify-content-center image-fitted-formobile">
             <video playsInline loop autoPlay muted className="wander-video">
               <source src={AnimationVideo} type="video/mp4" />
             </video>

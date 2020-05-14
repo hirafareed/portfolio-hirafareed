@@ -209,7 +209,7 @@ export default ({ match }) => {
             {/* key-takeaway row */}
             <div className=" row mt-5">
               <div className="col-xl-8 col-lg-8 col-md-8 col-centered text-xl-center text-lg-center  text-md-center text-left text-xs-left">
-                <div className=" project-subhead"> Key takeaways</div>
+                <div className=" project-subhead"> Key takeaway</div>
                 <p className="wireframe-text">
                   Working on this app made me pay attention to the more complex
                   details on mobile. Designing for mobile not only requires

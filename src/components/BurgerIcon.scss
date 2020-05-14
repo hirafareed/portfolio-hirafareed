@@ -4,7 +4,7 @@
   cursor: pointer;
   position: absolute;
   right: 20px;
-  top: 4.7%;
+  top: 5%;
   z-index: 9999;
   // background: #fff;
   // padding: 50px;
@@ -18,7 +18,7 @@
 @media (min-width: 601px) and (max-width: 650px) {
   .burger-menu,
   .burger-menu.open {
-    top: 4.1%;
+    top:4%;
     padding-left: 1.8%;
   }
 }

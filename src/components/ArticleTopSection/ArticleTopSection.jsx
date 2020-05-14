@@ -83,67 +83,51 @@ export default withRouter(({ location, data, match }) => {
 
       <div className="article-container">
         <div className="my-container">
-          <ScrollAnimation animateIn="fadeIn">
-            <div className="row">
-              <h1 className="project-name text-left col-xl-4 col-lg-4  ">
-                {data.name}
-              </h1>
-            </div>
-          </ScrollAnimation>
+          <div className="row">
+            <h1 className="project-name text-left col-xl-4 col-lg-4  ">
+              {data.name}
+            </h1>
+          </div>
 
           <div className="row project-about mt-5">
             <div className=" col-xl-6 col-lg-6   col-md-5 col-sm-12 text-left">
-              <ScrollAnimation animateIn="fadeIn">
-                <h6 className="project-subhead">Tools</h6>
-                <p className="wireframe-text new-line"> {data.tools}</p>
-              </ScrollAnimation>
-              <ScrollAnimation animateIn="fadeIn">
-                <h6 className="project-subhead">Timeline</h6>
-                <p className="wireframe-text">{data.timeline}</p>
-              </ScrollAnimation>
-              <ScrollAnimation animateIn="fadeIn">
-                <h6 className="project-subhead ">My role: </h6>
-                <p className="wireframe-text new-line">{data.myRole}</p>
-              </ScrollAnimation>
+              <h6 className="project-subhead">Tools</h6>
+              <p className="wireframe-text new-line"> {data.tools}</p>
+
+              <h6 className="project-subhead">Timeline</h6>
+              <p className="wireframe-text">{data.timeline}</p>
+
+              <h6 className="project-subhead ">My role: </h6>
+              <p className="wireframe-text new-line">{data.myRole}</p>
             </div>
 
             <div className="col-xl-6  col-lg-6  col-md-6 col-sm-12 text-left">
-              <ScrollAnimation animateIn="fadeIn">
-                <h6 className="project-subhead ">Overview</h6>
-                <p className="wireframe-text new-line"> {data.overview}</p>
-              </ScrollAnimation>
+              <h6 className="project-subhead ">Overview</h6>
+              <p className="wireframe-text new-line"> {data.overview}</p>
             </div>
           </div>
 
           <div className="row challenge">
             <div className="col-xl-12  col-lg-12   col-md-12">
-              <ScrollAnimation animateIn="fadeIn">
-                <h6 className="project-subhead ">Challenge</h6>
-              </ScrollAnimation>
-              <ScrollAnimation animateIn="fadeIn">
-                <p className="wireframe-text">{data.challenge}</p>
-              </ScrollAnimation>
+              <h6 className="project-subhead ">Challenge</h6>
+
+              <p className="wireframe-text">{data.challenge}</p>
             </div>
           </div>
 
           <div className="row approach">
             <div className="col-xl-7 col-lg-7  col-md-7 approach-image">
               {" "}
-              <ScrollAnimation animateIn="fadeIn">
-                <img
-                  className="img-fluid "
-                  src={data.approachImage}
-                  alt={data.name}
-                />
-              </ScrollAnimation>
+              <img
+                className="img-fluid "
+                src={data.approachImage}
+                alt={data.name}
+              />
             </div>
             <div className="col-xl-5 col-lg-5 col-md-5">
-              <ScrollAnimation animateIn="fadeIn">
-                <h6 className="project-subhead approach-subhead">Approach </h6>
-              </ScrollAnimation>
-              <ScrollAnimation animateIn="fadeIn">
-                <p className="wireframe-text">{data.approach}</p>
-              </ScrollAnimation>
+              <h6 className="project-subhead approach-subhead">Approach </h6>
+
+              <p className="wireframe-text">{data.approach}</p>
             </div>
           </div>
         </div>

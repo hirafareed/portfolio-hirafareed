@@ -10,8 +10,8 @@ const ArticlesListPage = () => (
     {/* <Row> */}
     <div className="all-articles">
       <div className="subheading-work">
-        <hr className="line-work float-left" />
-        <h6 className="work-sub mt-5">Work</h6>
+        {/* <hr className="line-work float-left" />
+        <h6 className="work-sub mt-5">Work</h6> */}
       </div>
 
       <ArticlesList articles={articleContent}></ArticlesList>

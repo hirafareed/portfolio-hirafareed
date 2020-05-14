@@ -38,7 +38,7 @@ export default withRouter(({ location, open, ...props }) => {
         style={{ width: open ? "92%" : 'auto' }}
         {...props}
       >
-        <div className="d-flex justify-content-between">
+        <div className="d-flex justify-content-between" style ={{alignItems:'flex-end'}}>
           <div style={{height:'50px', width:'60px'}} 
           onMouseOver={() => {setAnimate(false);console.log("animate", animate);}} onMouseOut={() => setAnimate(true)}
           >

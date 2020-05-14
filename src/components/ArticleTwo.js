@@ -207,26 +207,10 @@ export default ({ match }) => {
               >
                 <div className="d-flex justify-content-center">
                   <h1>{item3.name}</h1>
-                  <img className="view overlay zoom" src={Next} />
+                  <img className="next-icon" src={Next} />
                 </div>
               </Link>
             </div>
-
-            {/* <div className="col">
-              <h3>Article Three</h3>
-
-              <Link
-                to={`/article/${item3.name
-                  .replace(/\s+/g, "-")
-                  .toLowerCase()}/3`}
-              >
-                <img
-                  className="img-fluid"
-                  src={item3.mainImage}
-                  alt="article one"
-                />
-              </Link>
-            </div> */}
           </div>
           {/* end of row */}
         </div>

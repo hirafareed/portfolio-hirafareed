@@ -47,7 +47,7 @@ export default ({ match }) => {
               >
                 <div className="d-flex justify-content-center">
                   <h1>{item1.name}</h1>
-                  <img className="view overlay zoom" src={Next} />
+                  <img className="next-icon" src={Next} />
                 </div>
               </Link>
             </div>

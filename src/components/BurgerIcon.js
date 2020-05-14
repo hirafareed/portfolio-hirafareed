@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { withRouter } from "react-router-dom";
 import Lottie from "react-lottie";
 import animationlogo from "../lottie/logowhite.json";
+import { Link } from "react-router-dom";
 
 import "./BurgerIcon.scss";
 
@@ -34,20 +35,16 @@ export default withRouter(({ location, open, ...props }) => {
         className={`d-block d-md-none ${
           open ? "burger-menu open" : "burger-menu"
         }`}
-        style={{ width: "92%" }}
+        style={{ width: open ? "92%" : 'auto' }}
         {...props}
       >
         <div className="d-flex justify-content-between">
-          <div
-            style={{ height: "50px", width: "60px" }}
-            onMouseOver={() => {
-              setAnimate(false);
-              console.log("animate", animate);
-            }}
-            onMouseOut={() => setAnimate(true)}
+          <div style={{height:'50px', width:'60px'}} 
+          onMouseOver={() => {setAnimate(false);console.log("animate", animate);}} onMouseOut={() => setAnimate(true)}
           >
+          <Link className="navbar-brand" to="/">
             <Lottie
-              style={{ display: open ? "block" : "none" }}
+            style={{ display: open ? "block" : "none" }}
               className="lottielogo"
               options={{
                 loop: true,
@@ -56,6 +53,8 @@ export default withRouter(({ location, open, ...props }) => {
               }}
               isStopped={animate}
             ></Lottie>
+          </Link>
+
           </div>
           <div>
             <div

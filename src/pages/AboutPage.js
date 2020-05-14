@@ -6,7 +6,7 @@ import Arrow from "../images/arrow.svg";
 import { Accordion } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import "animate.css/animate.min.css";
-import ScrollAnimation from "react-animate-on-scroll";
+// import ScrollAnimation from "react-animate-on-scroll";
 
 const AboutPage = () => (
   <>
@@ -16,10 +16,10 @@ const AboutPage = () => (
           <Col>
             {/* about me */}
             <div className="subheading">
-              <ScrollAnimation animateIn="fadeLeft">
+              {/* <ScrollAnimation animateIn="fadeLeft"> */}
                 <hr className="line-about" />
                 <h6 className="about-sub ">About</h6>
-              </ScrollAnimation>
+              {/* </ScrollAnimation> */}
             </div>
             <br></br>
           </Col>

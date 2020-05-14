@@ -138,7 +138,7 @@ export default ({ match }) => {
       {/*  wonder video */}
 
       <div className="article-container pt-5 pb-5">
-        <div className="row flex-row-reverse image-fitted-formobile">
+        <div className="row flex-row-reverse ">
           <div className="col-xl-6 col-lg-6 col-md-6 col-12 ">
             <div className="wander-final-text">
               <h1 className="project-subhead"> Final Prototype</h1>
@@ -158,7 +158,7 @@ export default ({ match }) => {
               </p>
             </div>
           </div>
-          <div className="col-xl-6 col-lg-6 col-md-6 col-12 d-flex justify-content-center ">
+          <div className="col-xl-6 col-lg-6 col-md-6 col-12 d-flex justify-content-center image-fitted-formobile ">
             <video playsInline loop autoPlay muted className="wander-video">
               <source
                 src={AnimationVideo}

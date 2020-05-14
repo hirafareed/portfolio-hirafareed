@@ -23,41 +23,127 @@ hr.line-contact {
   h1 {
     font-family: "Graphik SemiBold";
     src: url(../font/Graphik-Semibold.ttf);
+    color: #404040;
     // position: absolute;
     display: block;
-    margin-top: 70px;
+    margin-top: 8%;
     text-align: left;
     font-size: 30pt;
-    margin-bottom: 7%;
+    @media (max-width: $lg) {
+      font-size: 30pt;
+    }
+    @media (max-width: $md) {
+      font-size: 25pt;
+    }
+    @media (max-width: $sm) {
+      font-size: 19pt;
+    }
+
     // background-color: red;
-  }
-  a {
-    font-family: "Graphik Medium";
-    font-style: normal;
-    font-weight: normal;
-    src: url(../font/Graphik-Medium.ttf);
-    margin-left: 280px;
-    color: black;
-    // margin-top: 90px;
-    text-align: left;
-    font-size: 1.4em;
-  }
-  a:hover {
-    color: black;
-    text-decoration: underline;
   }
   p {
-    font-family: "Graphik ExtraLight";
-    src: url(../font/Graphik-Extralight.ttf);
-    margin-left: 280px;
-    margin-top: 3%;
+    font-family: "Graphik Regular";
+    src: url(../font/Graphik-Regular.ttf);
+    color: #aaaaaa;
+    // margin-left: 24%;
+    margin-top: 5%;
     text-align: left;
-    font-size: 14pt;
+    font-size: 12pt;
+    line-height: 20pt;
+    padding-bottom: 11%;
+    @media (max-width: $lg) {
+      font-size: 12pt;
+      line-height: 20pt;
+    }
+    @media (max-width: $md) {
+      font-size: 12pt;
+      line-height: 20pt;
+    }
+    @media (max-width: $sm) {
+      margin-top: 1%;
 
+      // font-size: 1.5em;
+      // margin-left: 0;
+    }
+
+    @media (max-width: $xs) {
+      // font-size: 1.5em;
+      // margin-left: 0;
+    }
     // background-color: red;
   }
 }
 
-.contact-cheers {
-  margin-bottom: 30%;
-}
+// .contact-info {
+//   h1 {
+//     font-family: "Graphik SemiBold";
+//     src: url(../font/Graphik-Semibold.ttf);
+//     color: #404040;
+//     // position: absolute;
+//     display: block;
+//     margin-top: 8%;
+//     text-align: left;
+//     font-size: 30pt;
+//     @media (max-width: $lg) {
+//       font-size: 30pt;
+//     }
+//     @media (max-width: $md) {
+//       font-size: 25pt;
+//     }
+//     @media (max-width: $sm) {
+//       font-size: 19pt;
+//     }
+
+//     // background-color: red;
+//   }
+//   a {
+//     font-family: "Graphik Medium";
+//     font-style: normal;
+//     font-weight: normal;
+//     src: url(../font/Graphik-Medium.ttf);
+//     margin-left: 280px;
+//     color: $primary;
+//     // margin-top: 90px;
+//     text-align: left;
+//     font-size: 14pt;
+//   }
+//   a:hover {
+//     color: $danger;
+//     text-decoration: underline;
+//   }
+//   p {
+//     font-family: "Graphik Regular";
+//     src: url(../font/Graphik-Regular.ttf);
+//     color: #aaaaaa;
+//     // margin-left: 24%;
+//     margin-top: 5%;
+//     text-align: left;
+//     font-size: 12pt;
+//     line-height: 20pt;
+//     padding-bottom: 11%;
+//     @media (max-width: $lg) {
+//       font-size: 12pt;
+//       line-height: 20pt;
+//     }
+//     @media (max-width: $md) {
+//       font-size: 12pt;
+//       line-height: 20pt;
+//     }
+//     @media (max-width: $sm) {
+//       margin-top: 1%;
+
+//       // font-size: 1.5em;
+//       // margin-left: 0;
+//     }
+
+//     @media (max-width: $xs) {
+//       // font-size: 1.5em;
+//       // margin-left: 0;
+//     }
+//     // background-color: red;
+//   }
+// }
+
+// .contact-cheers {
+//   margin-bottom: 30%;
+// }

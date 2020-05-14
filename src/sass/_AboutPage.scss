@@ -8,10 +8,6 @@ hr.line-about {
   width: 50px;
 }
 
-.eachexperience-line {
-  border-top: 0.6px solid #c7c7c7;
-}
-
 .about-sub {
   font-size: 12pt;
   margin-left: 8px;
@@ -21,6 +17,10 @@ hr.line-about {
   font-family: "BerlingskeSerif Bold";
   src: url(../font/BerlingskeSerif-Bold.ttf);
   letter-spacing: 0.5px;
+}
+
+.eachexperience-line {
+  border-top: 0.6px solid #c7c7c7;
 }
 
 .about-info {

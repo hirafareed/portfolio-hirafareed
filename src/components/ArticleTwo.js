@@ -117,12 +117,14 @@ export default ({ match }) => {
 
       {/* wander logo */}
 
-      <div className="article-container mt-5">
-        <h1 className="project-subhead"> Logo</h1>
-        <img
-          className="img-fluid image-fitted-formobile two-margin-bottom  d-flex col-9 col-centered mt-5"
-          src={WanderLogo}
-        />
+      <div className="article-container ">
+        <div className="two-logo-margin">
+          <h1 className="project-subhead"> Logo</h1>
+          <img
+            className="img-fluid image-fitted-formobile  d-flex col-9 col-centered mt-5"
+            src={WanderLogo}
+          />
+        </div>
         <h1 className="project-subhead ">Greybox Prototype</h1>
         <p className="wireframe-text">
           After solidifying the ideas on paper I began to refine them through a

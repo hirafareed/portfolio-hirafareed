@@ -30,7 +30,7 @@ hr.line-about {
     color: #404040;
     // position: absolute;
     display: block;
-    margin-top: 8%;
+    margin-top: 7%;
     text-align: left;
     font-size: 30pt;
     @media (max-width: $lg) {
@@ -45,9 +45,7 @@ hr.line-about {
 
     // background-color: red;
   }
-  a {
-    margin-top: 10%;
-  }
+
   p {
     font-family: "Graphik Regular";
     src: url(../font/Graphik-Regular.ttf);
@@ -55,8 +53,8 @@ hr.line-about {
     // margin-left: 24%;
     margin-top: 5%;
     text-align: left;
-    font-size: 12pt;
-    line-height: 20pt;
+    font-size: 14pt;
+    line-height: 26pt;
     padding-bottom: 11%;
     @media (max-width: $lg) {
       font-size: 12pt;

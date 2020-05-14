@@ -21,7 +21,7 @@ hr.line-contact {
 }
 
 .contact-body {
-  margin-top: 3%;
+  margin-top: 6%;
   @media (max-width: $md) {
     margin-top: 10%;
   }
@@ -31,149 +31,80 @@ hr.line-contact {
 
 .contact-margin {
   @media (max-width: $md) {
-    padding-top: 120px;
+    padding-top: 40px;
   }
 
-  // iphone x
-  @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-    padding-top: 250px;
-  }
-  // iphone 8
-  @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
-    padding-top: 160px;
-  }
-  // iphone 5
+  // // iphone x
+  // @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  //   padding-top: 250px;
+  // }
+  // // iphone 8
+  // @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+  //   padding-top: 160px;
+  // }
+  // // iphone 5
 
-  @media screen and (device-aspect-ratio: 40/71) {
-    // padding-top: 130px;
-  }
+  // @media screen and (device-aspect-ratio: 40/71) {
+  //   // padding-top: 130px;
+  // }
 }
 
-// .contact-info {
-//   h1 {
-//     font-family: "Graphik SemiBold";
-//     src: url(../font/Graphik-Semibold.ttf);
-//     color: #404040;
-//     // position: absolute;
-//     display: block;
-//     margin-top: 8%;
-//     text-align: left;
-//     font-size: 30pt;
-//     @media (max-width: $lg) {
-//       font-size: 30pt;
-//     }
-//     @media (max-width: $md) {
-//       font-size: 25pt;
-//     }
-//     @media (max-width: $sm) {
-//       font-size: 19pt;
-//     }
+.contact-info {
+  h1 {
+    font-family: "Graphik SemiBold";
+    src: url(../font/Graphik-Semibold.ttf);
+    color: #404040;
+    // position: absolute;
+    display: block;
+    margin-top: 7%;
+    text-align: left;
+    font-size: 38pt;
+    @media (max-width: $lg) {
+      font-size: 38pt;
+    }
+    @media (max-width: $md) {
+      font-size: 30pt;
+    }
+    @media (max-width: $sm) {
+      font-size: 19pt;
+    }
 
-//     // background-color: red;
-//   }
-//   p {
-//     font-family: "Graphik Regular";
-//     src: url(../font/Graphik-Regular.ttf);
-//     color: #aaaaaa;
-//     // margin-left: 24%;
-//     margin-top: 5%;
-//     text-align: left;
-//     font-size: 12pt;
-//     line-height: 20pt;
-//     padding-bottom: 11%;
-//     @media (max-width: $lg) {
-//       font-size: 12pt;
-//       line-height: 20pt;
-//     }
-//     @media (max-width: $md) {
-//       font-size: 12pt;
-//       line-height: 20pt;
-//     }
-//     @media (max-width: $sm) {
-//       margin-top: 1%;
+    // background-color: red;
+  }
+  a {
+    font-family: "Graphik Medium";
+    src: url(../font/Graphik-Medium.ttf);
+    color: $primary;
+    font-size: 14pt;
+  }
 
-//       // font-size: 1.5em;
-//       // margin-left: 0;
-//     }
+  p {
+    font-family: "Graphik Regular";
+    src: url(../font/Graphik-Regular.ttf);
+    color: #aaaaaa;
+    font-size: 14pt;
 
-//     @media (max-width: $xs) {
-//       // font-size: 1.5em;
-//       // margin-left: 0;
-//     }
-//     // background-color: red;
-//   }
-// }
+    line-height: 26pt;
 
-// .contact-info {
-//   h1 {
-//     font-family: "Graphik SemiBold";
-//     src: url(../font/Graphik-Semibold.ttf);
-//     color: #404040;
-//     // position: absolute;
-//     display: block;
-//     margin-top: 8%;
-//     text-align: left;
-//     font-size: 30pt;
-//     @media (max-width: $lg) {
-//       font-size: 30pt;
-//     }
-//     @media (max-width: $md) {
-//       font-size: 25pt;
-//     }
-//     @media (max-width: $sm) {
-//       font-size: 19pt;
-//     }
+    @media (max-width: $lg) {
+      font-size: 12pt;
+      line-height: 20pt;
+    }
+    @media (max-width: $md) {
+      font-size: 12pt;
+      line-height: 20pt;
+    }
+    @media (max-width: $sm) {
+      margin-top: 1%;
 
-//     // background-color: red;
-//   }
-//   a {
-//     font-family: "Graphik Medium";
-//     font-style: normal;
-//     font-weight: normal;
-//     src: url(../font/Graphik-Medium.ttf);
-//     margin-left: 280px;
-//     color: $primary;
-//     // margin-top: 90px;
-//     text-align: left;
-//     font-size: 14pt;
-//   }
-//   a:hover {
-//     color: $danger;
-//     text-decoration: underline;
-//   }
-//   p {
-//     font-family: "Graphik Regular";
-//     src: url(../font/Graphik-Regular.ttf);
-//     color: #aaaaaa;
-//     // margin-left: 24%;
-//     margin-top: 5%;
-//     text-align: left;
-//     font-size: 12pt;
-//     line-height: 20pt;
-//     padding-bottom: 11%;
-//     @media (max-width: $lg) {
-//       font-size: 12pt;
-//       line-height: 20pt;
-//     }
-//     @media (max-width: $md) {
-//       font-size: 12pt;
-//       line-height: 20pt;
-//     }
-//     @media (max-width: $sm) {
-//       margin-top: 1%;
+      // font-size: 1.5em;
+      // margin-left: 0;
+    }
 
-//       // font-size: 1.5em;
-//       // margin-left: 0;
-//     }
-
-//     @media (max-width: $xs) {
-//       // font-size: 1.5em;
-//       // margin-left: 0;
-//     }
-//     // background-color: red;
-//   }
-// }
-
-// .contact-cheers {
-//   margin-bottom: 30%;
-// }
+    @media (max-width: $xs) {
+      // font-size: 1.5em;
+      // margin-left: 0;
+    }
+    // background-color: red;
+  }
+}

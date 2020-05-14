@@ -22,7 +22,7 @@ const ContactPage = () => (
         </Row>
 
         {/* contact-info */}
-        <div className="about-info contact-margin">
+        <div className="contact-info contact-margin">
           <Row>
             <Col
               lg={12}
@@ -47,14 +47,11 @@ const ContactPage = () => (
               <a href="mailto:hirafareedkapadia@gmail.com">
                 hirafareedkapadia@gmail.com
               </a>
-              <p>
+              <p className="mt-4">
                 If you would like to chat or have any questions, I would love to
-                hear from you at the email above. Feel free to connect with me
-                on social media!
-                <p className="contact-cheers">
-                  Cheers,<br></br>Hira
-                </p>
+                hear from you at the email above.
               </p>
+              <p>Feel free to connect with me on social media!</p>
             </Col>
           </Row>
         </div>

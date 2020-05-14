@@ -154,7 +154,7 @@ export default ({ match }) => {
           </div>
 
           {/* wireframe2 */}
-          <div className="row mt-5  flex-row-reverse image-fitted-formobile  ">
+          <div className="row mt-5 flex-row-reverse image-fitted-formobile">
             <div className="col-xl-5 col-lg-5 col-md-5">
               <h1 className="project-subhead">Main feed</h1>
               <p className="wireframe-text">

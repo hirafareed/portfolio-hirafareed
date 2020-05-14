@@ -103,12 +103,12 @@ export default ({ match }) => {
           {/* process */}
           <div className="row">
             <div className="col-xl-6  col-lg-6 one-process-container">
-              <h1 className="project-subhead">Process</h1>
+              <h1 className="project-subhead">Designing the prototype</h1>
             </div>
           </div>
 
           <div className="row image-fitted-formobile ">
-            <div className="col-xl-12  col-lg-12 o col-md-12 mt-5 col-centered ">
+            <div className="col-xl-12  col-lg-12 o col-md-12 mt-5 col-centered mb-5">
               <img
                 className="img-fluid image-fitted-formobile "
                 src={Sketch1}
@@ -120,7 +120,7 @@ export default ({ match }) => {
         {/* more process */}
 
         <img
-          className="img-fluid col one-process-sketch2 image-fitted-formobile "
+          className="img-fluid col one-process-sketch2 image-fitted-formobile mt-5 "
           src={Sketch2}
         />
 
@@ -134,7 +134,7 @@ export default ({ match }) => {
                 Final Outcome
               </h1>
               <p className="wireframe-text">
-                A walkthrough of Talk n roll and it’s features
+                A walkthrough of BoardGamer and it’s features
               </p>
             </div>
           </div>
@@ -143,13 +143,13 @@ export default ({ match }) => {
             <div className="col-xl-5 col-lg-5 col-md-5">
               <h1 className="project-subhead">Sign in</h1>
               <p className="wireframe-text">
-                The app requires the user to sign up in-order to register for an
-                event. If he’s already registered, he can sign in and start
-                booking the events.
+                This app requires the user to sign up to register for an event.
+                If they are already registered, they can sign in and start
+                booking events.
               </p>
             </div>
             <div className="col-xl-7 col-lg-7  col-md-7">
-              <img className="img-fluid approach-image" src={Screen2} />
+              <img className="img-fluid approach-image" src={Screen1} />
             </div>
           </div>
 
@@ -158,10 +158,10 @@ export default ({ match }) => {
             <div className="col-xl-5 col-lg-5 col-md-5">
               <h1 className="project-subhead">Main feed</h1>
               <p className="wireframe-text">
-                User has the option to choose between different games, location
-                or according to popularity. Once he chooses the event, he gets
-                more options where he can select between different days and
-                time.
+                User has the option to select between different games,
+                locations, and an option to choose the most popular game event.
+                Once they choose the event, they get more options where they can
+                select between different days and times.
               </p>
             </div>
             <div className="col-xl-7 col-lg-7  col-md-7">
@@ -174,9 +174,10 @@ export default ({ match }) => {
             <div className="col-xl-5 col-lg-5 col-md-5">
               <h1 className="project-subhead">Events</h1>
               <p className="wireframe-text">
-                After the user selects the event, there’s more information that
-                he can read about that event. Clicking on “attend” lets him add
-                it to the calendar
+                After the user selects the event, there is more information that
+                he can read about that event, they are able to see more
+                information for that event. Clicking on “attend” would add that
+                event to their calendar.
               </p>
             </div>
             <div className="col-xl-7 col-lg-7  col-md-7">
@@ -188,7 +189,7 @@ export default ({ match }) => {
           <h1 className=" project-subhead mt-5">Demo</h1>
           <p className="wireframe-text">
             In order to further visualize talk n roll, I built a high-fidelity
-            interactive prototype that displays the key features of the final
+            interactive prototype that displays key features of the final
             application using Figma.
           </p>
 
@@ -210,11 +211,11 @@ export default ({ match }) => {
               <div className="col-xl-8 col-lg-8 col-md-8 col-centered text-xl-center text-lg-center  text-md-center text-left text-xs-left">
                 <div className=" project-subhead"> Key takeaways</div>
                 <p className="wireframe-text">
-                  Working on this app helped me to pay attention to the more
-                  intricate details on mobile. I had to take into consideration
-                  designing for the thumb zone and figuring out how certain form
-                  input fields can be altered to better suit smaller touch
-                  screens rather than a desktop.
+                  Working on this app made me pay attention to the more complex
+                  details on mobile. Designing for mobile not only requires
+                  simple navigation, but it should also reduce clutter, and
+                  display large texts on smaller screens. Screen layout should
+                  be designed while researching thumb-friendly zones
                 </p>
               </div>
             </div>

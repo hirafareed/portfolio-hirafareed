@@ -25,15 +25,15 @@ const articles = [
     timeline: "2 weeks",
     myRole: "Branding, \n User Research, \n UX/UI Design,  \n Prototyping ",
     overview:
-      "Talk ’n’ roll help you find gaming events, players, groups. Search local gaming events all in one place, without needing to keep track of different websites and social platforms. Post listings looking for people interested in playing specific games near you.",
+      "BoardGamer helps you locate players, groups, and gaming events all in one place without the need to spend hours on social platforms and different websites. Its as simple as posting your favourite game on this app where tons of players can connect,or you can simply join a gaming event. ",
     approachImage: ApproahImage1,
     approach:
-      "The idea was to use technology in a way that it brings people closer through social board game gatherings",
+      "This app makes it possible for people to come together by locating players and gaming events near them all in one place. Players no longer need to browse on forums or sign-up on various apps. The user can easily create a BoardGamer profile and locate boardgame events happening around them.",
     articleLink:
       "https://www.figma.com/proto/TZDAfiowf98P0IWvUyrTqp/BB-Prototyping?node-id=69%3A4&viewport=446%2C373%2C0.18485523760318756&scaling=scale-down",
     articleLinkText: "VIEW INTERACTIVE PROTOTYPE",
     challenge:
-      "Since everything is becoming digital, there has been a rise in people spending too much time on technology and forgetting the experience of social gatherings. ",
+      "People tend to spend too much time on different platforms and websites trying to find boardgame events happening around them. This in turn causes frustration for the user and they eventually give up when they are not able to find what they are looking for.",
   },
   {
     mainImage: ArticleTwo,

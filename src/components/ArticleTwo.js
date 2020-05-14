@@ -152,9 +152,18 @@ export default ({ match }) => {
               <div className="wander-final-text">
                 <h1 className="project-subhead"> Final Prototype</h1>
                 <p className="wireframe-text">
-                  In order to further visualize Chapter, I built a high-fidelity
+                  In order to further visualize Wander, I built a high-fidelity
                   interactive prototype that displays the key features of the
                   final application using Figma.
+                </p>
+                <p className="project-link-margin">
+                  <a
+                    className="project-link"
+                    href="https://www.figma.com/proto/foKkCZPRhas9nwqB9Rlp4V/Untitled?node-id=1%3A2&viewport=159%2C176%2C0.171177476644516&scaling=scale-down"
+                    target="_blank"
+                  >
+                    VIEW PROTOTYPE
+                  </a>
                 </p>
               </div>
             </div>

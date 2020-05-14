@@ -158,7 +158,7 @@ export default ({ match }) => {
                 </p>
                 <p className="project-link-margin">
                   <a
-                    className="project-link"
+                    className="project-link image-fitted-formobile"
                     href="https://www.figma.com/proto/foKkCZPRhas9nwqB9Rlp4V/Untitled?node-id=1%3A2&viewport=159%2C176%2C0.171177476644516&scaling=scale-down"
                     target="_blank"
                   >

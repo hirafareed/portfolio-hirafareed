@@ -79,6 +79,7 @@ const articles = [
       "I wanted the app to look fun, colourful because that’s how board games are. ",
     articleLink: "/",
     articleLinkText: "WEBSITE COMING SOON",
+    challenge: "Carrying an extra battery pack all the time may not be the best solution. At times you do not even remember or have the room to carry one, especially if you are traveling by public transport. There are a lot of rental stations around the city, but it is quite difficult to locate the ones around you.   "
   },
 ];
 

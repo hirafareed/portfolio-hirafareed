@@ -1,6 +1,24 @@
 .layout-contact {
   padding-top: 70px;
+  @media (max-width: $md) {
+    padding-top: 180px;
+  }
+
+  // iphone x
+  @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    padding-top: 250px;
+  }
+  // iphone 8
+  @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+    padding-top: 160px;
+  }
+  // iphone 5
+
+  @media screen and (device-aspect-ratio: 40/71) {
+    // padding-top: 130px;
+  }
 }
+
 hr.line-contact {
   float: left;
   margin-top: 7px;
@@ -21,6 +39,11 @@ hr.line-contact {
 
 .contact-body {
   margin-top: 3%;
+  @media (max-width: $md) {
+    margin-top: 10%;
+  }
+  @media (max-width: $sm) {
+  }
 }
 
 // .contact-info {

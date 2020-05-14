@@ -40,7 +40,8 @@ const ContactPage = () => (
             <Col
               lg={{ span: 8, offset: 3 }}
               xl={{ span: 8, offset: 3 }}
-              md={{ offset: 3 }}
+              md={{ span: 6, offset: 3 }}
+              sm={{ span: 10 }}
               className="contact-body"
             >
               <a href="mailto:hirafareedkapadia@gmail.com">

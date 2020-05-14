@@ -42,7 +42,7 @@
     letter-spacing: 1px;
   }
   :hover {
-    text-decoration: underline;
-    color: $danger;
+    // text-decoration: underline;
+    color: $danger !important;
   }
 }

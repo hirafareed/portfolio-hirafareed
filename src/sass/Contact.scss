@@ -78,6 +78,11 @@ hr.line-contact {
     font-size: 14pt;
   }
 
+  a:hover {
+    text-decoration: none;
+    color: $danger;
+  }
+
   p {
     font-family: "Graphik Regular";
     src: url(../font/Graphik-Regular.ttf);

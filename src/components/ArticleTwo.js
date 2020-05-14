@@ -177,7 +177,7 @@ export default ({ match }) => {
             <div className="col-xl-8 col-lg-8 col-md-8 col-centered text-xl-center text-lg-center  text-md-center text-left text-xs-left">
               <div className=" project-subhead"> Key takeaway</div>
               <p className="wireframe-text">
-              Working on Wander was a challenging and a fun experience. From concept to development this was a project where I could take ownership. I was able to learn a lot about front-end technologies including Sass, Bootstrap,  jQuery etc. It was also my first time working with backend tools like php and MySQL.  The backend part was not fully functional, but I am still proud of making a lot of things work. 
+              Working on Wander was challenging and a fun experience. From concept to development this was a project where I could take ownership. I was able to learn a lot about front-end technologies including Sass, Bootstrap,  jQuery etc. It was also my first time working with backend tools like php and MySQL.  The backend part was not fully functional, but I am still proud of making a lot of things work. 
               </p>
             </div>
           </div>

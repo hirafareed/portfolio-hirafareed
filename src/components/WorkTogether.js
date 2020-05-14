@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 
 const ContactPage = () => (
   <>
-    <Row>
+    <Row style ={{width:"100%"}}>
       <Col>
         <div className=" App layout-worktogether">
           <ScrollAnimation animateIn="fadeIn">

@@ -137,8 +137,8 @@ export default ({ match }) => {
 
       {/*  wonder video */}
 
-      <div className="article-container image-fitted-formobile2 ">
-        <div className="row flex-row-reverse image-fitted-formobile2">
+      <div className="article-container ">
+        <div className="row flex-row-reverse">
           <div className="col-xl-6 col-lg-6 col-md-6 col-12 ">
             <h1 className="project-subhead wander-final-text">
               {" "}

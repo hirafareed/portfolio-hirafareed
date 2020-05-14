@@ -28,7 +28,10 @@ export default ({ match }) => {
   return (
     <>
       <TopSection data={item3}></TopSection>
-      <div className="article-container"> More coming soon</div>
+      <div className="article-container">
+        {" "}
+        <h1 className="comingsoon">Coming Soon</h1>
+      </div>
       <hr></hr>
       {/* bottom container */}
       <div className="container-xl container-lg">

@@ -158,3 +158,23 @@
   height: auto;
   object-fit: cover;
 }
+
+.comingsoon {
+  margin-top: 100px;
+
+  font-family: "Graphik SemiBold";
+  src: url(../font/Graphik-Semibold.ttf);
+  font-size: 30pt;
+  color: $primary;
+  @media (max-width: $xl) {
+    margin-top: 80px;
+  }
+  @media (max-width: $lg) {
+    margin-top: 70px;
+  }
+  @media (max-width: $md) {
+    font-size: 28pt;
+
+    margin-top: 50px;
+  }
+}

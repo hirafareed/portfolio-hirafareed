@@ -15,6 +15,7 @@ import Popup from "reactjs-popup";
 import BurgerIcon from "./components/BurgerIcon";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import ScrollTop from './components/scrollTop';
 
 import "./sass/App.scss";
 import "./sass/style.scss";
@@ -69,6 +70,7 @@ class App extends React.Component {
             </Switch>
 
             <Footer></Footer>
+            <ScrollTop/>
           </div>
         </ScrollToTop>
       </Router>

@@ -132,8 +132,8 @@ const AboutPage = () => (
                     <Col className="experienceOneBullets">
                       <ul>
                         <li>
-                          <h6>Shopify:</h6> Part of the team of designers for
-                          Unite conference by Shopify.
+                          <h6>Sid Lee:</h6> Contract with Sid Lee to design the
+                          merchandise for Unite conference by Shopify.
                         </li>
                         <li>
                           <h6>Ceridian:</h6> Four month contract with Ceridian

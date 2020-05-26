@@ -109,7 +109,7 @@ export default withRouter(({ location, data, match }) => {
 
           <div className="row challenge">
             <div className="col-xl-12  col-lg-12   col-md-12">
-              <h6 className="project-subhead ">Challenge</h6>
+              <h6 className="project-subhead ">Problem</h6>
 
               <p className="wireframe-text">{data.challenge}</p>
             </div>
@@ -125,7 +125,7 @@ export default withRouter(({ location, data, match }) => {
               />
             </div>
             <div className="col-xl-5 col-lg-5 col-md-5">
-              <h6 className="project-subhead approach-subhead">Approach </h6>
+              <h6 className="project-subhead approach-subhead">Solution </h6>
 
               <p className="wireframe-text">{data.approach}</p>
             </div>

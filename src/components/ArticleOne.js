@@ -174,8 +174,7 @@ export default ({ match }) => {
             <div className="col-xl-5 col-lg-5 col-md-5">
               <h1 className="project-subhead">Events</h1>
               <p className="wireframe-text">
-                After the user selects an event, there is more information about
-                about that event. For example name of the host, number of
+                After the user selects an event, there is more information about that event. For example name of the host, number of
                 attendees etc. Clicking on “attend” would add that event to
                 their calendar.
               </p>
@@ -209,7 +208,7 @@ export default ({ match }) => {
             {/* key-takeaway row */}
             <div className=" row mt-5">
               <div className="col-xl-8 col-lg-8 col-md-8 col-centered text-xl-center text-lg-center  text-md-center text-left text-xs-left">
-                <div className=" project-subhead"> Key takeaways</div>
+                <div className=" project-subhead"> Key takeaway</div>
                 <p className="wireframe-text">
                   Working on this app made me pay attention to the more complex
                   details on mobile. Designing for mobile not only requires

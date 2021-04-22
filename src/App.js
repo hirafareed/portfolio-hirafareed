@@ -5,7 +5,7 @@ import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import ArticlesListPage from "./pages/ArticlesListPage";
-import ArticlePage from "./pages/ArticlePage";
+// import ArticlePage from "./pages/ArticlePage";
 import Navigation from "./components/nav/NormalMenu/NormalMenu";
 import MobileNav from "./components/nav/MobileMenu/MobileMenu";
 import ArticleOne from "./components/ArticleOne";

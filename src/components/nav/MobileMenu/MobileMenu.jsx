@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Navbar, Nav } from "react-bootstrap";
+// import { Navbar, Nav } from "react-bootstrap";
 import "./MobileMenu.scss";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -68,7 +68,7 @@ export default ({ close }) => {
 
           <Col className="popup-social-links-linkedin d-flex justify-content-center ">
             <a
-              target="_blank"
+              target="blank"
               href="https://www.linkedin.com/in/hira-fareed"
               className="d-sm-block d-xs-block"
             >
@@ -78,7 +78,7 @@ export default ({ close }) => {
 
           <Col className="popup-social-links-dribbble d-flex justify-content-center ">
             <a
-              target="_blank"
+              target="blank"
               href="https://dribbble.com/hirafareed"
               className="d-sm-block"
             >

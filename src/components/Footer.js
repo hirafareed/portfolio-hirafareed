@@ -1,10 +1,10 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
+// import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "../sass/style.scss";
-import { Link } from "react-router-dom";
-import Copyright from "../images/copyrights.svg";
+// import { Link } from "react-router-dom";
+// import Copyright from "../images/copyrights.svg";
 
 const Footer = () => (
   <>
@@ -33,7 +33,7 @@ const Footer = () => (
           </a>
 
           <a
-            target="_blank"
+            target="blank"
             href="https://www.linkedin.com/in/hira-fareed"
             className="footer-link d-sm-block d-xs-block "
           >
@@ -41,7 +41,7 @@ const Footer = () => (
           </a>
 
           <a
-            target="_blank"
+            target="blank"
             href="https://dribbble.com/hirafareed"
             className="footer-link d-sm-block d-xs-block"
           >
@@ -55,7 +55,7 @@ const Footer = () => (
           md={5}
           className="d-lg-flex  d-xl-flex  footer-middle justify-content-center"
         >
-          <a className="footer-coded d-sm-none d-xs-none d-lg-block  d-xl-block d-md-block">
+          <a href className="footer-coded d-sm-none d-xs-none d-lg-block  d-xl-block d-md-block">
             Coded without coffee by Hira Fareed
           </a>
 
@@ -65,7 +65,7 @@ const Footer = () => (
           </p>
           <a
             className="footer-instagram d-lg-none d-xl-none d-md-none d-sm-block  d-xs-block"
-            target="_blank"
+            target="blank"
             href="https://www.instagram.com/hira.designs/"
           >
             <p className="footer-social-insta">Instagram</p>

@@ -23,11 +23,11 @@ export default ({ match }) => {
 
   console.log(name);
 
-  const [articleInfo, setArticleInfo] = useState({ upvotes: 0, comments: [] });
+  const [setArticleInfo] = useState({ upvotes: 0, comments: [] });
 
   const item1 = Data.find((x) => x.id === "01");
   const item2 = Data.find((x) => x.id === "02");
-  const item3 = Data.find((x) => x.id === "03");
+  // const item3 = Data.find((x) => x.id === "03");
   useEffect(() => {
     const fetchData = async () => {
       const result = await fetch(`/api/articles/${name}`);
@@ -36,7 +36,7 @@ export default ({ match }) => {
       // console.log(body);
     };
     fetchData();
-  }, [name]);
+  }, [name,setArticleInfo]);
 
   return (
     <>
@@ -82,19 +82,19 @@ export default ({ match }) => {
 
             <div className="row">
               <div className="col-3 col-centered">
-                <img className="one-color-image img-fluid" src={Color1} />
+                <img className="one-color-image img-fluid" src={Color1} alt="" />
                 <p className="wireframe-text">#69C9D6</p>
               </div>
               <div className="col-3 col-centered">
-                <img className="one-color-image img-fluid" src={Color2} />
+                <img className="one-color-image img-fluid" src={Color2} alt="" />
                 <p className="wireframe-text">#FE9491</p>
               </div>
               <div className="col-3 col-centered">
-                <img className="one-color-image img-fluid" src={Color3} />
+                <img className="one-color-image img-fluid" src={Color3} alt="" />
                 <p className="wireframe-text">#747FFF</p>
               </div>
               <div className="col-3 col-centered">
-                <img className="one-color-image img-fluid" src={Color4} />
+                <img className="one-color-image img-fluid" src={Color4} alt="" />
                 <p className="wireframe-text">#F7AA70</p>
               </div>
             </div>
@@ -112,6 +112,7 @@ export default ({ match }) => {
               <img
                 className="img-fluid image-fitted-formobile "
                 src={Sketch1}
+                alt=""
               />
             </div>
           </div>
@@ -122,6 +123,7 @@ export default ({ match }) => {
         <img
           className="img-fluid col one-process-sketch2 image-fitted-formobile mt-5 "
           src={Sketch2}
+          alt=""
         />
 
         {/* wireframes */}
@@ -149,7 +151,7 @@ export default ({ match }) => {
               </p>
             </div>
             <div className="col-xl-7 col-lg-7  col-md-7">
-              <img className="img-fluid approach-image" src={Screen1} />
+              <img className="img-fluid approach-image" src={Screen1} alt="" />
             </div>
           </div>
 
@@ -165,7 +167,7 @@ export default ({ match }) => {
               </p>
             </div>
             <div className="col-xl-7 col-lg-7  col-md-7">
-              <img className="img-fluid approach-image" src={Screen2} />
+              <img className="img-fluid approach-image" src={Screen2} alt="" />
             </div>
           </div>
 
@@ -180,7 +182,7 @@ export default ({ match }) => {
               </p>
             </div>
             <div className="col-xl-7 col-lg-7  col-md-7">
-              <img className="img-fluid approach-image " src={Screen3} />
+              <img className="img-fluid approach-image " src={Screen3} alt="" />
             </div>
           </div>
           {/* demo row */}
@@ -196,7 +198,7 @@ export default ({ match }) => {
             <a
               className="project-link"
               href="https://www.figma.com/proto/TZDAfiowf98P0IWvUyrTqp/BB-Prototyping?node-id=69%3A4&viewport=446%2C373%2C0.18485523760318756&scaling=scale-down"
-              target="_blank"
+              target="blank"
             >
               VIEW PROTOTYPE
             </a>
@@ -236,7 +238,7 @@ export default ({ match }) => {
             >
               <div className="d-flex justify-content-center">
                 <h1>{item2.name}</h1>
-                <img className="next-icon" src={Next} />
+                <img className="next-icon" src={Next} alt="" />
               </div>
             </Link>
           </div>

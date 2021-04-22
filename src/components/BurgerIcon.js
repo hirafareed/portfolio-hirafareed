@@ -27,7 +27,7 @@ export default withRouter(({ location, open, ...props }) => {
     } else {
       setStyle({ backgroundColor: "#fff" });
     }
-  }, [location.pathname]);
+  }, [location.pathname,location]);
 
   return (
     <div>

@@ -7,7 +7,7 @@ import "../../sass/style.scss";
 
 export default withRouter(({ location, data, match }) => {
   const name = match.params.name;
-  const [articleInfo, setArticleInfo] = useState({ upvotes: 0 });
+  const [setArticleInfo] = useState({ upvotes: 0 });
   const [color, setColor] = useState("#fff");
 
   const colors = {
@@ -25,7 +25,7 @@ export default withRouter(({ location, data, match }) => {
     } else {
       setColor("#fff");
     }
-  }, [location.pathname]);
+  }, [location.pathname,location,colors]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -35,7 +35,7 @@ export default withRouter(({ location, data, match }) => {
       // console.log(body);
     };
     fetchData();
-  }, [name]);
+  }, [name,setArticleInfo]);
 
   return (
     <>

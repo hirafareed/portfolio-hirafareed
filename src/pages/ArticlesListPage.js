@@ -2,7 +2,7 @@ import React from "react";
 import ArticlesList from "../components/ArticlesList/ArticlesList";
 import articleContent from "./article-content";
 import "../sass/style.scss";
-import Row from "react-bootstrap/Row";
+// import Row from "react-bootstrap/Row";
 import WorkTogether from "../components/WorkTogether";
 
 const ArticlesListPage = () => (

@@ -29,7 +29,7 @@ export default withRouter(({ location }) => {
       setWhiteLogo(false);
       setStyle({ backgroundColor: "#fff", color: "#404040" });
     }
-  }, [location.pathname]);
+  }, [location.pathname,location,colors]);
 
   return (
     <div

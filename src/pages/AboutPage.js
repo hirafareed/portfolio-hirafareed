@@ -362,7 +362,7 @@ const AboutPage = () => (
 
         {/* start of education */}
 
-        <div class="fulleducation"></div>
+        <div className="fulleducation"></div>
         <Row>
           <Col lg={{ offset: 3 }} xl={{ offset: 3 }} md={{ offset: 3 }}>
             <hr className="line-education" />

@@ -22,14 +22,16 @@ export default withRouter(({ location }) => {
   useEffect(() => {
     const { pathname } = location;
     const article = pathname.split("/")[pathname.split("/").length - 1];
-    if (colors[article]) {
+    if (colors[article] && !whiteLogo) {
       setWhiteLogo(true);
       setStyle({ backgroundColor: colors[article], color: "#fff" });
     } else {
-      setWhiteLogo(false);
-      setStyle({ backgroundColor: "#fff", color: "#404040" });
+      if(whiteLogo){
+        setWhiteLogo(false);
+        setStyle({ backgroundColor: "#fff", color: "#404040" });
+      }
     }
-  }, [location.pathname,location,colors]);
+  }, [location,colors,whiteLogo]);
 
   return (
     <div

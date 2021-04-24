@@ -67,8 +67,8 @@ export default withRouter(({ location, data, match }) => {
             </div>
             {/* scroll bar bottom */}
             <div className="d-flex scroll-bar">
-              <div class="c-scrolldown ">
-                <div class="c-line "></div>
+              <div className="c-scrolldown ">
+                <div className="c-line "></div>
               </div>
               <p className="scroll-info">SCROLL FOR MORE</p>
             </div>

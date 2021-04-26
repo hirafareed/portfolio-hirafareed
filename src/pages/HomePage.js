@@ -3,7 +3,7 @@ import Lottie from "react-lottie";
 import animation2 from "../lottie/lot-data.json"; //full
 import animation1 from "../lottie/lot-data2.json"; //beginning
 import ArticlesListPage from "./ArticlesListPage";
-import WorkTogether from "../components/WorkTogether";
+// import WorkTogether from "../components/WorkTogether";
 
 import "../sass/style.scss";
 import AOS from "aos";

@@ -21,9 +21,9 @@ export default ({ match }) => {
 
   console.log(name);
 
-  const [articleInfo, setArticleInfo] = useState({ upvotes: 0, comments: [] });
+  const [setArticleInfo] = useState({ upvotes: 0, comments: [] });
 
-  const item1 = Data.find((x) => x.id === "01");
+  // const item1 = Data.find((x) => x.id === "01");
   const item2 = Data.find((x) => x.id === "02");
   const item3 = Data.find((x) => x.id === "03");
 
@@ -35,7 +35,7 @@ export default ({ match }) => {
       // console.log(body);
     };
     fetchData();
-  }, [name]);
+  }, [name,setArticleInfo]);
 
   return (
     <>
@@ -75,12 +75,14 @@ export default ({ match }) => {
         <img
           className="img-fluid image-fitted-formobile two-margin-bottom "
           src={SketchWander}
+          alt=""
         />
         <h1 className="project-subhead ">User flow </h1>
 
         <img
           className="img-fluid image-fitted-formobile two-margin-bottom "
           src={UserflowWander}
+          alt=""
         />
       </div>
       {/* visual design text */}
@@ -98,6 +100,7 @@ export default ({ match }) => {
               <img
                 className="img-fluid  two-margin-bottom wander-colors"
                 src={WanderColors}
+                alt=""
               />
             </div>
             <div className="col-7  col-xl-8 col-lg-8  col-md-8">
@@ -109,6 +112,7 @@ export default ({ match }) => {
               <img
                 className="img-fluid  two-margin-bottom wander-icons"
                 src={WanderIcons}
+                alt=""
               />
             </div>
           </div>
@@ -123,6 +127,7 @@ export default ({ match }) => {
           <img
             className="img-fluid image-fitted-formobile  d-flex col-9 col-centered mt-5"
             src={WanderLogo}
+            alt=""
           />
         </div>
         <h1 className="project-subhead ">Greybox Prototype</h1>
@@ -134,6 +139,7 @@ export default ({ match }) => {
         <img
           className="img-fluid image-fitted-formobile two-margin-bottom "
           src={Sketch2Wander}
+          alt=""
         />
       </div>
 
@@ -155,7 +161,7 @@ export default ({ match }) => {
               <a
                 className="project-link "
                 href="https://www.figma.com/proto/foKkCZPRhas9nwqB9Rlp4V/Untitled?node-id=1%3A2&viewport=159%2C176%2C0.171177476644516&scaling=scale-down"
-                target="_blank"
+                target="blank"
               >
                 VIEW PROTOTYPE
               </a>
@@ -203,7 +209,7 @@ export default ({ match }) => {
               >
                 <div className="d-flex justify-content-center">
                   <h1>{item3.name}</h1>
-                  <img className="next-icon" src={Next} />
+                  <img className="next-icon" src={Next} alt="" />
                 </div>
               </Link>
             </div>

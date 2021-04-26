@@ -9,10 +9,10 @@ export default ({ match }) => {
 
   console.log(name);
 
-  const [articleInfo, setArticleInfo] = useState({ upvotes: 0, comments: [] });
+  const [setArticleInfo] = useState({ upvotes: 0, comments: [] });
 
   const item1 = Data.find((x) => x.id === "01");
-  const item2 = Data.find((x) => x.id === "02");
+  // const item2 = Data.find((x) => x.id === "02");
   const item3 = Data.find((x) => x.id === "03");
 
   useEffect(() => {
@@ -23,7 +23,7 @@ export default ({ match }) => {
       // console.log(body);
     };
     fetchData();
-  }, [name]);
+  }, [name,setArticleInfo]);
 
   return (
     <>
@@ -50,7 +50,7 @@ export default ({ match }) => {
               >
                 <div className="d-flex justify-content-center">
                   <h1>{item1.name}</h1>
-                  <img className="next-icon" src={Next} />
+                  <img className="next-icon" src={Next} alt="" />
                 </div>
               </Link>
             </div>

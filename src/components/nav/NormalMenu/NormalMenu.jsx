@@ -50,7 +50,7 @@ export default withRouter(({ location }) => {
               style={{ color: style.color }}
               options={{
                 loop: true,
-                autoplay: true,
+                autoplay: false,
                 animationData: whiteLogo ? logowhite : animationlogo,
               }}
               isStopped={animate}

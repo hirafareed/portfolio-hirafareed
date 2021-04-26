@@ -7,7 +7,7 @@ import "../../sass/style.scss";
 
 export default withRouter(({ location, data, match }) => {
   const name = match.params.name;
-  const [articleInfo, setArticleInfo] = useState({ upvotes: 0 });
+  const [setArticleInfo] = useState({ upvotes: 0 });
   const [color, setColor] = useState("#fff");
 
   const colors = {
@@ -25,7 +25,7 @@ export default withRouter(({ location, data, match }) => {
     } else {
       setColor("#fff");
     }
-  }, [location.pathname]);
+  }, [location.pathname,location,colors]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -35,7 +35,7 @@ export default withRouter(({ location, data, match }) => {
       // console.log(body);
     };
     fetchData();
-  }, [name]);
+  }, [name,setArticleInfo]);
 
   return (
     <>
@@ -67,8 +67,8 @@ export default withRouter(({ location, data, match }) => {
             </div>
             {/* scroll bar bottom */}
             <div className="d-flex scroll-bar">
-              <div class="c-scrolldown ">
-                <div class="c-line "></div>
+              <div className="c-scrolldown ">
+                <div className="c-line "></div>
               </div>
               <p className="scroll-info">SCROLL FOR MORE</p>
             </div>

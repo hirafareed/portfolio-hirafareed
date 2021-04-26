@@ -18,18 +18,22 @@ export default withRouter(({ location }) => {
   };
   const [animate, setAnimate] = useState(true);
   const [whiteLogo, setWhiteLogo] = useState(false);
+  const { pathname } = location;
 
   useEffect(() => {
-    const { pathname } = location;
     const article = pathname.split("/")[pathname.split("/").length - 1];
-    if (colors[article]) {
+    if (colors[article] && style.backgroundColor !== colors[article] && style.color !== "#fff" && !whiteLogo) {
       setWhiteLogo(true);
+      console.log("If")
       setStyle({ backgroundColor: colors[article], color: "#fff" });
     } else {
-      setWhiteLogo(false);
-      setStyle({ backgroundColor: "#fff", color: "#404040" });
+      console.log("else")
+      if (colors[article] && style.backgroundColor !== "#fff" && style.color !== "#404040" && whiteLogo) {
+        setWhiteLogo(false);
+        setStyle({ backgroundColor: "#fff", color: "#404040" });
+      }
     }
-  }, [location.pathname]);
+  }, [colors, style.backgroundColor, style.color, whiteLogo, pathname]);
 
   return (
     <div

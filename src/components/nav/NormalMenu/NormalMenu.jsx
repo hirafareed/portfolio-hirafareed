@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link, withRouter } from "react-router-dom";
 import Lottie from "react-lottie";
 import animationlogo from "../../../lottie/logoblack.json";
@@ -29,8 +29,8 @@ export default withRouter(({ location }) => {
       setWhiteLogo(false);
       setStyle({ backgroundColor: "#fff", color: "#404040" });
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location.pathname]);
-
   return (
     <div
       className="d-sm-block main"
